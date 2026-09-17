@@ -376,9 +376,12 @@ recommendations · monitoring design
 
 # Repository Guide
 
-``` text
+```
 ppm-decision-intelligence/
 ├── README.md
+├── .gitignore
+├── _config.yml
+│
 ├── assets/
 │   ├── dashboards/
 │   │   ├── dashboard_01_executive_portfolio.png
@@ -387,16 +390,43 @@ ppm-decision-intelligence/
 │   │   └── dashboard_04_project_performance_forecast_control.png
 │   └── decision-canvas/
 │       └── executive_decision_canvas.pdf
+│
 ├── data/
 │   ├── dimensions/
+│   │   ├── 01_dim_business_unit.csv
+│   │   ├── 02_dim_project_manager.csv
+│   │   ├── 03_dim_strategy.csv
+│   │   ├── 04_dim_period.csv
+│   │   ├── 05_dim_resource_role.csv
+│   │   └── 06_dim_project.csv
+│   │
 │   ├── facts/
+│   │   ├── 07_fact_project_financials.csv
+│   │   ├── 08_fact_project_schedule.csv
+│   │   ├── 09_fact_project_risk.csv
+│   │   ├── 10_fact_resource_capacity.csv
+│   │   └── 11_fact_project_health.csv
+│   │
 │   └── tableau-ready/
+│       ├── 01_tableau_dataset_dictionary.csv
+│       ├── tableau_portfolio_summary.csv
+│       ├── tableau_project_performance.csv
+│       ├── tableau_resource_capacity.csv
+│       └── tableau_risk_analysis.csv
+│
 ├── docs/
 │   ├── dashboard-specs/
-│   ├── decision-intelligence/
-│   └── data-dictionary/
+│   │   ├── dashboard_01_executive_portfolio_spec.docx
+│   │   ├── dashboard_02_portfolio_risk_intervention_spec.docx
+│   │   ├── dashboard_03_resource_capacity_delivery_readiness_spec.docx
+│   │   └── dashboard_04_project_performance_forecast_control_spec.docx
+│   │
+│   └── decision-intelligence/
+│       └── executive_decision_canvas_spec_traceability.docx
+│
 └── tableau/
     └── ppm_decision_intelligence.twbx
+
 ```
 
 ------------------------------------------------------------------------
