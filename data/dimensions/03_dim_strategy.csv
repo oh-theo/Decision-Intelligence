@@ -1,0 +1,7 @@
+strategy_id,strategic_objective,strategy_category,strategic_weight
+1,Digital Transformation,Growth & Modernization,1.0
+2,Revenue Growth,Growth,0.95
+3,Operational Efficiency,Efficiency,0.85
+4,Regulatory Compliance,Risk & Compliance,1.0
+5,Customer Experience,Customer,0.9
+6,Risk Reduction,Risk & Resilience,0.9

@@ -1,0 +1,5 @@
+file,grain,purpose
+tableau_project_performance.csv,One row per project per reporting month,"Financial, schedule, health, strategic value and executive-attention analysis."
+tableau_risk_analysis.csv,One row per risk item,"Risk severity, status, mitigation, category and project context."
+tableau_resource_capacity.csv,One row per resource role per reporting month,"Role utilization, demand/capacity gaps and capacity pressure."
+tableau_portfolio_summary.csv,One row per reporting month,Executive KPI cards and portfolio trends without cross-grain double counting.

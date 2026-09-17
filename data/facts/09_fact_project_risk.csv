@@ -1,0 +1,825 @@
+risk_id,project_id,period_id,risk_category,risk_description,probability_score,impact_score,risk_score,risk_severity,risk_status,mitigation_status,risk_owner_type,date_identified,target_resolution_date
+1,1,202502,Schedule,Testing window compressed,2,3,6,Moderate,Open,Not Started,PMO,2025-02-14,2025-03-23
+2,1,202504,Scope,Change requests threaten baseline,2,3,6,Moderate,Open,Planned,Business Owner,2025-04-12,2025-05-27
+3,1,202506,Financial,Vendor spend trending above plan,3,4,12,High,Open,Not Started,PMO,2025-06-25,2025-10-20
+4,1,202609,Scope,Change requests threaten baseline,1,3,3,Low,Open,Not Started,Technical Lead,2026-09-05,2026-11-21
+5,2,202501,Resource,Specialist allocation conflict,3,5,15,High,Mitigating,At Risk,Project Manager,2025-01-14,2025-05-07
+6,2,202503,Scope,Requirements instability,2,4,8,Moderate,Open,Not Started,Project Manager,2025-03-22,2025-06-21
+7,2,202605,Schedule,Dependency delay threatens delivery,2,5,10,High,Mitigating,At Risk,Business Owner,2026-05-09,2026-06-12
+8,2,202512,Compliance,Control evidence incomplete,4,4,16,Critical,Mitigating,At Risk,Technical Lead,2025-12-18,2026-03-11
+9,2,202511,Change Management,Training preparation delayed,3,5,15,High,Mitigating,In Progress,Business Owner,2025-11-24,2026-03-16
+10,2,202607,Financial,Forecast cost exceeds approved budget,3,5,15,High,Closed,Complete,PMO,2026-07-24,2026-10-27
+11,2,202502,Scope,Change requests threaten baseline,3,5,15,High,Open,Planned,Program Manager,2025-02-17,2025-04-18
+12,2,202610,Financial,Contingency reserve under pressure,3,5,15,High,Open,Planned,Business Owner,2026-10-17,2026-12-06
+13,2,202506,Financial,Vendor spend trending above plan,2,4,8,Moderate,Closed,Complete,Technical Lead,2025-06-20,2025-08-01
+14,3,202508,Vendor,Vendor deliverable delayed,3,5,15,High,Mitigating,On Track,Project Manager,2025-08-07,2025-11-01
+15,3,202511,Schedule,Critical milestone slippage,5,5,25,Critical,Mitigating,In Progress,Business Owner,2025-11-05,2026-02-27
+16,3,202607,Schedule,Testing window compressed,5,4,20,Critical,Open,Planned,Program Manager,2026-07-21,2026-09-27
+17,3,202505,Schedule,Dependency delay threatens delivery,5,5,25,Critical,Open,Not Started,PMO,2025-05-10,2025-09-03
+18,3,202510,Change Management,Training preparation delayed,5,5,25,Critical,Open,Planned,Technical Lead,2025-10-21,2025-11-24
+19,3,202508,Financial,Contingency reserve under pressure,3,5,15,High,Closed,Complete,Program Manager,2025-08-19,2025-11-06
+20,3,202510,Vendor,Supplier capacity constraint,4,5,20,Critical,Open,Planned,Business Owner,2025-10-25,2026-02-02
+21,4,202505,Change Management,Stakeholder resistance increasing,3,5,15,High,Open,Planned,Technical Lead,2025-05-24,2025-07-17
+22,4,202505,Technical,Integration complexity exceeds plan,3,5,15,High,Open,Planned,PMO,2025-05-08,2025-07-25
+23,4,202511,Schedule,Testing window compressed,4,5,20,Critical,Open,Not Started,Business Owner,2025-11-12,2026-01-21
+24,4,202606,Schedule,Dependency delay threatens delivery,2,5,10,High,Mitigating,At Risk,Program Manager,2026-06-16,2026-09-12
+25,4,202604,Resource,Specialist allocation conflict,3,4,12,High,Closed,Complete,PMO,2026-04-11,2026-05-25
+26,4,202512,Schedule,Dependency delay threatens delivery,4,5,20,Critical,Closed,Complete,Project Manager,2025-12-20,2026-03-02
+27,4,202502,Schedule,Critical milestone slippage,4,4,16,Critical,Mitigating,In Progress,Project Manager,2025-02-16,2025-04-20
+28,5,202508,Technical,Integration complexity exceeds plan,3,2,6,Moderate,Closed,Complete,Project Manager,2025-08-18,2025-09-21
+29,5,202603,Change Management,Adoption readiness behind plan,2,1,2,Low,Mitigating,At Risk,Project Manager,2026-03-14,2026-04-14
+30,5,202502,Schedule,Critical milestone slippage,2,3,6,Moderate,Mitigating,On Track,Business Owner,2025-02-21,2025-05-06
+31,5,202602,Vendor,Vendor deliverable delayed,2,2,4,Low,Open,Planned,Project Manager,2026-02-19,2026-04-22
+32,6,202604,Schedule,Critical milestone slippage,3,5,15,High,Mitigating,On Track,Program Manager,2026-04-24,2026-07-28
+33,6,202605,Financial,Contingency reserve under pressure,2,4,8,Moderate,Closed,Complete,Program Manager,2026-05-22,2026-07-20
+34,6,202612,Resource,Specialist allocation conflict,4,5,20,Critical,Open,Planned,Project Manager,2026-12-14,2027-03-11
+35,6,202501,Financial,Contingency reserve under pressure,2,4,8,Moderate,Mitigating,At Risk,PMO,2025-01-11,2025-02-28
+36,6,202606,Financial,Vendor spend trending above plan,3,4,12,High,Open,Planned,Program Manager,2026-06-17,2026-09-20
+37,6,202512,Financial,Vendor spend trending above plan,2,4,8,Moderate,Closed,Complete,Program Manager,2025-12-24,2026-02-11
+38,6,202603,Scope,Scope growth not fully funded,4,3,12,High,Open,Not Started,PMO,2026-03-14,2026-06-13
+39,7,202507,Technical,Architecture risk unresolved,1,2,2,Low,Closed,Complete,Business Owner,2025-07-11,2025-10-29
+40,7,202509,Resource,Key role vacancy,1,3,3,Low,Closed,Complete,Project Manager,2025-09-11,2025-11-11
+41,7,202607,Schedule,Testing window compressed,3,2,6,Moderate,Closed,Complete,Program Manager,2026-07-26,2026-09-17
+42,7,202508,Resource,Key role vacancy,1,2,2,Low,Closed,Complete,PMO,2025-08-21,2025-10-09
+43,8,202511,Resource,Critical skill capacity constrained,4,4,16,Critical,Mitigating,At Risk,Program Manager,2025-11-19,2026-02-24
+44,8,202612,Resource,Specialist allocation conflict,3,3,9,Moderate,Mitigating,On Track,Technical Lead,2026-12-19,2027-01-24
+45,8,202604,Financial,Forecast cost exceeds approved budget,2,4,8,Moderate,Open,Not Started,Project Manager,2026-04-07,2026-07-05
+46,8,202606,Resource,Critical skill capacity constrained,3,3,9,Moderate,Closed,Complete,Project Manager,2026-06-19,2026-09-13
+47,8,202604,Schedule,Critical milestone slippage,4,3,12,High,Mitigating,In Progress,PMO,2026-04-07,2026-05-19
+48,8,202611,Resource,Critical skill capacity constrained,3,4,12,High,Closed,Complete,Program Manager,2026-11-22,2027-01-10
+49,8,202612,Technical,Architecture risk unresolved,2,3,6,Moderate,Mitigating,In Progress,Project Manager,2026-12-26,2027-04-22
+50,8,202606,Change Management,Training preparation delayed,3,4,12,High,Open,Planned,Program Manager,2026-06-21,2026-07-22
+51,9,202607,Resource,Critical skill capacity constrained,4,4,16,Critical,Mitigating,At Risk,Business Owner,2026-07-21,2026-08-25
+52,9,202602,Resource,Key role vacancy,3,4,12,High,Mitigating,At Risk,Program Manager,2026-02-17,2026-04-27
+53,9,202510,Scope,Scope growth not fully funded,3,5,15,High,Closed,Complete,Program Manager,2025-10-24,2025-12-01
+54,9,202602,Scope,Scope growth not fully funded,3,5,15,High,Open,Planned,Technical Lead,2026-02-04,2026-05-19
+55,9,202504,Change Management,Training preparation delayed,2,5,10,High,Mitigating,On Track,PMO,2025-04-21,2025-07-29
+56,9,202612,Resource,Specialist allocation conflict,2,5,10,High,Mitigating,On Track,PMO,2026-12-11,2027-01-10
+57,10,202510,Resource,Key role vacancy,4,4,16,Critical,Open,Not Started,Program Manager,2025-10-12,2026-02-07
+58,10,202509,Schedule,Testing window compressed,3,3,9,Moderate,Closed,Complete,Business Owner,2025-09-05,2025-12-15
+59,10,202512,Resource,Critical skill capacity constrained,4,2,8,Moderate,Closed,Complete,PMO,2025-12-25,2026-04-23
+60,10,202508,Financial,Contingency reserve under pressure,3,4,12,High,Open,Planned,Technical Lead,2025-08-07,2025-11-04
+61,10,202602,Financial,Vendor spend trending above plan,2,3,6,Moderate,Open,Not Started,Business Owner,2026-02-16,2026-05-23
+62,11,202509,Compliance,Approval dependency outstanding,2,2,4,Low,Open,Not Started,Program Manager,2025-09-14,2026-01-04
+63,11,202612,Compliance,Control evidence incomplete,3,4,12,High,Closed,Complete,PMO,2026-12-15,2027-02-23
+64,11,202509,Resource,Key role vacancy,3,3,9,Moderate,Open,Not Started,Project Manager,2025-09-11,2025-10-18
+65,11,202606,Resource,Key role vacancy,2,3,6,Moderate,Closed,Complete,Program Manager,2026-06-22,2026-07-24
+66,11,202606,Financial,Vendor spend trending above plan,2,3,6,Moderate,Closed,Complete,Technical Lead,2026-06-23,2026-09-06
+67,12,202502,Resource,Critical skill capacity constrained,2,2,4,Low,Mitigating,In Progress,Program Manager,2025-02-20,2025-05-06
+68,12,202608,Resource,Specialist allocation conflict,3,1,3,Low,Closed,Complete,Technical Lead,2026-08-25,2026-11-07
+69,12,202605,Technical,Technical debt threatens delivery,3,2,6,Moderate,Mitigating,On Track,PMO,2026-05-25,2026-07-27
+70,12,202601,Technical,Architecture risk unresolved,2,1,2,Low,Open,Not Started,Business Owner,2026-01-14,2026-04-02
+71,12,202511,Vendor,Third-party dependency at risk,2,2,4,Low,Closed,Complete,Technical Lead,2025-11-08,2026-01-06
+72,13,202609,Vendor,Third-party dependency at risk,3,3,9,Moderate,Open,Planned,Program Manager,2026-09-21,2026-12-28
+73,13,202508,Change Management,Adoption readiness behind plan,2,3,6,Moderate,Mitigating,In Progress,Program Manager,2025-08-07,2025-10-01
+74,13,202612,Financial,Contingency reserve under pressure,2,3,6,Moderate,Open,Not Started,PMO,2026-12-14,2027-03-22
+75,13,202611,Technical,Architecture risk unresolved,1,2,2,Low,Closed,Complete,Program Manager,2026-11-09,2027-02-27
+76,13,202604,Schedule,Testing window compressed,2,2,4,Low,Closed,Complete,Business Owner,2026-04-24,2026-06-20
+77,14,202511,Compliance,Regulatory requirement unresolved,2,2,4,Low,Closed,Complete,PMO,2025-11-22,2026-01-07
+78,14,202602,Resource,Key role vacancy,2,3,6,Moderate,Open,Planned,PMO,2026-02-08,2026-05-21
+79,14,202602,Financial,Forecast cost exceeds approved budget,2,1,2,Low,Mitigating,On Track,Program Manager,2026-02-19,2026-05-29
+80,15,202508,Financial,Forecast cost exceeds approved budget,3,5,15,High,Mitigating,In Progress,Project Manager,2025-08-14,2025-12-01
+81,15,202610,Scope,Change requests threaten baseline,3,5,15,High,Closed,Complete,Project Manager,2026-10-25,2026-12-17
+82,15,202601,Financial,Contingency reserve under pressure,3,4,12,High,Open,Planned,Technical Lead,2026-01-22,2026-03-11
+83,15,202612,Vendor,Vendor deliverable delayed,3,5,15,High,Open,Planned,PMO,2026-12-11,2027-03-30
+84,15,202502,Technical,Technical debt threatens delivery,2,5,10,High,Closed,Complete,PMO,2025-02-19,2025-05-04
+85,15,202504,Financial,Contingency reserve under pressure,4,5,20,Critical,Mitigating,On Track,PMO,2025-04-10,2025-07-13
+86,15,202604,Scope,Change requests threaten baseline,2,5,10,High,Mitigating,At Risk,PMO,2026-04-06,2026-07-22
+87,16,202612,Financial,Contingency reserve under pressure,2,4,8,Moderate,Closed,Complete,Program Manager,2026-12-10,2027-04-08
+88,16,202607,Resource,Key role vacancy,3,2,6,Moderate,Open,Planned,Program Manager,2026-07-17,2026-09-16
+89,16,202501,Financial,Forecast cost exceeds approved budget,2,2,4,Low,Mitigating,In Progress,Technical Lead,2025-01-09,2025-04-21
+90,16,202506,Compliance,Control evidence incomplete,2,2,4,Low,Open,Not Started,PMO,2025-06-08,2025-09-04
+91,16,202612,Financial,Contingency reserve under pressure,2,3,6,Moderate,Open,Not Started,Business Owner,2026-12-25,2027-03-01
+92,16,202606,Resource,Specialist allocation conflict,3,4,12,High,Mitigating,On Track,Project Manager,2026-06-24,2026-09-12
+93,17,202610,Change Management,Stakeholder resistance increasing,1,4,4,Low,Mitigating,At Risk,PMO,2026-10-13,2026-11-13
+94,17,202502,Schedule,Critical milestone slippage,2,3,6,Moderate,Mitigating,On Track,PMO,2025-02-06,2025-06-02
+95,17,202611,Scope,Change requests threaten baseline,3,3,9,Moderate,Closed,Complete,Technical Lead,2026-11-10,2026-12-31
+96,17,202511,Financial,Vendor spend trending above plan,2,3,6,Moderate,Closed,Complete,Technical Lead,2025-11-25,2025-12-29
+97,17,202601,Scope,Change requests threaten baseline,2,3,6,Moderate,Open,Not Started,PMO,2026-01-23,2026-05-18
+98,18,202510,Compliance,Approval dependency outstanding,1,4,4,Low,Closed,Complete,Program Manager,2025-10-19,2025-12-29
+99,18,202503,Schedule,Testing window compressed,2,2,4,Low,Closed,Complete,Technical Lead,2025-03-14,2025-05-09
+100,18,202506,Schedule,Critical milestone slippage,2,2,4,Low,Closed,Complete,Technical Lead,2025-06-07,2025-07-13
+101,18,202603,Resource,Key role vacancy,3,3,9,Moderate,Closed,Complete,Technical Lead,2026-03-21,2026-04-27
+102,19,202503,Technical,Technical debt threatens delivery,2,3,6,Moderate,Closed,Complete,Technical Lead,2025-03-10,2025-05-15
+103,19,202506,Financial,Vendor spend trending above plan,2,2,4,Low,Open,Planned,Technical Lead,2025-06-14,2025-07-24
+104,19,202507,Schedule,Critical milestone slippage,2,3,6,Moderate,Closed,Complete,Technical Lead,2025-07-17,2025-09-08
+105,20,202606,Resource,Key role vacancy,3,3,9,Moderate,Closed,Complete,PMO,2026-06-25,2026-10-18
+106,20,202509,Scope,Scope growth not fully funded,1,1,1,Low,Closed,Complete,Technical Lead,2025-09-23,2025-12-06
+107,20,202612,Resource,Specialist allocation conflict,3,2,6,Moderate,Closed,Complete,Business Owner,2026-12-20,2027-04-17
+108,20,202611,Financial,Vendor spend trending above plan,2,2,4,Low,Closed,Complete,Program Manager,2026-11-25,2027-01-26
+109,21,202604,Resource,Specialist allocation conflict,3,4,12,High,Closed,Complete,PMO,2026-04-18,2026-06-15
+110,21,202506,Vendor,Supplier capacity constraint,1,3,3,Low,Mitigating,In Progress,Project Manager,2025-06-13,2025-08-22
+111,21,202504,Resource,Specialist allocation conflict,2,3,6,Moderate,Mitigating,At Risk,PMO,2025-04-13,2025-05-28
+112,22,202504,Technical,Integration complexity exceeds plan,1,1,1,Low,Closed,Complete,Project Manager,2025-04-09,2025-06-10
+113,22,202503,Technical,Integration complexity exceeds plan,3,2,6,Moderate,Mitigating,On Track,Program Manager,2025-03-19,2025-05-04
+114,22,202504,Financial,Vendor spend trending above plan,3,2,6,Moderate,Closed,Complete,Business Owner,2025-04-10,2025-06-06
+115,22,202510,Resource,Key role vacancy,2,1,2,Low,Closed,Complete,Business Owner,2025-10-09,2025-11-12
+116,22,202608,Financial,Forecast cost exceeds approved budget,2,2,4,Low,Closed,Complete,Program Manager,2026-08-19,2026-09-19
+117,23,202605,Compliance,Control evidence incomplete,4,5,20,Critical,Closed,Complete,Technical Lead,2026-05-21,2026-07-09
+118,23,202605,Resource,Critical skill capacity constrained,5,5,25,Critical,Mitigating,In Progress,PMO,2026-05-07,2026-06-26
+119,23,202610,Scope,Requirements instability,4,4,16,Critical,Open,Planned,Program Manager,2026-10-24,2027-01-05
+120,23,202604,Change Management,Training preparation delayed,4,5,20,Critical,Open,Planned,PMO,2026-04-20,2026-07-19
+121,23,202507,Financial,Contingency reserve under pressure,4,4,16,Critical,Closed,Complete,Program Manager,2025-07-07,2025-09-25
+122,23,202506,Schedule,Dependency delay threatens delivery,5,5,25,Critical,Open,Planned,PMO,2025-06-24,2025-10-05
+123,23,202502,Financial,Vendor spend trending above plan,4,4,16,Critical,Open,Planned,Project Manager,2025-02-08,2025-05-31
+124,24,202607,Financial,Contingency reserve under pressure,2,4,8,Moderate,Closed,Complete,Project Manager,2026-07-11,2026-10-07
+125,24,202612,Vendor,Third-party dependency at risk,2,3,6,Moderate,Mitigating,On Track,Project Manager,2026-12-15,2027-03-09
+126,24,202605,Technical,Architecture risk unresolved,3,3,9,Moderate,Closed,Complete,Project Manager,2026-05-17,2026-07-14
+127,24,202604,Resource,Critical skill capacity constrained,3,3,9,Moderate,Closed,Complete,Program Manager,2026-04-11,2026-07-14
+128,25,202505,Financial,Forecast cost exceeds approved budget,3,2,6,Moderate,Open,Not Started,Business Owner,2025-05-09,2025-09-02
+129,25,202602,Technical,Technical debt threatens delivery,3,3,9,Moderate,Closed,Complete,PMO,2026-02-19,2026-04-25
+130,25,202502,Technical,Integration complexity exceeds plan,3,3,9,Moderate,Mitigating,On Track,Business Owner,2025-02-15,2025-05-18
+131,25,202506,Technical,Architecture risk unresolved,3,4,12,High,Open,Planned,Technical Lead,2025-06-20,2025-08-22
+132,25,202610,Technical,Architecture risk unresolved,3,3,9,Moderate,Open,Planned,Program Manager,2026-10-15,2026-11-16
+133,25,202604,Financial,Forecast cost exceeds approved budget,2,2,4,Low,Open,Not Started,Project Manager,2026-04-11,2026-07-21
+134,25,202503,Resource,Critical skill capacity constrained,2,3,6,Moderate,Open,Planned,Program Manager,2025-03-10,2025-05-09
+135,26,202503,Compliance,Regulatory requirement unresolved,4,5,20,Critical,Mitigating,In Progress,Program Manager,2025-03-25,2025-05-03
+136,26,202607,Resource,Key role vacancy,2,5,10,High,Mitigating,At Risk,Business Owner,2026-07-13,2026-10-22
+137,26,202606,Technical,Architecture risk unresolved,3,4,12,High,Mitigating,In Progress,Business Owner,2026-06-08,2026-07-17
+138,26,202604,Resource,Critical skill capacity constrained,2,5,10,High,Mitigating,At Risk,Business Owner,2026-04-17,2026-06-01
+139,26,202506,Financial,Forecast cost exceeds approved budget,2,4,8,Moderate,Mitigating,In Progress,Project Manager,2025-06-12,2025-08-31
+140,26,202502,Schedule,Critical milestone slippage,5,5,25,Critical,Open,Planned,Program Manager,2025-02-12,2025-06-10
+141,26,202505,Schedule,Critical milestone slippage,4,4,16,Critical,Closed,Complete,PMO,2025-05-17,2025-09-06
+142,26,202502,Compliance,Approval dependency outstanding,4,5,20,Critical,Open,Planned,PMO,2025-02-15,2025-05-01
+143,26,202502,Change Management,Adoption readiness behind plan,3,5,15,High,Mitigating,In Progress,PMO,2025-02-13,2025-05-04
+144,27,202607,Resource,Key role vacancy,1,3,3,Low,Open,Not Started,PMO,2026-07-14,2026-10-30
+145,27,202511,Technical,Architecture risk unresolved,2,2,4,Low,Mitigating,At Risk,PMO,2025-11-06,2025-12-09
+146,27,202504,Schedule,Critical milestone slippage,2,1,2,Low,Mitigating,In Progress,Program Manager,2025-04-11,2025-05-27
+147,27,202511,Financial,Contingency reserve under pressure,1,2,2,Low,Mitigating,At Risk,Business Owner,2025-11-20,2025-12-26
+148,28,202609,Financial,Forecast cost exceeds approved budget,3,2,6,Moderate,Open,Not Started,Business Owner,2026-09-22,2026-12-12
+149,28,202511,Financial,Contingency reserve under pressure,1,4,4,Low,Mitigating,On Track,Program Manager,2025-11-06,2026-01-26
+150,28,202511,Technical,Architecture risk unresolved,2,3,6,Moderate,Closed,Complete,PMO,2025-11-11,2026-01-01
+151,29,202601,Schedule,Critical milestone slippage,3,2,6,Moderate,Closed,Complete,Project Manager,2026-01-12,2026-04-15
+152,29,202511,Resource,Specialist allocation conflict,2,3,6,Moderate,Mitigating,On Track,Project Manager,2025-11-14,2025-12-20
+153,29,202607,Financial,Vendor spend trending above plan,2,2,4,Low,Open,Not Started,Technical Lead,2026-07-16,2026-10-15
+154,30,202601,Compliance,Control evidence incomplete,3,3,9,Moderate,Open,Planned,Program Manager,2026-01-22,2026-04-13
+155,30,202609,Financial,Contingency reserve under pressure,2,5,10,High,Open,Planned,PMO,2026-09-24,2027-01-12
+156,30,202605,Schedule,Dependency delay threatens delivery,3,4,12,High,Mitigating,On Track,Technical Lead,2026-05-22,2026-07-26
+157,30,202602,Financial,Forecast cost exceeds approved budget,3,4,12,High,Open,Not Started,Technical Lead,2026-02-17,2026-04-29
+158,30,202601,Technical,Technical debt threatens delivery,4,4,16,Critical,Open,Not Started,Technical Lead,2026-01-24,2026-03-25
+159,31,202601,Resource,Key role vacancy,2,3,6,Moderate,Mitigating,In Progress,Technical Lead,2026-01-23,2026-05-20
+160,31,202601,Resource,Critical skill capacity constrained,2,3,6,Moderate,Closed,Complete,Technical Lead,2026-01-14,2026-02-27
+161,31,202603,Resource,Critical skill capacity constrained,3,2,6,Moderate,Open,Planned,Project Manager,2026-03-16,2026-06-16
+162,31,202512,Resource,Specialist allocation conflict,1,4,4,Low,Mitigating,On Track,Business Owner,2025-12-09,2026-03-06
+163,31,202511,Vendor,Third-party dependency at risk,2,2,4,Low,Open,Planned,Program Manager,2025-11-06,2026-02-18
+164,32,202602,Resource,Critical skill capacity constrained,4,3,12,High,Open,Not Started,Technical Lead,2026-02-09,2026-05-16
+165,32,202604,Resource,Key role vacancy,4,4,16,Critical,Mitigating,At Risk,Program Manager,2026-04-15,2026-07-21
+166,32,202503,Resource,Critical skill capacity constrained,3,5,15,High,Open,Not Started,PMO,2025-03-06,2025-04-14
+167,32,202511,Schedule,Dependency delay threatens delivery,3,3,9,Moderate,Mitigating,On Track,Technical Lead,2025-11-10,2026-02-07
+168,32,202511,Resource,Specialist allocation conflict,3,5,15,High,Mitigating,At Risk,Business Owner,2025-11-07,2025-12-24
+169,32,202611,Scope,Scope growth not fully funded,3,4,12,High,Closed,Complete,Program Manager,2026-11-06,2026-12-22
+170,32,202508,Financial,Forecast cost exceeds approved budget,2,4,8,Moderate,Open,Planned,PMO,2025-08-23,2025-10-17
+171,33,202608,Vendor,Supplier capacity constraint,4,5,20,Critical,Closed,Complete,Technical Lead,2026-08-06,2026-09-19
+172,33,202609,Technical,Architecture risk unresolved,3,4,12,High,Mitigating,On Track,PMO,2026-09-24,2026-11-17
+173,33,202610,Compliance,Regulatory requirement unresolved,5,5,25,Critical,Mitigating,In Progress,PMO,2026-10-16,2027-02-09
+174,33,202612,Financial,Forecast cost exceeds approved budget,3,5,15,High,Closed,Complete,Program Manager,2026-12-15,2027-01-29
+175,33,202605,Resource,Key role vacancy,5,4,20,Critical,Mitigating,On Track,PMO,2026-05-09,2026-08-31
+176,33,202512,Schedule,Testing window compressed,5,4,20,Critical,Open,Planned,PMO,2025-12-06,2026-02-05
+177,33,202512,Resource,Specialist allocation conflict,4,5,20,Critical,Mitigating,At Risk,Project Manager,2025-12-21,2026-02-14
+178,33,202608,Change Management,Stakeholder resistance increasing,4,5,20,Critical,Open,Planned,PMO,2026-08-25,2026-11-08
+179,33,202502,Schedule,Testing window compressed,4,4,16,Critical,Open,Not Started,Business Owner,2025-02-11,2025-04-26
+180,33,202605,Schedule,Dependency delay threatens delivery,5,5,25,Critical,Mitigating,On Track,Project Manager,2026-05-24,2026-08-05
+181,34,202602,Resource,Key role vacancy,4,5,20,Critical,Open,Not Started,Project Manager,2026-02-19,2026-03-26
+182,34,202506,Schedule,Dependency delay threatens delivery,5,4,20,Critical,Open,Planned,Program Manager,2025-06-17,2025-09-19
+183,34,202608,Technical,Integration complexity exceeds plan,4,5,20,Critical,Open,Not Started,Program Manager,2026-08-12,2026-09-30
+184,34,202509,Schedule,Critical milestone slippage,5,4,20,Critical,Mitigating,On Track,Program Manager,2025-09-19,2025-10-21
+185,34,202504,Schedule,Testing window compressed,5,5,25,Critical,Mitigating,At Risk,Technical Lead,2025-04-08,2025-08-06
+186,34,202608,Financial,Forecast cost exceeds approved budget,3,4,12,High,Open,Planned,Technical Lead,2026-08-16,2026-10-11
+187,34,202504,Vendor,Supplier capacity constraint,3,5,15,High,Closed,Complete,Technical Lead,2025-04-22,2025-07-20
+188,35,202508,Financial,Contingency reserve under pressure,2,5,10,High,Open,Not Started,Business Owner,2025-08-18,2025-10-22
+189,35,202610,Schedule,Dependency delay threatens delivery,2,5,10,High,Mitigating,In Progress,PMO,2026-10-24,2027-01-04
+190,35,202505,Financial,Vendor spend trending above plan,3,4,12,High,Open,Planned,Business Owner,2025-05-25,2025-08-15
+191,35,202506,Schedule,Dependency delay threatens delivery,4,4,16,Critical,Mitigating,In Progress,Business Owner,2025-06-24,2025-08-01
+192,35,202510,Schedule,Testing window compressed,3,5,15,High,Mitigating,On Track,Project Manager,2025-10-23,2025-12-05
+193,35,202610,Technical,Architecture risk unresolved,3,4,12,High,Closed,Complete,Program Manager,2026-10-11,2027-01-18
+194,35,202512,Resource,Specialist allocation conflict,3,5,15,High,Open,Not Started,Project Manager,2025-12-16,2026-03-23
+195,35,202511,Vendor,Supplier capacity constraint,4,4,16,Critical,Mitigating,On Track,Project Manager,2025-11-25,2026-03-05
+196,36,202605,Technical,Integration complexity exceeds plan,2,2,4,Low,Closed,Complete,Program Manager,2026-05-09,2026-07-12
+197,36,202512,Schedule,Testing window compressed,2,2,4,Low,Mitigating,In Progress,PMO,2025-12-15,2026-03-19
+198,36,202609,Financial,Forecast cost exceeds approved budget,3,3,9,Moderate,Closed,Complete,Project Manager,2026-09-24,2026-10-29
+199,36,202510,Vendor,Vendor deliverable delayed,3,2,6,Moderate,Closed,Complete,Project Manager,2025-10-18,2025-12-11
+200,36,202503,Resource,Key role vacancy,1,3,3,Low,Mitigating,At Risk,Technical Lead,2025-03-20,2025-06-04
+201,37,202509,Vendor,Supplier capacity constraint,1,3,3,Low,Mitigating,At Risk,Technical Lead,2025-09-09,2025-11-01
+202,37,202606,Resource,Critical skill capacity constrained,4,3,12,High,Mitigating,On Track,Business Owner,2026-06-16,2026-09-02
+203,37,202507,Resource,Key role vacancy,1,2,2,Low,Closed,Complete,Business Owner,2025-07-14,2025-10-25
+204,38,202507,Scope,Scope growth not fully funded,3,3,9,Moderate,Closed,Complete,Program Manager,2025-07-18,2025-11-01
+205,38,202609,Compliance,Control evidence incomplete,4,2,8,Moderate,Mitigating,At Risk,Program Manager,2026-09-17,2026-12-22
+206,38,202506,Compliance,Approval dependency outstanding,4,3,12,High,Mitigating,On Track,Technical Lead,2025-06-19,2025-08-22
+207,38,202610,Resource,Key role vacancy,4,4,16,Critical,Mitigating,On Track,PMO,2026-10-25,2027-01-24
+208,38,202507,Resource,Specialist allocation conflict,3,4,12,High,Closed,Complete,Business Owner,2025-07-08,2025-10-31
+209,38,202603,Resource,Critical skill capacity constrained,4,4,16,Critical,Mitigating,In Progress,Program Manager,2026-03-23,2026-06-12
+210,38,202612,Financial,Vendor spend trending above plan,2,2,4,Low,Open,Planned,Project Manager,2026-12-17,2027-01-23
+211,39,202504,Technical,Integration complexity exceeds plan,2,2,4,Low,Closed,Complete,PMO,2025-04-13,2025-05-21
+212,39,202508,Schedule,Critical milestone slippage,2,3,6,Moderate,Closed,Complete,Business Owner,2025-08-16,2025-11-12
+213,39,202501,Financial,Forecast cost exceeds approved budget,3,2,6,Moderate,Closed,Complete,PMO,2025-01-18,2025-03-15
+214,39,202603,Schedule,Dependency delay threatens delivery,2,2,4,Low,Mitigating,On Track,Program Manager,2026-03-13,2026-05-15
+215,39,202607,Resource,Critical skill capacity constrained,2,3,6,Moderate,Mitigating,On Track,Business Owner,2026-07-14,2026-09-04
+216,40,202606,Resource,Critical skill capacity constrained,5,2,10,High,Open,Not Started,Program Manager,2026-06-06,2026-08-23
+217,40,202510,Resource,Specialist allocation conflict,2,3,6,Moderate,Mitigating,In Progress,Project Manager,2025-10-16,2025-11-27
+218,40,202603,Resource,Specialist allocation conflict,4,3,12,High,Open,Not Started,Technical Lead,2026-03-14,2026-07-11
+219,40,202501,Schedule,Dependency delay threatens delivery,3,3,9,Moderate,Open,Not Started,Technical Lead,2025-01-23,2025-05-14
+220,40,202507,Compliance,Control evidence incomplete,4,3,12,High,Mitigating,On Track,PMO,2025-07-07,2025-10-15
+221,40,202509,Schedule,Dependency delay threatens delivery,2,3,6,Moderate,Mitigating,In Progress,Program Manager,2025-09-11,2025-11-12
+222,41,202506,Technical,Technical debt threatens delivery,1,3,3,Low,Closed,Complete,Project Manager,2025-06-19,2025-07-23
+223,41,202604,Schedule,Critical milestone slippage,1,1,1,Low,Open,Planned,Project Manager,2026-04-06,2026-07-27
+224,41,202505,Vendor,Third-party dependency at risk,2,2,4,Low,Closed,Complete,PMO,2025-05-12,2025-07-21
+225,42,202510,Resource,Specialist allocation conflict,2,2,4,Low,Closed,Complete,Project Manager,2025-10-12,2025-12-10
+226,42,202603,Schedule,Critical milestone slippage,1,2,2,Low,Closed,Complete,Business Owner,2026-03-26,2026-05-10
+227,42,202612,Compliance,Regulatory requirement unresolved,3,3,9,Moderate,Mitigating,In Progress,Program Manager,2026-12-12,2027-01-24
+228,42,202608,Compliance,Regulatory requirement unresolved,1,2,2,Low,Closed,Complete,Technical Lead,2026-08-16,2026-10-20
+229,42,202511,Compliance,Control evidence incomplete,2,2,4,Low,Open,Not Started,Program Manager,2025-11-24,2026-01-22
+230,43,202504,Scope,Change requests threaten baseline,2,3,6,Moderate,Closed,Complete,Program Manager,2025-04-15,2025-06-14
+231,43,202503,Technical,Technical debt threatens delivery,2,3,6,Moderate,Mitigating,On Track,Business Owner,2025-03-18,2025-05-08
+232,43,202608,Resource,Critical skill capacity constrained,3,3,9,Moderate,Closed,Complete,Project Manager,2026-08-25,2026-12-17
+233,43,202602,Resource,Key role vacancy,3,2,6,Moderate,Mitigating,At Risk,Project Manager,2026-02-05,2026-03-22
+234,44,202610,Schedule,Critical milestone slippage,5,5,25,Critical,Open,Planned,PMO,2026-10-10,2026-12-03
+235,44,202612,Financial,Forecast cost exceeds approved budget,5,5,25,Critical,Open,Planned,PMO,2026-12-23,2027-02-25
+236,44,202510,Resource,Critical skill capacity constrained,4,5,20,Critical,Mitigating,On Track,PMO,2025-10-14,2026-01-14
+237,44,202506,Technical,Architecture risk unresolved,4,5,20,Critical,Open,Not Started,Program Manager,2025-06-22,2025-10-09
+238,44,202510,Resource,Specialist allocation conflict,4,4,16,Critical,Open,Planned,PMO,2025-10-12,2026-02-07
+239,44,202612,Resource,Critical skill capacity constrained,5,4,20,Critical,Mitigating,In Progress,Project Manager,2026-12-17,2027-02-25
+240,44,202506,Schedule,Dependency delay threatens delivery,5,5,25,Critical,Open,Not Started,Program Manager,2025-06-16,2025-07-23
+241,44,202606,Schedule,Testing window compressed,4,5,20,Critical,Mitigating,On Track,Business Owner,2026-06-10,2026-08-06
+242,44,202610,Resource,Specialist allocation conflict,5,5,25,Critical,Mitigating,In Progress,PMO,2026-10-16,2027-01-28
+243,44,202612,Resource,Critical skill capacity constrained,4,4,16,Critical,Open,Planned,Business Owner,2026-12-14,2027-01-23
+244,45,202510,Technical,Architecture risk unresolved,4,3,12,High,Open,Not Started,Business Owner,2025-10-13,2025-12-14
+245,45,202504,Schedule,Testing window compressed,4,4,16,Critical,Mitigating,In Progress,PMO,2025-04-23,2025-05-28
+246,45,202503,Schedule,Testing window compressed,5,4,20,Critical,Open,Planned,Project Manager,2025-03-16,2025-06-03
+247,45,202610,Vendor,Supplier capacity constraint,4,3,12,High,Mitigating,At Risk,Program Manager,2026-10-23,2026-11-29
+248,45,202509,Schedule,Dependency delay threatens delivery,5,4,20,Critical,Open,Not Started,Technical Lead,2025-09-19,2025-12-11
+249,45,202606,Schedule,Critical milestone slippage,4,3,12,High,Mitigating,On Track,Technical Lead,2026-06-13,2026-10-06
+250,45,202605,Resource,Critical skill capacity constrained,5,4,20,Critical,Mitigating,In Progress,Project Manager,2026-05-10,2026-07-17
+251,45,202507,Resource,Critical skill capacity constrained,3,4,12,High,Mitigating,In Progress,Technical Lead,2025-07-25,2025-08-25
+252,45,202511,Scope,Scope growth not fully funded,5,3,15,High,Closed,Complete,PMO,2025-11-16,2026-02-21
+253,46,202605,Resource,Specialist allocation conflict,2,1,2,Low,Mitigating,In Progress,PMO,2026-05-17,2026-06-16
+254,46,202504,Resource,Critical skill capacity constrained,2,1,2,Low,Closed,Complete,Program Manager,2025-04-10,2025-05-18
+255,46,202601,Schedule,Critical milestone slippage,1,2,2,Low,Open,Not Started,Technical Lead,2026-01-14,2026-05-08
+256,47,202605,Schedule,Critical milestone slippage,1,3,3,Low,Mitigating,At Risk,Business Owner,2026-05-16,2026-07-11
+257,47,202612,Compliance,Control evidence incomplete,2,3,6,Moderate,Mitigating,At Risk,Program Manager,2026-12-06,2027-03-15
+258,47,202510,Resource,Critical skill capacity constrained,3,3,9,Moderate,Mitigating,On Track,Program Manager,2025-10-14,2025-11-24
+259,47,202507,Resource,Key role vacancy,1,2,2,Low,Closed,Complete,Program Manager,2025-07-14,2025-10-18
+260,47,202510,Resource,Specialist allocation conflict,2,3,6,Moderate,Closed,Complete,PMO,2025-10-15,2026-02-04
+261,48,202511,Vendor,Vendor deliverable delayed,3,3,9,Moderate,Open,Planned,Program Manager,2025-11-10,2025-12-10
+262,48,202504,Technical,Technical debt threatens delivery,5,4,20,Critical,Open,Not Started,Business Owner,2025-04-11,2025-07-30
+263,48,202509,Resource,Critical skill capacity constrained,3,3,9,Moderate,Open,Planned,PMO,2025-09-07,2025-12-28
+264,48,202511,Technical,Integration complexity exceeds plan,3,4,12,High,Closed,Complete,Program Manager,2025-11-23,2026-01-29
+265,48,202507,Vendor,Third-party dependency at risk,3,4,12,High,Closed,Complete,Project Manager,2025-07-10,2025-09-07
+266,48,202602,Scope,Scope growth not fully funded,4,3,12,High,Closed,Complete,Business Owner,2026-02-03,2026-04-11
+267,48,202611,Financial,Vendor spend trending above plan,3,3,9,Moderate,Open,Not Started,Business Owner,2026-11-23,2027-01-30
+268,48,202606,Schedule,Dependency delay threatens delivery,5,3,15,High,Mitigating,In Progress,Business Owner,2026-06-21,2026-07-26
+269,48,202503,Scope,Requirements instability,5,4,20,Critical,Open,Not Started,Business Owner,2025-03-23,2025-07-08
+270,48,202511,Resource,Critical skill capacity constrained,3,3,9,Moderate,Mitigating,On Track,PMO,2025-11-19,2026-02-18
+271,49,202609,Resource,Critical skill capacity constrained,1,2,2,Low,Closed,Complete,Technical Lead,2026-09-21,2026-10-28
+272,49,202604,Resource,Critical skill capacity constrained,2,3,6,Moderate,Closed,Complete,Program Manager,2026-04-21,2026-08-14
+273,49,202506,Technical,Integration complexity exceeds plan,1,1,1,Low,Mitigating,At Risk,Project Manager,2025-06-07,2025-09-16
+274,50,202503,Financial,Vendor spend trending above plan,2,2,4,Low,Mitigating,At Risk,Business Owner,2025-03-22,2025-05-13
+275,50,202607,Resource,Specialist allocation conflict,4,3,12,High,Mitigating,On Track,Business Owner,2026-07-08,2026-08-26
+276,50,202608,Schedule,Dependency delay threatens delivery,2,1,2,Low,Mitigating,In Progress,Program Manager,2026-08-08,2026-10-04
+277,50,202610,Vendor,Vendor deliverable delayed,2,2,4,Low,Closed,Complete,Business Owner,2026-10-20,2027-01-03
+278,51,202603,Resource,Critical skill capacity constrained,3,2,6,Moderate,Closed,Complete,Program Manager,2026-03-20,2026-05-07
+279,51,202604,Compliance,Approval dependency outstanding,1,2,2,Low,Open,Not Started,Program Manager,2026-04-07,2026-06-26
+280,51,202612,Schedule,Dependency delay threatens delivery,3,2,6,Moderate,Mitigating,In Progress,Project Manager,2026-12-18,2027-04-08
+281,51,202601,Resource,Specialist allocation conflict,3,1,3,Low,Closed,Complete,Business Owner,2026-01-06,2026-02-12
+282,52,202503,Resource,Specialist allocation conflict,3,3,9,Moderate,Mitigating,At Risk,Business Owner,2025-03-19,2025-06-23
+283,52,202504,Resource,Critical skill capacity constrained,4,4,16,Critical,Mitigating,On Track,Program Manager,2025-04-22,2025-08-08
+284,52,202610,Compliance,Control evidence incomplete,3,4,12,High,Open,Not Started,Project Manager,2026-10-22,2027-01-09
+285,52,202501,Schedule,Testing window compressed,2,4,8,Moderate,Mitigating,On Track,Project Manager,2025-01-24,2025-05-07
+286,52,202502,Resource,Critical skill capacity constrained,4,4,16,Critical,Open,Not Started,Technical Lead,2025-02-17,2025-03-23
+287,52,202505,Vendor,Third-party dependency at risk,4,5,20,Critical,Open,Planned,Program Manager,2025-05-17,2025-08-28
+288,53,202603,Schedule,Testing window compressed,4,3,12,High,Closed,Complete,Business Owner,2026-03-08,2026-06-03
+289,53,202512,Resource,Key role vacancy,5,5,25,Critical,Closed,Complete,Project Manager,2025-12-10,2026-03-10
+290,53,202604,Technical,Integration complexity exceeds plan,4,4,16,Critical,Closed,Complete,Business Owner,2026-04-21,2026-07-02
+291,53,202510,Schedule,Critical milestone slippage,5,5,25,Critical,Mitigating,On Track,Technical Lead,2025-10-11,2025-12-15
+292,53,202504,Resource,Specialist allocation conflict,5,4,20,Critical,Closed,Complete,Program Manager,2025-04-14,2025-06-30
+293,53,202606,Compliance,Regulatory requirement unresolved,4,5,20,Critical,Mitigating,On Track,Program Manager,2026-06-23,2026-09-26
+294,53,202609,Resource,Specialist allocation conflict,5,3,15,High,Open,Not Started,Project Manager,2026-09-25,2027-01-13
+295,54,202502,Technical,Technical debt threatens delivery,3,4,12,High,Closed,Complete,Project Manager,2025-02-08,2025-04-18
+296,54,202501,Schedule,Testing window compressed,3,3,9,Moderate,Open,Not Started,Business Owner,2025-01-08,2025-02-16
+297,54,202601,Vendor,Supplier capacity constraint,3,3,9,Moderate,Mitigating,On Track,PMO,2026-01-10,2026-03-09
+298,54,202607,Financial,Forecast cost exceeds approved budget,4,4,16,Critical,Mitigating,At Risk,Program Manager,2026-07-20,2026-10-02
+299,54,202612,Resource,Key role vacancy,4,4,16,Critical,Closed,Complete,Business Owner,2026-12-06,2027-02-04
+300,54,202512,Financial,Vendor spend trending above plan,2,4,8,Moderate,Mitigating,In Progress,PMO,2025-12-21,2026-02-06
+301,55,202612,Resource,Critical skill capacity constrained,2,5,10,High,Mitigating,At Risk,Program Manager,2026-12-23,2027-04-05
+302,55,202606,Compliance,Regulatory requirement unresolved,3,5,15,High,Open,Not Started,PMO,2026-06-21,2026-09-02
+303,55,202607,Technical,Integration complexity exceeds plan,4,4,16,Critical,Open,Not Started,Business Owner,2026-07-22,2026-10-07
+304,55,202604,Financial,Vendor spend trending above plan,2,5,10,High,Mitigating,On Track,Project Manager,2026-04-11,2026-05-15
+305,55,202608,Change Management,Stakeholder resistance increasing,3,5,15,High,Open,Not Started,Technical Lead,2026-08-26,2026-09-27
+306,55,202506,Schedule,Critical milestone slippage,5,5,25,Critical,Open,Planned,Program Manager,2025-06-23,2025-10-18
+307,55,202512,Schedule,Dependency delay threatens delivery,4,4,16,Critical,Open,Not Started,Technical Lead,2025-12-21,2026-01-23
+308,56,202602,Compliance,Control evidence incomplete,2,1,2,Low,Closed,Complete,Program Manager,2026-02-03,2026-03-19
+309,56,202506,Financial,Forecast cost exceeds approved budget,2,2,4,Low,Open,Planned,Project Manager,2025-06-23,2025-08-09
+310,56,202510,Change Management,Training preparation delayed,2,2,4,Low,Closed,Complete,Business Owner,2025-10-23,2025-11-22
+311,57,202512,Compliance,Approval dependency outstanding,2,3,6,Moderate,Closed,Complete,Technical Lead,2025-12-12,2026-04-01
+312,57,202608,Resource,Key role vacancy,2,2,4,Low,Closed,Complete,Business Owner,2026-08-17,2026-12-04
+313,57,202501,Resource,Specialist allocation conflict,1,4,4,Low,Mitigating,At Risk,PMO,2025-01-18,2025-04-20
+314,58,202610,Financial,Contingency reserve under pressure,4,4,16,Critical,Open,Not Started,Project Manager,2026-10-15,2026-11-20
+315,58,202603,Technical,Architecture risk unresolved,3,5,15,High,Open,Planned,Program Manager,2026-03-19,2026-05-24
+316,58,202506,Financial,Forecast cost exceeds approved budget,2,4,8,Moderate,Closed,Complete,Program Manager,2025-06-11,2025-08-06
+317,58,202601,Financial,Forecast cost exceeds approved budget,3,4,12,High,Mitigating,At Risk,PMO,2026-01-14,2026-04-01
+318,58,202505,Resource,Critical skill capacity constrained,4,4,16,Critical,Open,Planned,Project Manager,2025-05-22,2025-06-22
+319,58,202507,Resource,Key role vacancy,3,4,12,High,Mitigating,At Risk,Business Owner,2025-07-20,2025-09-23
+320,58,202507,Scope,Scope growth not fully funded,2,3,6,Moderate,Open,Not Started,Technical Lead,2025-07-17,2025-09-07
+321,59,202604,Vendor,Third-party dependency at risk,2,4,8,Moderate,Mitigating,In Progress,Program Manager,2026-04-18,2026-07-05
+322,59,202512,Scope,Scope growth not fully funded,2,3,6,Moderate,Closed,Complete,Technical Lead,2025-12-17,2026-03-17
+323,59,202612,Technical,Architecture risk unresolved,2,3,6,Moderate,Closed,Complete,Business Owner,2026-12-09,2027-02-21
+324,60,202601,Financial,Vendor spend trending above plan,2,4,8,Moderate,Mitigating,In Progress,Technical Lead,2026-01-07,2026-04-29
+325,60,202607,Technical,Architecture risk unresolved,3,3,9,Moderate,Closed,Complete,Business Owner,2026-07-08,2026-08-14
+326,60,202610,Scope,Requirements instability,3,2,6,Moderate,Mitigating,On Track,Technical Lead,2026-10-18,2027-01-04
+327,60,202507,Change Management,Adoption readiness behind plan,3,3,9,Moderate,Open,Not Started,PMO,2025-07-15,2025-08-28
+328,60,202603,Technical,Architecture risk unresolved,3,3,9,Moderate,Closed,Complete,Technical Lead,2026-03-19,2026-07-07
+329,60,202511,Schedule,Testing window compressed,2,3,6,Moderate,Closed,Complete,PMO,2025-11-09,2026-01-17
+330,60,202611,Financial,Contingency reserve under pressure,3,3,9,Moderate,Open,Planned,Business Owner,2026-11-15,2027-03-10
+331,61,202511,Technical,Integration complexity exceeds plan,3,3,9,Moderate,Closed,Complete,Technical Lead,2025-11-09,2026-01-27
+332,61,202501,Resource,Key role vacancy,1,2,2,Low,Mitigating,In Progress,PMO,2025-01-23,2025-04-19
+333,61,202506,Change Management,Stakeholder resistance increasing,2,3,6,Moderate,Mitigating,At Risk,Program Manager,2025-06-19,2025-07-24
+334,62,202607,Vendor,Supplier capacity constraint,2,2,4,Low,Open,Not Started,Program Manager,2026-07-15,2026-11-08
+335,62,202505,Technical,Integration complexity exceeds plan,3,4,12,High,Closed,Complete,Project Manager,2025-05-15,2025-07-06
+336,62,202506,Scope,Change requests threaten baseline,3,4,12,High,Open,Not Started,Technical Lead,2025-06-11,2025-08-30
+337,63,202609,Compliance,Regulatory requirement unresolved,3,4,12,High,Open,Not Started,Business Owner,2026-09-12,2026-10-15
+338,63,202509,Financial,Contingency reserve under pressure,4,5,20,Critical,Mitigating,At Risk,Technical Lead,2025-09-09,2025-12-14
+339,63,202605,Scope,Requirements instability,3,5,15,High,Mitigating,On Track,Business Owner,2026-05-12,2026-08-05
+340,63,202604,Scope,Requirements instability,3,3,9,Moderate,Open,Not Started,PMO,2026-04-16,2026-07-24
+341,63,202603,Vendor,Supplier capacity constraint,3,3,9,Moderate,Open,Planned,Business Owner,2026-03-09,2026-05-29
+342,63,202601,Compliance,Regulatory requirement unresolved,2,4,8,Moderate,Mitigating,On Track,Business Owner,2026-01-26,2026-03-14
+343,64,202611,Resource,Specialist allocation conflict,5,3,15,High,Open,Planned,Business Owner,2026-11-12,2027-03-01
+344,64,202604,Resource,Key role vacancy,5,3,15,High,Mitigating,In Progress,Program Manager,2026-04-21,2026-08-17
+345,64,202611,Schedule,Testing window compressed,5,3,15,High,Mitigating,On Track,Project Manager,2026-11-21,2027-03-03
+346,64,202609,Schedule,Critical milestone slippage,5,5,25,Critical,Open,Planned,PMO,2026-09-11,2026-12-27
+347,64,202508,Resource,Critical skill capacity constrained,4,5,20,Critical,Closed,Complete,Business Owner,2025-08-19,2025-10-18
+348,64,202509,Schedule,Testing window compressed,5,3,15,High,Closed,Complete,Project Manager,2025-09-17,2025-11-16
+349,64,202612,Scope,Change requests threaten baseline,3,4,12,High,Mitigating,On Track,Project Manager,2026-12-14,2027-03-14
+350,65,202606,Technical,Technical debt threatens delivery,2,3,6,Moderate,Mitigating,In Progress,Business Owner,2026-06-20,2026-09-25
+351,65,202605,Resource,Critical skill capacity constrained,1,1,1,Low,Closed,Complete,PMO,2026-05-17,2026-06-20
+352,65,202612,Compliance,Regulatory requirement unresolved,2,3,6,Moderate,Closed,Complete,PMO,2026-12-23,2027-03-25
+353,65,202602,Scope,Requirements instability,3,2,6,Moderate,Open,Planned,Technical Lead,2026-02-17,2026-04-15
+354,66,202608,Vendor,Vendor deliverable delayed,3,2,6,Moderate,Mitigating,On Track,Program Manager,2026-08-25,2026-09-30
+355,66,202608,Technical,Architecture risk unresolved,3,3,9,Moderate,Closed,Complete,Program Manager,2026-08-10,2026-10-26
+356,66,202511,Scope,Requirements instability,2,2,4,Low,Open,Planned,Business Owner,2025-11-05,2026-01-10
+357,66,202506,Compliance,Control evidence incomplete,2,1,2,Low,Mitigating,On Track,Program Manager,2025-06-24,2025-10-13
+358,67,202507,Technical,Technical debt threatens delivery,2,3,6,Moderate,Mitigating,On Track,PMO,2025-07-23,2025-08-24
+359,67,202606,Resource,Specialist allocation conflict,2,2,4,Low,Mitigating,In Progress,Technical Lead,2026-06-07,2026-09-07
+360,67,202505,Vendor,Vendor deliverable delayed,2,1,2,Low,Open,Planned,Program Manager,2025-05-17,2025-08-20
+361,67,202604,Resource,Key role vacancy,2,1,2,Low,Open,Not Started,PMO,2026-04-08,2026-05-13
+362,67,202503,Vendor,Vendor deliverable delayed,2,2,4,Low,Open,Not Started,Technical Lead,2025-03-09,2025-06-04
+363,68,202610,Compliance,Approval dependency outstanding,4,5,20,Critical,Open,Planned,Technical Lead,2026-10-16,2026-12-04
+364,68,202606,Schedule,Dependency delay threatens delivery,3,4,12,High,Mitigating,At Risk,PMO,2026-06-07,2026-08-28
+365,68,202506,Financial,Vendor spend trending above plan,3,5,15,High,Mitigating,On Track,Business Owner,2025-06-21,2025-09-04
+366,68,202605,Change Management,Stakeholder resistance increasing,4,5,20,Critical,Open,Not Started,Technical Lead,2026-05-08,2026-07-21
+367,68,202601,Change Management,Stakeholder resistance increasing,3,5,15,High,Mitigating,In Progress,Project Manager,2026-01-12,2026-03-19
+368,68,202503,Compliance,Control evidence incomplete,3,5,15,High,Open,Not Started,Business Owner,2025-03-10,2025-06-15
+369,68,202602,Scope,Scope growth not fully funded,2,4,8,Moderate,Mitigating,In Progress,Business Owner,2026-02-20,2026-06-07
+370,68,202606,Compliance,Regulatory requirement unresolved,3,5,15,High,Mitigating,On Track,Program Manager,2026-06-10,2026-09-21
+371,68,202501,Resource,Specialist allocation conflict,3,5,15,High,Open,Planned,Program Manager,2025-01-22,2025-03-22
+372,69,202512,Scope,Change requests threaten baseline,3,5,15,High,Open,Planned,Technical Lead,2025-12-15,2026-03-17
+373,69,202512,Resource,Specialist allocation conflict,2,5,10,High,Open,Not Started,Technical Lead,2025-12-20,2026-02-10
+374,69,202602,Change Management,Training preparation delayed,2,4,8,Moderate,Closed,Complete,PMO,2026-02-17,2026-06-08
+375,69,202611,Technical,Technical debt threatens delivery,3,4,12,High,Mitigating,On Track,PMO,2026-11-15,2027-03-12
+376,69,202507,Scope,Change requests threaten baseline,2,4,8,Moderate,Open,Not Started,Program Manager,2025-07-11,2025-08-13
+377,69,202608,Schedule,Dependency delay threatens delivery,3,4,12,High,Mitigating,In Progress,PMO,2026-08-17,2026-11-03
+378,69,202605,Schedule,Dependency delay threatens delivery,3,4,12,High,Mitigating,In Progress,Technical Lead,2026-05-22,2026-07-03
+379,69,202611,Compliance,Regulatory requirement unresolved,2,5,10,High,Closed,Complete,Program Manager,2026-11-17,2026-12-24
+380,69,202508,Vendor,Vendor deliverable delayed,3,5,15,High,Open,Not Started,PMO,2025-08-26,2025-12-16
+381,70,202507,Financial,Contingency reserve under pressure,3,4,12,High,Open,Planned,PMO,2025-07-09,2025-10-28
+382,70,202604,Schedule,Testing window compressed,3,4,12,High,Closed,Complete,Program Manager,2026-04-23,2026-07-02
+383,70,202505,Schedule,Critical milestone slippage,5,3,15,High,Open,Planned,Business Owner,2025-05-26,2025-07-30
+384,70,202608,Change Management,Stakeholder resistance increasing,2,4,8,Moderate,Mitigating,On Track,PMO,2026-08-10,2026-10-23
+385,70,202508,Financial,Vendor spend trending above plan,4,4,16,Critical,Open,Not Started,Business Owner,2025-08-16,2025-09-27
+386,70,202612,Technical,Technical debt threatens delivery,4,3,12,High,Closed,Complete,Project Manager,2026-12-19,2027-04-16
+387,70,202509,Change Management,Stakeholder resistance increasing,2,5,10,High,Mitigating,At Risk,Business Owner,2025-09-10,2025-12-09
+388,70,202611,Resource,Critical skill capacity constrained,4,5,20,Critical,Mitigating,In Progress,Program Manager,2026-11-08,2027-02-24
+389,71,202611,Scope,Scope growth not fully funded,3,4,12,High,Closed,Complete,Program Manager,2026-11-16,2026-12-21
+390,71,202504,Technical,Architecture risk unresolved,2,3,6,Moderate,Open,Planned,Technical Lead,2025-04-08,2025-06-04
+391,71,202612,Vendor,Vendor deliverable delayed,2,3,6,Moderate,Mitigating,On Track,Technical Lead,2026-12-06,2027-01-25
+392,71,202608,Vendor,Vendor deliverable delayed,3,3,9,Moderate,Mitigating,In Progress,Project Manager,2026-08-22,2026-11-21
+393,71,202512,Vendor,Third-party dependency at risk,3,2,6,Moderate,Open,Not Started,Technical Lead,2025-12-18,2026-03-19
+394,72,202612,Schedule,Testing window compressed,2,3,6,Moderate,Mitigating,On Track,Technical Lead,2026-12-16,2027-04-07
+395,72,202508,Financial,Contingency reserve under pressure,2,3,6,Moderate,Open,Planned,Technical Lead,2025-08-09,2025-11-18
+396,72,202608,Scope,Change requests threaten baseline,2,3,6,Moderate,Mitigating,On Track,Program Manager,2026-08-10,2026-10-26
+397,72,202508,Vendor,Third-party dependency at risk,2,3,6,Moderate,Closed,Complete,Business Owner,2025-08-12,2025-11-09
+398,73,202602,Resource,Specialist allocation conflict,5,5,25,Critical,Open,Not Started,Business Owner,2026-02-12,2026-05-19
+399,73,202601,Resource,Specialist allocation conflict,3,5,15,High,Mitigating,In Progress,Technical Lead,2026-01-12,2026-03-20
+400,73,202606,Resource,Key role vacancy,5,4,20,Critical,Open,Planned,Program Manager,2026-06-18,2026-09-10
+401,73,202505,Schedule,Dependency delay threatens delivery,5,3,15,High,Open,Planned,Business Owner,2025-05-14,2025-06-26
+402,73,202612,Change Management,Training preparation delayed,4,4,16,Critical,Mitigating,At Risk,Program Manager,2026-12-20,2027-03-22
+403,73,202611,Resource,Critical skill capacity constrained,3,5,15,High,Closed,Complete,Program Manager,2026-11-22,2027-01-11
+404,73,202508,Financial,Vendor spend trending above plan,4,4,16,Critical,Open,Planned,Program Manager,2025-08-23,2025-12-04
+405,74,202508,Technical,Architecture risk unresolved,3,3,9,Moderate,Mitigating,At Risk,Project Manager,2025-08-18,2025-11-09
+406,74,202610,Change Management,Adoption readiness behind plan,3,2,6,Moderate,Open,Planned,Technical Lead,2026-10-07,2026-11-21
+407,74,202505,Resource,Critical skill capacity constrained,3,2,6,Moderate,Closed,Complete,Business Owner,2025-05-14,2025-08-11
+408,74,202603,Resource,Critical skill capacity constrained,5,3,15,High,Open,Not Started,Project Manager,2026-03-20,2026-05-28
+409,74,202506,Technical,Architecture risk unresolved,4,2,8,Moderate,Open,Not Started,PMO,2025-06-15,2025-08-30
+410,74,202504,Resource,Key role vacancy,5,3,15,High,Mitigating,In Progress,Business Owner,2025-04-11,2025-07-28
+411,74,202611,Resource,Critical skill capacity constrained,2,2,4,Low,Open,Not Started,Business Owner,2026-11-11,2027-01-01
+412,75,202505,Technical,Architecture risk unresolved,3,3,9,Moderate,Open,Not Started,PMO,2025-05-19,2025-07-30
+413,75,202604,Technical,Technical debt threatens delivery,1,3,3,Low,Open,Not Started,Technical Lead,2026-04-25,2026-08-14
+414,75,202607,Financial,Forecast cost exceeds approved budget,1,4,4,Low,Closed,Complete,Project Manager,2026-07-07,2026-09-20
+415,76,202607,Technical,Integration complexity exceeds plan,2,2,4,Low,Closed,Complete,PMO,2026-07-17,2026-09-14
+416,76,202611,Change Management,Stakeholder resistance increasing,2,2,4,Low,Closed,Complete,Technical Lead,2026-11-07,2027-01-07
+417,76,202602,Change Management,Adoption readiness behind plan,2,2,4,Low,Mitigating,On Track,PMO,2026-02-16,2026-04-24
+418,76,202611,Schedule,Critical milestone slippage,2,3,6,Moderate,Open,Planned,Technical Lead,2026-11-08,2027-01-15
+419,76,202604,Resource,Specialist allocation conflict,3,2,6,Moderate,Open,Not Started,Business Owner,2026-04-25,2026-07-05
+420,77,202604,Financial,Forecast cost exceeds approved budget,2,2,4,Low,Closed,Complete,Technical Lead,2026-04-06,2026-07-21
+421,77,202604,Technical,Integration complexity exceeds plan,2,1,2,Low,Mitigating,At Risk,Business Owner,2026-04-18,2026-07-23
+422,77,202608,Resource,Key role vacancy,2,3,6,Moderate,Closed,Complete,Project Manager,2026-08-14,2026-09-23
+423,77,202608,Technical,Integration complexity exceeds plan,3,2,6,Moderate,Mitigating,At Risk,Program Manager,2026-08-24,2026-09-23
+424,78,202506,Scope,Change requests threaten baseline,5,5,25,Critical,Mitigating,At Risk,PMO,2025-06-07,2025-09-16
+425,78,202601,Financial,Forecast cost exceeds approved budget,4,5,20,Critical,Mitigating,At Risk,Program Manager,2026-01-06,2026-03-24
+426,78,202502,Technical,Technical debt threatens delivery,5,5,25,Critical,Open,Not Started,Business Owner,2025-02-17,2025-05-28
+427,78,202612,Compliance,Regulatory requirement unresolved,4,4,16,Critical,Open,Not Started,Program Manager,2026-12-24,2027-03-09
+428,78,202603,Vendor,Supplier capacity constraint,5,5,25,Critical,Open,Not Started,Program Manager,2026-03-08,2026-06-01
+429,78,202512,Technical,Integration complexity exceeds plan,3,5,15,High,Mitigating,At Risk,PMO,2025-12-19,2026-02-12
+430,78,202610,Financial,Vendor spend trending above plan,5,5,25,Critical,Open,Not Started,Business Owner,2026-10-19,2026-12-27
+431,78,202607,Schedule,Testing window compressed,5,5,25,Critical,Open,Planned,Program Manager,2026-07-11,2026-08-19
+432,78,202511,Financial,Forecast cost exceeds approved budget,3,4,12,High,Mitigating,On Track,Technical Lead,2025-11-14,2025-12-14
+433,79,202507,Resource,Critical skill capacity constrained,3,2,6,Moderate,Closed,Complete,Technical Lead,2025-07-07,2025-08-19
+434,79,202502,Resource,Specialist allocation conflict,2,1,2,Low,Mitigating,At Risk,Business Owner,2025-02-14,2025-03-27
+435,79,202502,Technical,Integration complexity exceeds plan,3,2,6,Moderate,Open,Not Started,PMO,2025-02-04,2025-03-14
+436,79,202503,Resource,Key role vacancy,1,2,2,Low,Closed,Complete,Project Manager,2025-03-10,2025-05-30
+437,80,202610,Financial,Contingency reserve under pressure,1,2,2,Low,Closed,Complete,PMO,2026-10-10,2026-11-17
+438,80,202602,Vendor,Vendor deliverable delayed,2,2,4,Low,Closed,Complete,Technical Lead,2026-02-07,2026-06-02
+439,80,202604,Resource,Critical skill capacity constrained,2,2,4,Low,Closed,Complete,Program Manager,2026-04-09,2026-06-25
+440,80,202510,Resource,Critical skill capacity constrained,2,2,4,Low,Closed,Complete,Business Owner,2025-10-08,2025-11-22
+441,80,202603,Scope,Requirements instability,2,2,4,Low,Mitigating,On Track,Technical Lead,2026-03-09,2026-05-22
+442,81,202610,Financial,Contingency reserve under pressure,1,2,2,Low,Open,Planned,PMO,2026-10-16,2026-12-06
+443,81,202506,Schedule,Dependency delay threatens delivery,3,3,9,Moderate,Mitigating,On Track,Program Manager,2025-06-06,2025-08-29
+444,81,202608,Financial,Forecast cost exceeds approved budget,2,2,4,Low,Closed,Complete,Project Manager,2026-08-08,2026-09-26
+445,81,202503,Change Management,Adoption readiness behind plan,3,2,6,Moderate,Open,Not Started,Technical Lead,2025-03-12,2025-04-28
+446,82,202609,Resource,Key role vacancy,3,5,15,High,Mitigating,On Track,Technical Lead,2026-09-07,2027-01-03
+447,82,202511,Schedule,Dependency delay threatens delivery,5,5,25,Critical,Open,Not Started,PMO,2025-11-20,2026-02-27
+448,82,202510,Schedule,Critical milestone slippage,4,5,20,Critical,Open,Not Started,Technical Lead,2025-10-11,2026-01-29
+449,82,202509,Financial,Contingency reserve under pressure,4,5,20,Critical,Closed,Complete,Project Manager,2025-09-14,2025-12-25
+450,82,202503,Financial,Vendor spend trending above plan,4,5,20,Critical,Open,Planned,PMO,2025-03-24,2025-06-18
+451,82,202506,Resource,Key role vacancy,5,5,25,Critical,Mitigating,In Progress,Program Manager,2025-06-24,2025-09-02
+452,82,202606,Schedule,Critical milestone slippage,4,5,20,Critical,Mitigating,On Track,Program Manager,2026-06-06,2026-08-31
+453,83,202602,Resource,Key role vacancy,1,1,1,Low,Closed,Complete,PMO,2026-02-10,2026-03-18
+454,83,202607,Change Management,Stakeholder resistance increasing,2,2,4,Low,Closed,Complete,PMO,2026-07-17,2026-09-10
+455,83,202612,Schedule,Dependency delay threatens delivery,2,2,4,Low,Open,Not Started,Business Owner,2026-12-13,2027-03-19
+456,83,202508,Resource,Specialist allocation conflict,1,3,3,Low,Open,Not Started,Business Owner,2025-08-21,2025-12-18
+457,84,202509,Financial,Forecast cost exceeds approved budget,2,2,4,Low,Mitigating,In Progress,Business Owner,2025-09-13,2025-10-21
+458,84,202608,Technical,Integration complexity exceeds plan,2,2,4,Low,Mitigating,On Track,Technical Lead,2026-08-12,2026-12-05
+459,84,202606,Change Management,Training preparation delayed,2,2,4,Low,Mitigating,At Risk,Technical Lead,2026-06-12,2026-09-02
+460,84,202508,Financial,Contingency reserve under pressure,3,2,6,Moderate,Open,Not Started,Business Owner,2025-08-20,2025-11-14
+461,84,202508,Financial,Contingency reserve under pressure,3,2,6,Moderate,Closed,Complete,PMO,2025-08-09,2025-09-13
+462,85,202603,Compliance,Approval dependency outstanding,2,1,2,Low,Open,Not Started,PMO,2026-03-24,2026-07-11
+463,85,202511,Technical,Integration complexity exceeds plan,2,2,4,Low,Open,Planned,Business Owner,2025-11-17,2026-02-27
+464,85,202609,Resource,Critical skill capacity constrained,2,2,4,Low,Mitigating,On Track,Program Manager,2026-09-23,2026-12-17
+465,85,202603,Vendor,Third-party dependency at risk,3,1,3,Low,Closed,Complete,Technical Lead,2026-03-12,2026-04-21
+466,85,202605,Resource,Specialist allocation conflict,2,2,4,Low,Open,Planned,Business Owner,2026-05-23,2026-09-06
+467,86,202509,Financial,Forecast cost exceeds approved budget,3,3,9,Moderate,Mitigating,In Progress,Business Owner,2025-09-18,2025-12-28
+468,86,202602,Resource,Critical skill capacity constrained,3,3,9,Moderate,Closed,Complete,Program Manager,2026-02-10,2026-06-08
+469,86,202501,Financial,Forecast cost exceeds approved budget,1,2,2,Low,Closed,Complete,Program Manager,2025-01-19,2025-04-22
+470,87,202608,Resource,Critical skill capacity constrained,1,3,3,Low,Closed,Complete,Business Owner,2026-08-26,2026-10-14
+471,87,202508,Technical,Technical debt threatens delivery,2,4,8,Moderate,Mitigating,On Track,Project Manager,2025-08-10,2025-10-20
+472,87,202602,Technical,Integration complexity exceeds plan,2,3,6,Moderate,Closed,Complete,Technical Lead,2026-02-14,2026-05-30
+473,88,202611,Technical,Integration complexity exceeds plan,2,2,4,Low,Closed,Complete,Program Manager,2026-11-06,2026-12-12
+474,88,202609,Schedule,Testing window compressed,1,3,3,Low,Open,Not Started,PMO,2026-09-23,2027-01-14
+475,88,202607,Resource,Specialist allocation conflict,2,3,6,Moderate,Closed,Complete,Program Manager,2026-07-06,2026-10-15
+476,88,202511,Technical,Architecture risk unresolved,2,3,6,Moderate,Closed,Complete,Technical Lead,2025-11-24,2026-02-07
+477,88,202603,Resource,Key role vacancy,3,2,6,Moderate,Closed,Complete,Project Manager,2026-03-07,2026-05-05
+478,89,202611,Schedule,Dependency delay threatens delivery,3,3,9,Moderate,Open,Planned,Project Manager,2026-11-07,2026-12-07
+479,89,202604,Scope,Requirements instability,2,3,6,Moderate,Mitigating,At Risk,Business Owner,2026-04-18,2026-07-30
+480,89,202605,Compliance,Control evidence incomplete,3,2,6,Moderate,Mitigating,In Progress,Project Manager,2026-05-10,2026-06-21
+481,89,202504,Schedule,Dependency delay threatens delivery,2,3,6,Moderate,Mitigating,On Track,Project Manager,2025-04-19,2025-08-17
+482,90,202512,Vendor,Supplier capacity constraint,2,1,2,Low,Mitigating,At Risk,Program Manager,2025-12-13,2026-04-03
+483,90,202511,Scope,Scope growth not fully funded,3,2,6,Moderate,Closed,Complete,PMO,2025-11-19,2026-02-22
+484,90,202608,Resource,Key role vacancy,3,2,6,Moderate,Open,Planned,Project Manager,2026-08-26,2026-10-25
+485,91,202504,Technical,Technical debt threatens delivery,2,5,10,High,Open,Planned,Project Manager,2025-04-06,2025-05-07
+486,91,202605,Technical,Integration complexity exceeds plan,3,3,9,Moderate,Open,Planned,Technical Lead,2026-05-18,2026-08-29
+487,91,202504,Financial,Vendor spend trending above plan,3,5,15,High,Open,Planned,PMO,2025-04-06,2025-05-18
+488,91,202501,Financial,Forecast cost exceeds approved budget,3,4,12,High,Open,Planned,Program Manager,2025-01-17,2025-04-26
+489,91,202607,Resource,Specialist allocation conflict,2,3,6,Moderate,Mitigating,At Risk,Technical Lead,2026-07-20,2026-10-04
+490,91,202612,Technical,Technical debt threatens delivery,3,5,15,High,Open,Planned,Business Owner,2026-12-09,2027-03-22
+491,91,202501,Financial,Forecast cost exceeds approved budget,3,4,12,High,Open,Not Started,Project Manager,2025-01-15,2025-03-13
+492,92,202607,Financial,Forecast cost exceeds approved budget,3,5,15,High,Mitigating,At Risk,Technical Lead,2026-07-24,2026-08-29
+493,92,202609,Compliance,Regulatory requirement unresolved,3,5,15,High,Mitigating,On Track,Business Owner,2026-09-12,2026-12-05
+494,92,202506,Compliance,Control evidence incomplete,4,4,16,Critical,Open,Planned,Project Manager,2025-06-23,2025-08-14
+495,92,202603,Schedule,Testing window compressed,4,5,20,Critical,Closed,Complete,Technical Lead,2026-03-09,2026-04-20
+496,92,202611,Financial,Contingency reserve under pressure,3,5,15,High,Mitigating,On Track,Project Manager,2026-11-13,2027-03-01
+497,92,202603,Schedule,Critical milestone slippage,4,5,20,Critical,Mitigating,On Track,Technical Lead,2026-03-19,2026-04-24
+498,92,202611,Schedule,Testing window compressed,2,5,10,High,Closed,Complete,PMO,2026-11-10,2026-12-16
+499,93,202607,Technical,Technical debt threatens delivery,3,4,12,High,Open,Planned,Technical Lead,2026-07-10,2026-09-20
+500,93,202508,Vendor,Supplier capacity constraint,2,3,6,Moderate,Open,Not Started,Program Manager,2025-08-25,2025-11-01
+501,93,202606,Resource,Specialist allocation conflict,4,3,12,High,Closed,Complete,Program Manager,2026-06-11,2026-07-23
+502,93,202508,Compliance,Regulatory requirement unresolved,2,5,10,High,Mitigating,At Risk,Project Manager,2025-08-21,2025-12-05
+503,93,202601,Scope,Change requests threaten baseline,2,4,8,Moderate,Open,Not Started,Program Manager,2026-01-19,2026-03-07
+504,94,202511,Resource,Specialist allocation conflict,2,2,4,Low,Mitigating,In Progress,PMO,2025-11-12,2026-03-02
+505,94,202505,Financial,Contingency reserve under pressure,3,2,6,Moderate,Closed,Complete,Program Manager,2025-05-11,2025-08-01
+506,94,202605,Resource,Specialist allocation conflict,4,3,12,High,Open,Not Started,Technical Lead,2026-05-26,2026-07-13
+507,95,202606,Change Management,Adoption readiness behind plan,2,1,2,Low,Closed,Complete,Technical Lead,2026-06-23,2026-08-06
+508,95,202601,Financial,Forecast cost exceeds approved budget,1,2,2,Low,Closed,Complete,PMO,2026-01-16,2026-03-27
+509,95,202609,Scope,Scope growth not fully funded,2,2,4,Low,Mitigating,On Track,Project Manager,2026-09-24,2027-01-17
+510,95,202503,Compliance,Approval dependency outstanding,3,3,9,Moderate,Closed,Complete,Program Manager,2025-03-14,2025-06-23
+511,95,202510,Schedule,Testing window compressed,1,3,3,Low,Closed,Complete,PMO,2025-10-26,2025-12-14
+512,96,202605,Change Management,Adoption readiness behind plan,2,4,8,Moderate,Mitigating,At Risk,Business Owner,2026-05-17,2026-08-19
+513,96,202508,Resource,Key role vacancy,2,4,8,Moderate,Closed,Complete,Program Manager,2025-08-20,2025-10-09
+514,96,202612,Technical,Architecture risk unresolved,3,3,9,Moderate,Mitigating,In Progress,Business Owner,2026-12-25,2027-02-19
+515,96,202603,Schedule,Testing window compressed,2,3,6,Moderate,Open,Planned,Project Manager,2026-03-21,2026-07-14
+516,96,202505,Vendor,Vendor deliverable delayed,4,4,16,Critical,Mitigating,On Track,Technical Lead,2025-05-14,2025-07-20
+517,96,202612,Resource,Specialist allocation conflict,3,4,12,High,Open,Not Started,PMO,2026-12-08,2027-02-07
+518,97,202602,Schedule,Critical milestone slippage,3,4,12,High,Mitigating,On Track,Program Manager,2026-02-07,2026-04-07
+519,97,202612,Financial,Forecast cost exceeds approved budget,3,3,9,Moderate,Mitigating,On Track,PMO,2026-12-15,2027-04-06
+520,97,202505,Resource,Key role vacancy,5,3,15,High,Closed,Complete,PMO,2025-05-20,2025-09-03
+521,97,202608,Compliance,Control evidence incomplete,3,3,9,Moderate,Closed,Complete,Technical Lead,2026-08-12,2026-10-05
+522,97,202602,Change Management,Training preparation delayed,4,3,12,High,Closed,Complete,Business Owner,2026-02-17,2026-03-24
+523,97,202605,Resource,Specialist allocation conflict,4,3,12,High,Closed,Complete,Project Manager,2026-05-08,2026-07-05
+524,97,202607,Scope,Requirements instability,3,3,9,Moderate,Mitigating,At Risk,PMO,2026-07-19,2026-09-19
+525,98,202610,Scope,Scope growth not fully funded,3,3,9,Moderate,Closed,Complete,Program Manager,2026-10-24,2027-01-31
+526,98,202607,Schedule,Testing window compressed,2,1,2,Low,Mitigating,In Progress,PMO,2026-07-15,2026-10-29
+527,98,202510,Compliance,Approval dependency outstanding,2,2,4,Low,Closed,Complete,Project Manager,2025-10-06,2025-11-27
+528,98,202612,Schedule,Dependency delay threatens delivery,3,2,6,Moderate,Closed,Complete,Business Owner,2026-12-07,2027-02-20
+529,99,202606,Schedule,Critical milestone slippage,5,5,25,Critical,Closed,Complete,Project Manager,2026-06-22,2026-08-30
+530,99,202504,Scope,Change requests threaten baseline,3,5,15,High,Mitigating,On Track,Program Manager,2025-04-07,2025-07-06
+531,99,202504,Schedule,Testing window compressed,5,5,25,Critical,Open,Not Started,Program Manager,2025-04-11,2025-05-16
+532,99,202509,Compliance,Regulatory requirement unresolved,5,5,25,Critical,Open,Planned,Project Manager,2025-09-05,2025-11-01
+533,99,202611,Technical,Technical debt threatens delivery,5,4,20,Critical,Mitigating,On Track,Program Manager,2026-11-20,2027-01-30
+534,99,202502,Financial,Vendor spend trending above plan,3,5,15,High,Open,Planned,Program Manager,2025-02-09,2025-05-07
+535,99,202601,Resource,Specialist allocation conflict,4,5,20,Critical,Open,Planned,Technical Lead,2026-01-09,2026-05-04
+536,99,202608,Schedule,Critical milestone slippage,4,5,20,Critical,Mitigating,At Risk,Project Manager,2026-08-09,2026-11-30
+537,99,202508,Financial,Contingency reserve under pressure,4,5,20,Critical,Open,Planned,Project Manager,2025-08-21,2025-11-10
+538,99,202601,Change Management,Adoption readiness behind plan,4,5,20,Critical,Closed,Complete,Business Owner,2026-01-14,2026-05-02
+539,100,202601,Technical,Architecture risk unresolved,4,3,12,High,Closed,Complete,Project Manager,2026-01-17,2026-04-17
+540,100,202505,Schedule,Critical milestone slippage,4,5,20,Critical,Closed,Complete,Business Owner,2025-05-20,2025-07-31
+541,100,202602,Schedule,Testing window compressed,5,4,20,Critical,Mitigating,On Track,PMO,2026-02-07,2026-03-11
+542,100,202605,Schedule,Critical milestone slippage,5,5,25,Critical,Open,Not Started,Program Manager,2026-05-22,2026-09-14
+543,100,202609,Resource,Key role vacancy,5,3,15,High,Mitigating,In Progress,Technical Lead,2026-09-11,2027-01-02
+544,100,202609,Schedule,Testing window compressed,5,4,20,Critical,Mitigating,On Track,Business Owner,2026-09-22,2026-12-30
+545,100,202508,Schedule,Testing window compressed,5,3,15,High,Open,Not Started,Project Manager,2025-08-10,2025-09-23
+546,101,202609,Technical,Integration complexity exceeds plan,3,4,12,High,Mitigating,On Track,Business Owner,2026-09-08,2026-11-10
+547,101,202608,Resource,Specialist allocation conflict,2,3,6,Moderate,Open,Not Started,Business Owner,2026-08-12,2026-11-16
+548,101,202509,Vendor,Supplier capacity constraint,4,4,16,Critical,Open,Planned,Project Manager,2025-09-12,2025-12-09
+549,101,202602,Technical,Architecture risk unresolved,3,3,9,Moderate,Mitigating,At Risk,Program Manager,2026-02-14,2026-06-14
+550,101,202607,Resource,Key role vacancy,4,3,12,High,Mitigating,In Progress,Project Manager,2026-07-24,2026-09-18
+551,101,202605,Resource,Specialist allocation conflict,3,3,9,Moderate,Mitigating,On Track,Business Owner,2026-05-14,2026-07-21
+552,101,202612,Schedule,Dependency delay threatens delivery,3,3,9,Moderate,Open,Not Started,PMO,2026-12-08,2027-01-12
+553,102,202512,Financial,Forecast cost exceeds approved budget,2,5,10,High,Open,Planned,Program Manager,2025-12-20,2026-01-19
+554,102,202603,Schedule,Testing window compressed,3,3,9,Moderate,Open,Not Started,Program Manager,2026-03-14,2026-06-11
+555,102,202508,Resource,Key role vacancy,4,4,16,Critical,Mitigating,On Track,PMO,2025-08-19,2025-11-16
+556,102,202501,Financial,Contingency reserve under pressure,2,3,6,Moderate,Open,Planned,PMO,2025-01-21,2025-04-03
+557,102,202602,Financial,Forecast cost exceeds approved budget,4,4,16,Critical,Open,Planned,Project Manager,2026-02-08,2026-06-04
+558,102,202611,Vendor,Vendor deliverable delayed,3,4,12,High,Open,Planned,PMO,2026-11-13,2026-12-26
+559,103,202505,Technical,Integration complexity exceeds plan,3,3,9,Moderate,Open,Planned,Project Manager,2025-05-07,2025-08-01
+560,103,202512,Financial,Contingency reserve under pressure,3,2,6,Moderate,Closed,Complete,Project Manager,2025-12-13,2026-01-25
+561,103,202604,Resource,Specialist allocation conflict,3,3,9,Moderate,Closed,Complete,Technical Lead,2026-04-06,2026-07-04
+562,103,202508,Resource,Key role vacancy,2,3,6,Moderate,Closed,Complete,Technical Lead,2025-08-13,2025-11-14
+563,103,202601,Resource,Key role vacancy,2,3,6,Moderate,Mitigating,On Track,Project Manager,2026-01-13,2026-04-15
+564,104,202508,Vendor,Third-party dependency at risk,2,2,4,Low,Open,Planned,Business Owner,2025-08-16,2025-12-03
+565,104,202607,Vendor,Vendor deliverable delayed,2,4,8,Moderate,Mitigating,At Risk,Program Manager,2026-07-11,2026-08-19
+566,104,202609,Technical,Integration complexity exceeds plan,1,3,3,Low,Closed,Complete,Project Manager,2026-09-25,2026-12-15
+567,105,202510,Change Management,Adoption readiness behind plan,2,4,8,Moderate,Closed,Complete,PMO,2025-10-11,2025-11-20
+568,105,202508,Change Management,Training preparation delayed,2,3,6,Moderate,Mitigating,On Track,Project Manager,2025-08-16,2025-12-14
+569,105,202602,Resource,Critical skill capacity constrained,2,3,6,Moderate,Mitigating,At Risk,PMO,2026-02-21,2026-06-09
+570,106,202609,Resource,Critical skill capacity constrained,2,3,6,Moderate,Closed,Complete,Project Manager,2026-09-23,2027-01-10
+571,106,202501,Vendor,Supplier capacity constraint,1,2,2,Low,Open,Planned,PMO,2025-01-22,2025-03-23
+572,106,202507,Technical,Technical debt threatens delivery,2,2,4,Low,Closed,Complete,Technical Lead,2025-07-14,2025-09-28
+573,107,202511,Resource,Critical skill capacity constrained,2,4,8,Moderate,Open,Not Started,Technical Lead,2025-11-15,2026-01-08
+574,107,202506,Scope,Scope growth not fully funded,3,3,9,Moderate,Closed,Complete,Program Manager,2025-06-07,2025-07-30
+575,107,202611,Resource,Specialist allocation conflict,4,4,16,Critical,Mitigating,At Risk,Program Manager,2026-11-18,2027-02-17
+576,107,202504,Vendor,Supplier capacity constraint,3,5,15,High,Mitigating,On Track,Technical Lead,2025-04-25,2025-07-25
+577,107,202505,Schedule,Testing window compressed,3,4,12,High,Mitigating,On Track,PMO,2025-05-13,2025-07-26
+578,107,202504,Resource,Specialist allocation conflict,2,4,8,Moderate,Open,Not Started,Business Owner,2025-04-14,2025-07-06
+579,107,202604,Resource,Specialist allocation conflict,4,5,20,Critical,Mitigating,On Track,Project Manager,2026-04-22,2026-05-27
+580,108,202608,Technical,Integration complexity exceeds plan,2,3,6,Moderate,Closed,Complete,Business Owner,2026-08-19,2026-09-25
+581,108,202601,Technical,Technical debt threatens delivery,3,3,9,Moderate,Closed,Complete,Program Manager,2026-01-10,2026-03-15
+582,108,202508,Compliance,Control evidence incomplete,1,3,3,Low,Closed,Complete,Technical Lead,2025-08-26,2025-09-30
+583,109,202609,Schedule,Critical milestone slippage,5,4,20,Critical,Closed,Complete,Program Manager,2026-09-23,2027-01-20
+584,109,202506,Financial,Contingency reserve under pressure,5,5,25,Critical,Mitigating,In Progress,PMO,2025-06-23,2025-08-26
+585,109,202610,Vendor,Vendor deliverable delayed,3,5,15,High,Open,Not Started,Project Manager,2026-10-07,2026-12-20
+586,109,202609,Schedule,Dependency delay threatens delivery,5,5,25,Critical,Open,Not Started,Project Manager,2026-09-05,2026-10-24
+587,109,202602,Scope,Change requests threaten baseline,3,5,15,High,Mitigating,In Progress,Business Owner,2026-02-21,2026-05-13
+588,109,202610,Financial,Vendor spend trending above plan,4,5,20,Critical,Mitigating,At Risk,Business Owner,2026-10-14,2026-12-19
+589,109,202508,Financial,Vendor spend trending above plan,3,5,15,High,Open,Not Started,Project Manager,2025-08-13,2025-10-16
+590,109,202504,Schedule,Testing window compressed,5,5,25,Critical,Mitigating,On Track,Technical Lead,2025-04-22,2025-06-04
+591,109,202503,Schedule,Critical milestone slippage,4,5,20,Critical,Open,Not Started,PMO,2025-03-07,2025-06-17
+592,110,202608,Vendor,Supplier capacity constraint,3,4,12,High,Mitigating,At Risk,Technical Lead,2026-08-20,2026-09-21
+593,110,202501,Vendor,Supplier capacity constraint,2,4,8,Moderate,Open,Not Started,PMO,2025-01-25,2025-03-19
+594,110,202502,Schedule,Dependency delay threatens delivery,3,3,9,Moderate,Mitigating,On Track,Program Manager,2025-02-13,2025-03-17
+595,110,202604,Financial,Forecast cost exceeds approved budget,3,4,12,High,Open,Planned,Project Manager,2026-04-18,2026-07-17
+596,110,202503,Schedule,Dependency delay threatens delivery,2,4,8,Moderate,Mitigating,At Risk,PMO,2025-03-13,2025-06-25
+597,110,202507,Resource,Specialist allocation conflict,3,3,9,Moderate,Open,Not Started,Project Manager,2025-07-18,2025-08-24
+598,110,202608,Scope,Requirements instability,2,4,8,Moderate,Mitigating,In Progress,Project Manager,2026-08-13,2026-12-07
+599,110,202508,Resource,Specialist allocation conflict,4,4,16,Critical,Open,Planned,Business Owner,2025-08-09,2025-11-12
+600,110,202605,Financial,Contingency reserve under pressure,3,4,12,High,Closed,Complete,Project Manager,2026-05-07,2026-06-20
+601,111,202610,Resource,Critical skill capacity constrained,2,2,4,Low,Open,Planned,Technical Lead,2026-10-13,2026-12-11
+602,111,202603,Resource,Key role vacancy,2,2,4,Low,Closed,Complete,Project Manager,2026-03-24,2026-07-16
+603,111,202504,Technical,Integration complexity exceeds plan,2,1,2,Low,Closed,Complete,Business Owner,2025-04-22,2025-07-26
+604,112,202606,Technical,Integration complexity exceeds plan,3,3,9,Moderate,Open,Not Started,Project Manager,2026-06-08,2026-08-29
+605,112,202601,Compliance,Regulatory requirement unresolved,1,2,2,Low,Closed,Complete,Program Manager,2026-01-18,2026-04-12
+606,112,202606,Schedule,Dependency delay threatens delivery,2,4,8,Moderate,Open,Not Started,Program Manager,2026-06-13,2026-08-01
+607,113,202502,Resource,Specialist allocation conflict,3,2,6,Moderate,Open,Not Started,Program Manager,2025-02-11,2025-05-30
+608,113,202601,Schedule,Testing window compressed,3,3,9,Moderate,Open,Not Started,Business Owner,2026-01-07,2026-04-14
+609,113,202504,Resource,Key role vacancy,3,1,3,Low,Mitigating,On Track,Program Manager,2025-04-12,2025-08-04
+610,114,202504,Resource,Key role vacancy,3,3,9,Moderate,Open,Planned,Project Manager,2025-04-13,2025-06-10
+611,114,202602,Schedule,Testing window compressed,2,2,4,Low,Mitigating,At Risk,Technical Lead,2026-02-07,2026-03-12
+612,114,202606,Financial,Forecast cost exceeds approved budget,3,2,6,Moderate,Open,Not Started,Business Owner,2026-06-15,2026-09-16
+613,114,202501,Schedule,Dependency delay threatens delivery,2,2,4,Low,Mitigating,At Risk,Business Owner,2025-01-18,2025-03-04
+614,114,202512,Financial,Contingency reserve under pressure,3,3,9,Moderate,Mitigating,In Progress,Technical Lead,2025-12-19,2026-03-05
+615,114,202602,Financial,Contingency reserve under pressure,3,3,9,Moderate,Closed,Complete,Technical Lead,2026-02-03,2026-04-09
+616,115,202504,Compliance,Regulatory requirement unresolved,4,5,20,Critical,Open,Not Started,Technical Lead,2025-04-21,2025-05-23
+617,115,202501,Change Management,Adoption readiness behind plan,4,3,12,High,Open,Not Started,Project Manager,2025-01-10,2025-02-15
+618,115,202512,Schedule,Critical milestone slippage,5,3,15,High,Open,Not Started,Business Owner,2025-12-23,2026-04-20
+619,115,202502,Resource,Key role vacancy,4,5,20,Critical,Mitigating,At Risk,PMO,2025-02-13,2025-04-14
+620,115,202510,Vendor,Supplier capacity constraint,4,5,20,Critical,Open,Not Started,Project Manager,2025-10-25,2026-02-03
+621,115,202511,Scope,Change requests threaten baseline,3,3,9,Moderate,Mitigating,In Progress,PMO,2025-11-24,2026-01-24
+622,115,202506,Scope,Change requests threaten baseline,5,5,25,Critical,Open,Not Started,Technical Lead,2025-06-14,2025-09-07
+623,115,202503,Compliance,Regulatory requirement unresolved,3,3,9,Moderate,Mitigating,At Risk,PMO,2025-03-21,2025-04-29
+624,115,202511,Schedule,Critical milestone slippage,4,3,12,High,Closed,Complete,Project Manager,2025-11-18,2026-02-28
+625,116,202602,Schedule,Critical milestone slippage,2,2,4,Low,Open,Not Started,PMO,2026-02-20,2026-05-10
+626,116,202609,Resource,Specialist allocation conflict,2,2,4,Low,Closed,Complete,PMO,2026-09-07,2026-12-29
+627,116,202609,Change Management,Stakeholder resistance increasing,2,2,4,Low,Open,Planned,PMO,2026-09-16,2026-11-13
+628,117,202602,Financial,Vendor spend trending above plan,3,2,6,Moderate,Open,Not Started,Program Manager,2026-02-16,2026-04-20
+629,117,202501,Compliance,Control evidence incomplete,1,3,3,Low,Mitigating,On Track,Business Owner,2025-01-08,2025-03-02
+630,117,202608,Resource,Critical skill capacity constrained,2,2,4,Low,Closed,Complete,Business Owner,2026-08-22,2026-12-14
+631,117,202602,Technical,Architecture risk unresolved,2,2,4,Low,Mitigating,In Progress,Program Manager,2026-02-18,2026-04-29
+632,117,202505,Scope,Requirements instability,3,1,3,Low,Mitigating,In Progress,Program Manager,2025-05-25,2025-08-11
+633,118,202508,Technical,Technical debt threatens delivery,4,4,16,Critical,Closed,Complete,Business Owner,2025-08-24,2025-12-03
+634,118,202610,Resource,Specialist allocation conflict,5,5,25,Critical,Mitigating,In Progress,Program Manager,2026-10-15,2026-12-09
+635,118,202608,Scope,Change requests threaten baseline,3,4,12,High,Mitigating,In Progress,Program Manager,2026-08-07,2026-10-24
+636,118,202602,Resource,Specialist allocation conflict,5,5,25,Critical,Mitigating,At Risk,PMO,2026-02-13,2026-04-11
+637,118,202506,Resource,Critical skill capacity constrained,5,3,15,High,Open,Not Started,Program Manager,2025-06-07,2025-07-20
+638,118,202609,Financial,Contingency reserve under pressure,3,4,12,High,Mitigating,In Progress,Project Manager,2026-09-06,2026-10-27
+639,118,202607,Schedule,Testing window compressed,5,4,20,Critical,Mitigating,In Progress,Project Manager,2026-07-10,2026-10-31
+640,118,202601,Resource,Key role vacancy,4,4,16,Critical,Open,Not Started,Technical Lead,2026-01-12,2026-05-06
+641,119,202506,Financial,Forecast cost exceeds approved budget,3,2,6,Moderate,Mitigating,On Track,Business Owner,2025-06-25,2025-07-25
+642,119,202504,Resource,Key role vacancy,2,3,6,Moderate,Mitigating,At Risk,Technical Lead,2025-04-20,2025-05-20
+643,119,202601,Resource,Critical skill capacity constrained,1,2,2,Low,Mitigating,On Track,Business Owner,2026-01-16,2026-03-28
+644,119,202604,Resource,Key role vacancy,3,4,12,High,Open,Planned,PMO,2026-04-25,2026-06-13
+645,120,202611,Change Management,Adoption readiness behind plan,2,4,8,Moderate,Closed,Complete,Project Manager,2026-11-07,2027-02-10
+646,120,202501,Resource,Key role vacancy,1,2,2,Low,Mitigating,In Progress,Project Manager,2025-01-23,2025-04-28
+647,120,202605,Resource,Specialist allocation conflict,4,3,12,High,Open,Planned,Business Owner,2026-05-08,2026-07-15
+648,120,202602,Schedule,Testing window compressed,1,3,3,Low,Closed,Complete,Program Manager,2026-02-09,2026-06-01
+649,121,202503,Schedule,Critical milestone slippage,4,5,20,Critical,Mitigating,At Risk,Project Manager,2025-03-17,2025-05-31
+650,121,202605,Scope,Scope growth not fully funded,3,5,15,High,Open,Planned,Program Manager,2026-05-18,2026-08-16
+651,121,202601,Financial,Vendor spend trending above plan,4,5,20,Critical,Mitigating,On Track,Program Manager,2026-01-09,2026-04-07
+652,121,202606,Scope,Scope growth not fully funded,2,5,10,High,Mitigating,At Risk,Business Owner,2026-06-20,2026-07-20
+653,121,202608,Vendor,Third-party dependency at risk,4,5,20,Critical,Open,Planned,Program Manager,2026-08-22,2026-11-03
+654,121,202608,Financial,Forecast cost exceeds approved budget,3,5,15,High,Mitigating,On Track,Technical Lead,2026-08-11,2026-11-17
+655,121,202501,Vendor,Vendor deliverable delayed,4,5,20,Critical,Mitigating,In Progress,Technical Lead,2025-01-25,2025-02-28
+656,121,202602,Resource,Critical skill capacity constrained,3,5,15,High,Open,Not Started,PMO,2026-02-11,2026-06-06
+657,121,202503,Financial,Forecast cost exceeds approved budget,2,5,10,High,Closed,Complete,PMO,2025-03-14,2025-04-28
+658,122,202606,Resource,Critical skill capacity constrained,1,1,1,Low,Closed,Complete,Technical Lead,2026-06-10,2026-09-12
+659,122,202504,Technical,Technical debt threatens delivery,1,2,2,Low,Mitigating,At Risk,Business Owner,2025-04-07,2025-06-25
+660,122,202512,Resource,Key role vacancy,2,2,4,Low,Closed,Complete,Technical Lead,2025-12-26,2026-04-08
+661,122,202604,Financial,Forecast cost exceeds approved budget,2,2,4,Low,Mitigating,On Track,Project Manager,2026-04-23,2026-07-30
+662,122,202509,Schedule,Critical milestone slippage,2,2,4,Low,Open,Planned,Project Manager,2025-09-07,2025-12-27
+663,123,202502,Vendor,Third-party dependency at risk,2,2,4,Low,Mitigating,On Track,Technical Lead,2025-02-22,2025-06-14
+664,123,202605,Resource,Specialist allocation conflict,3,2,6,Moderate,Closed,Complete,PMO,2026-05-17,2026-08-21
+665,123,202601,Schedule,Critical milestone slippage,2,2,4,Low,Closed,Complete,PMO,2026-01-22,2026-05-06
+666,123,202608,Vendor,Third-party dependency at risk,2,2,4,Low,Closed,Complete,Project Manager,2026-08-08,2026-10-19
+667,123,202504,Resource,Critical skill capacity constrained,1,1,1,Low,Mitigating,On Track,Business Owner,2025-04-18,2025-07-11
+668,124,202509,Resource,Critical skill capacity constrained,2,1,2,Low,Mitigating,In Progress,PMO,2025-09-06,2025-12-10
+669,124,202512,Change Management,Adoption readiness behind plan,2,3,6,Moderate,Closed,Complete,Business Owner,2025-12-12,2026-01-21
+670,124,202609,Vendor,Supplier capacity constraint,1,2,2,Low,Closed,Complete,Program Manager,2026-09-05,2026-11-17
+671,125,202505,Change Management,Training preparation delayed,4,3,12,High,Mitigating,At Risk,Technical Lead,2025-05-09,2025-08-15
+672,125,202608,Financial,Forecast cost exceeds approved budget,2,4,8,Moderate,Open,Planned,PMO,2026-08-07,2026-11-29
+673,125,202503,Financial,Forecast cost exceeds approved budget,3,4,12,High,Open,Planned,Program Manager,2025-03-16,2025-07-06
+674,125,202511,Technical,Integration complexity exceeds plan,3,5,15,High,Open,Not Started,Business Owner,2025-11-17,2026-03-17
+675,125,202604,Financial,Contingency reserve under pressure,3,3,9,Moderate,Closed,Complete,Technical Lead,2026-04-10,2026-05-11
+676,126,202601,Technical,Technical debt threatens delivery,3,3,9,Moderate,Closed,Complete,PMO,2026-01-14,2026-03-18
+677,126,202501,Resource,Critical skill capacity constrained,2,3,6,Moderate,Open,Not Started,Technical Lead,2025-01-22,2025-03-05
+678,126,202611,Resource,Critical skill capacity constrained,3,2,6,Moderate,Mitigating,In Progress,Project Manager,2026-11-06,2026-12-25
+679,126,202601,Technical,Integration complexity exceeds plan,3,3,9,Moderate,Mitigating,On Track,PMO,2026-01-22,2026-04-20
+680,126,202503,Technical,Architecture risk unresolved,2,4,8,Moderate,Open,Not Started,Program Manager,2025-03-10,2025-06-02
+681,127,202612,Change Management,Training preparation delayed,2,3,6,Moderate,Closed,Complete,Technical Lead,2026-12-10,2027-03-17
+682,127,202504,Financial,Forecast cost exceeds approved budget,2,2,4,Low,Open,Not Started,Project Manager,2025-04-23,2025-07-07
+683,127,202612,Financial,Contingency reserve under pressure,2,2,4,Low,Mitigating,In Progress,Project Manager,2026-12-10,2027-03-15
+684,127,202509,Compliance,Control evidence incomplete,2,2,4,Low,Closed,Complete,Technical Lead,2025-09-25,2026-01-02
+685,128,202606,Resource,Key role vacancy,5,5,25,Critical,Open,Not Started,Technical Lead,2026-06-11,2026-08-29
+686,128,202612,Schedule,Testing window compressed,5,5,25,Critical,Open,Planned,PMO,2026-12-14,2027-02-25
+687,128,202603,Resource,Specialist allocation conflict,4,5,20,Critical,Open,Planned,Business Owner,2026-03-16,2026-06-01
+688,128,202508,Financial,Forecast cost exceeds approved budget,4,5,20,Critical,Mitigating,In Progress,Technical Lead,2025-08-15,2025-11-16
+689,128,202602,Technical,Integration complexity exceeds plan,4,4,16,Critical,Mitigating,At Risk,Business Owner,2026-02-11,2026-04-16
+690,128,202605,Scope,Scope growth not fully funded,5,4,20,Critical,Mitigating,In Progress,Business Owner,2026-05-08,2026-06-21
+691,128,202607,Resource,Specialist allocation conflict,5,5,25,Critical,Closed,Complete,Technical Lead,2026-07-19,2026-09-02
+692,128,202508,Resource,Key role vacancy,4,5,20,Critical,Open,Not Started,Technical Lead,2025-08-22,2025-11-12
+693,129,202609,Resource,Specialist allocation conflict,3,3,9,Moderate,Closed,Complete,Technical Lead,2026-09-16,2026-11-09
+694,129,202505,Resource,Specialist allocation conflict,3,4,12,High,Open,Not Started,Business Owner,2025-05-17,2025-07-13
+695,129,202504,Resource,Key role vacancy,3,4,12,High,Mitigating,In Progress,Technical Lead,2025-04-18,2025-07-05
+696,129,202604,Financial,Forecast cost exceeds approved budget,3,3,9,Moderate,Open,Planned,Project Manager,2026-04-25,2026-07-11
+697,129,202612,Financial,Contingency reserve under pressure,2,4,8,Moderate,Closed,Complete,Project Manager,2026-12-23,2027-02-11
+698,129,202611,Technical,Integration complexity exceeds plan,4,4,16,Critical,Open,Not Started,Program Manager,2026-11-20,2027-02-16
+699,130,202511,Schedule,Dependency delay threatens delivery,5,3,15,High,Open,Planned,Program Manager,2025-11-21,2026-03-13
+700,130,202508,Scope,Scope growth not fully funded,5,3,15,High,Closed,Complete,Program Manager,2025-08-22,2025-10-08
+701,130,202608,Resource,Specialist allocation conflict,4,4,16,Critical,Mitigating,In Progress,PMO,2026-08-08,2026-09-23
+702,130,202612,Resource,Specialist allocation conflict,4,4,16,Critical,Mitigating,At Risk,PMO,2026-12-20,2027-03-10
+703,130,202605,Financial,Vendor spend trending above plan,4,4,16,Critical,Closed,Complete,PMO,2026-05-21,2026-07-30
+704,130,202601,Resource,Specialist allocation conflict,5,3,15,High,Open,Not Started,PMO,2026-01-18,2026-04-25
+705,130,202610,Financial,Contingency reserve under pressure,4,5,20,Critical,Open,Planned,Program Manager,2026-10-22,2026-11-26
+706,131,202603,Financial,Vendor spend trending above plan,2,1,2,Low,Open,Planned,Technical Lead,2026-03-09,2026-06-17
+707,131,202609,Scope,Requirements instability,2,1,2,Low,Closed,Complete,Program Manager,2026-09-14,2026-10-27
+708,131,202604,Technical,Integration complexity exceeds plan,3,2,6,Moderate,Closed,Complete,Technical Lead,2026-04-13,2026-08-08
+709,132,202501,Compliance,Approval dependency outstanding,3,5,15,High,Mitigating,At Risk,Technical Lead,2025-01-22,2025-02-26
+710,132,202606,Schedule,Testing window compressed,5,4,20,Critical,Mitigating,At Risk,Project Manager,2026-06-20,2026-09-25
+711,132,202602,Change Management,Stakeholder resistance increasing,5,5,25,Critical,Open,Planned,Technical Lead,2026-02-07,2026-04-11
+712,132,202611,Compliance,Control evidence incomplete,4,5,20,Critical,Open,Planned,PMO,2026-11-12,2026-12-13
+713,132,202609,Scope,Scope growth not fully funded,4,5,20,Critical,Mitigating,At Risk,Project Manager,2026-09-05,2026-12-23
+714,132,202502,Resource,Specialist allocation conflict,4,5,20,Critical,Open,Not Started,Technical Lead,2025-02-09,2025-05-06
+715,132,202511,Schedule,Dependency delay threatens delivery,5,5,25,Critical,Closed,Complete,Technical Lead,2025-11-15,2026-01-09
+716,132,202511,Scope,Scope growth not fully funded,4,5,20,Critical,Mitigating,At Risk,Project Manager,2025-11-20,2026-01-03
+717,133,202603,Resource,Specialist allocation conflict,4,3,12,High,Closed,Complete,PMO,2026-03-21,2026-06-11
+718,133,202511,Financial,Forecast cost exceeds approved budget,3,2,6,Moderate,Mitigating,On Track,Business Owner,2025-11-23,2026-02-28
+719,133,202602,Resource,Key role vacancy,3,3,9,Moderate,Open,Not Started,Project Manager,2026-02-21,2026-03-25
+720,133,202611,Compliance,Control evidence incomplete,3,2,6,Moderate,Closed,Complete,Program Manager,2026-11-06,2027-02-09
+721,134,202601,Vendor,Supplier capacity constraint,3,3,9,Moderate,Mitigating,On Track,Business Owner,2026-01-22,2026-04-19
+722,134,202610,Vendor,Supplier capacity constraint,2,4,8,Moderate,Mitigating,On Track,Technical Lead,2026-10-07,2026-12-11
+723,134,202601,Resource,Critical skill capacity constrained,2,4,8,Moderate,Closed,Complete,PMO,2026-01-17,2026-04-27
+724,134,202511,Technical,Technical debt threatens delivery,2,3,6,Moderate,Mitigating,On Track,Technical Lead,2025-11-19,2026-03-07
+725,134,202612,Financial,Forecast cost exceeds approved budget,2,2,4,Low,Closed,Complete,Program Manager,2026-12-19,2027-03-03
+726,135,202605,Resource,Critical skill capacity constrained,5,4,20,Critical,Open,Not Started,Project Manager,2026-05-12,2026-08-04
+727,135,202502,Resource,Specialist allocation conflict,2,3,6,Moderate,Open,Not Started,Technical Lead,2025-02-18,2025-05-09
+728,135,202603,Resource,Specialist allocation conflict,5,3,15,High,Open,Planned,Business Owner,2026-03-24,2026-06-12
+729,135,202606,Schedule,Testing window compressed,2,4,8,Moderate,Open,Planned,Technical Lead,2026-06-25,2026-08-18
+730,135,202510,Vendor,Vendor deliverable delayed,4,2,8,Moderate,Closed,Complete,Project Manager,2025-10-08,2025-12-24
+731,135,202511,Resource,Critical skill capacity constrained,4,4,16,Critical,Open,Planned,Program Manager,2025-11-17,2026-03-08
+732,135,202601,Change Management,Stakeholder resistance increasing,4,2,8,Moderate,Open,Planned,PMO,2026-01-13,2026-04-30
+733,136,202601,Vendor,Supplier capacity constraint,3,3,9,Moderate,Closed,Complete,Program Manager,2026-01-08,2026-05-07
+734,136,202606,Resource,Key role vacancy,3,4,12,High,Mitigating,At Risk,Project Manager,2026-06-08,2026-08-16
+735,136,202510,Resource,Specialist allocation conflict,3,4,12,High,Open,Planned,Program Manager,2025-10-24,2025-11-30
+736,136,202507,Financial,Vendor spend trending above plan,3,5,15,High,Mitigating,In Progress,Technical Lead,2025-07-17,2025-10-01
+737,136,202511,Change Management,Adoption readiness behind plan,2,4,8,Moderate,Mitigating,On Track,Business Owner,2025-11-25,2026-02-16
+738,137,202609,Financial,Forecast cost exceeds approved budget,3,5,15,High,Mitigating,At Risk,Project Manager,2026-09-20,2026-10-23
+739,137,202509,Change Management,Training preparation delayed,5,4,20,Critical,Mitigating,On Track,Program Manager,2025-09-14,2025-12-23
+740,137,202605,Compliance,Approval dependency outstanding,4,5,20,Critical,Open,Planned,Project Manager,2026-05-22,2026-06-29
+741,137,202608,Scope,Requirements instability,3,4,12,High,Mitigating,At Risk,Program Manager,2026-08-17,2026-10-13
+742,137,202601,Schedule,Dependency delay threatens delivery,5,5,25,Critical,Open,Not Started,Technical Lead,2026-01-21,2026-04-12
+743,137,202609,Resource,Key role vacancy,5,5,25,Critical,Mitigating,On Track,Project Manager,2026-09-21,2026-10-23
+744,137,202601,Scope,Scope growth not fully funded,4,4,16,Critical,Mitigating,In Progress,Business Owner,2026-01-19,2026-02-21
+745,137,202610,Vendor,Vendor deliverable delayed,4,5,20,Critical,Open,Planned,Program Manager,2026-10-17,2026-12-12
+746,138,202607,Technical,Integration complexity exceeds plan,3,5,15,High,Mitigating,On Track,PMO,2026-07-19,2026-09-03
+747,138,202601,Resource,Critical skill capacity constrained,3,5,15,High,Mitigating,At Risk,Business Owner,2026-01-20,2026-04-07
+748,138,202603,Schedule,Dependency delay threatens delivery,5,5,25,Critical,Open,Planned,Project Manager,2026-03-14,2026-06-16
+749,138,202501,Financial,Forecast cost exceeds approved budget,3,5,15,High,Mitigating,On Track,Project Manager,2025-01-19,2025-05-11
+750,138,202505,Financial,Vendor spend trending above plan,4,5,20,Critical,Open,Planned,Program Manager,2025-05-10,2025-07-04
+751,138,202510,Schedule,Critical milestone slippage,4,5,20,Critical,Mitigating,At Risk,Project Manager,2025-10-16,2026-01-18
+752,139,202603,Technical,Integration complexity exceeds plan,2,3,6,Moderate,Open,Planned,Program Manager,2026-03-09,2026-06-19
+753,139,202503,Resource,Specialist allocation conflict,2,3,6,Moderate,Closed,Complete,PMO,2025-03-10,2025-06-28
+754,139,202610,Resource,Key role vacancy,2,2,4,Low,Open,Planned,PMO,2026-10-06,2026-11-30
+755,139,202504,Compliance,Control evidence incomplete,2,2,4,Low,Closed,Complete,Technical Lead,2025-04-20,2025-06-28
+756,139,202605,Financial,Contingency reserve under pressure,1,3,3,Low,Open,Not Started,Program Manager,2026-05-06,2026-06-17
+757,140,202504,Resource,Key role vacancy,2,2,4,Low,Mitigating,On Track,Business Owner,2025-04-11,2025-06-16
+758,140,202511,Schedule,Dependency delay threatens delivery,3,3,9,Moderate,Closed,Complete,Project Manager,2025-11-06,2026-02-06
+759,140,202610,Financial,Contingency reserve under pressure,3,2,6,Moderate,Open,Not Started,Program Manager,2026-10-10,2027-01-12
+760,141,202603,Change Management,Training preparation delayed,3,3,9,Moderate,Open,Planned,Program Manager,2026-03-14,2026-05-24
+761,141,202504,Resource,Key role vacancy,3,4,12,High,Open,Not Started,Business Owner,2025-04-19,2025-05-20
+762,141,202603,Financial,Contingency reserve under pressure,2,4,8,Moderate,Open,Planned,Business Owner,2026-03-11,2026-04-13
+763,141,202604,Technical,Integration complexity exceeds plan,3,2,6,Moderate,Open,Not Started,PMO,2026-04-11,2026-08-09
+764,141,202601,Resource,Specialist allocation conflict,2,3,6,Moderate,Closed,Complete,Business Owner,2026-01-17,2026-03-26
+765,141,202603,Resource,Key role vacancy,4,3,12,High,Mitigating,At Risk,Technical Lead,2026-03-15,2026-05-21
+766,141,202509,Resource,Specialist allocation conflict,3,3,9,Moderate,Closed,Complete,Technical Lead,2025-09-24,2026-01-11
+767,142,202506,Schedule,Critical milestone slippage,4,5,20,Critical,Closed,Complete,Project Manager,2025-06-23,2025-10-09
+768,142,202501,Schedule,Testing window compressed,5,5,25,Critical,Mitigating,At Risk,Project Manager,2025-01-11,2025-03-01
+769,142,202506,Financial,Vendor spend trending above plan,4,4,16,Critical,Open,Not Started,Business Owner,2025-06-18,2025-08-15
+770,142,202511,Resource,Critical skill capacity constrained,5,5,25,Critical,Mitigating,In Progress,PMO,2025-11-13,2026-01-15
+771,142,202602,Resource,Critical skill capacity constrained,5,5,25,Critical,Closed,Complete,Technical Lead,2026-02-04,2026-03-19
+772,142,202512,Schedule,Critical milestone slippage,4,4,16,Critical,Open,Not Started,Technical Lead,2025-12-24,2026-04-07
+773,142,202501,Resource,Key role vacancy,4,5,20,Critical,Mitigating,On Track,Technical Lead,2025-01-15,2025-02-14
+774,142,202606,Technical,Architecture risk unresolved,3,4,12,High,Open,Not Started,Project Manager,2026-06-18,2026-10-12
+775,142,202503,Schedule,Testing window compressed,5,5,25,Critical,Closed,Complete,Project Manager,2025-03-21,2025-05-14
+776,142,202610,Resource,Specialist allocation conflict,4,5,20,Critical,Mitigating,At Risk,Project Manager,2026-10-14,2027-01-03
+777,143,202610,Change Management,Adoption readiness behind plan,3,3,9,Moderate,Mitigating,At Risk,Business Owner,2026-10-06,2026-11-14
+778,143,202601,Schedule,Testing window compressed,5,4,20,Critical,Open,Not Started,Project Manager,2026-01-20,2026-03-01
+779,143,202612,Schedule,Dependency delay threatens delivery,5,3,15,High,Open,Planned,Technical Lead,2026-12-19,2027-02-12
+780,143,202605,Financial,Contingency reserve under pressure,4,3,12,High,Mitigating,At Risk,Business Owner,2026-05-25,2026-09-19
+781,143,202604,Schedule,Testing window compressed,5,5,25,Critical,Closed,Complete,Business Owner,2026-04-23,2026-07-28
+782,143,202506,Schedule,Dependency delay threatens delivery,3,3,9,Moderate,Closed,Complete,Project Manager,2025-06-23,2025-08-22
+783,143,202612,Resource,Critical skill capacity constrained,3,4,12,High,Open,Planned,Technical Lead,2026-12-25,2027-04-12
+784,143,202606,Resource,Key role vacancy,3,4,12,High,Mitigating,On Track,Program Manager,2026-06-15,2026-07-25
+785,143,202602,Schedule,Dependency delay threatens delivery,4,5,20,Critical,Open,Not Started,Technical Lead,2026-02-20,2026-05-04
+786,143,202604,Schedule,Testing window compressed,4,4,16,Critical,Open,Planned,Technical Lead,2026-04-05,2026-07-31
+787,144,202610,Resource,Critical skill capacity constrained,1,3,3,Low,Closed,Complete,PMO,2026-10-18,2027-01-30
+788,144,202507,Vendor,Vendor deliverable delayed,1,3,3,Low,Mitigating,In Progress,Program Manager,2025-07-20,2025-08-26
+789,144,202507,Change Management,Stakeholder resistance increasing,3,3,9,Moderate,Mitigating,At Risk,Program Manager,2025-07-23,2025-10-31
+790,144,202501,Change Management,Adoption readiness behind plan,3,3,9,Moderate,Closed,Complete,Program Manager,2025-01-23,2025-02-28
+791,145,202506,Schedule,Testing window compressed,1,2,2,Low,Closed,Complete,Program Manager,2025-06-18,2025-09-03
+792,145,202601,Resource,Specialist allocation conflict,1,2,2,Low,Open,Not Started,PMO,2026-01-11,2026-03-15
+793,145,202601,Vendor,Supplier capacity constraint,2,1,2,Low,Closed,Complete,Program Manager,2026-01-20,2026-03-23
+794,145,202610,Resource,Key role vacancy,3,2,6,Moderate,Mitigating,In Progress,Business Owner,2026-10-06,2027-01-15
+795,145,202502,Resource,Critical skill capacity constrained,1,2,2,Low,Mitigating,On Track,Business Owner,2025-02-06,2025-06-02
+796,146,202501,Financial,Forecast cost exceeds approved budget,2,5,10,High,Open,Not Started,PMO,2025-01-25,2025-04-10
+797,146,202507,Compliance,Regulatory requirement unresolved,3,4,12,High,Open,Planned,Technical Lead,2025-07-24,2025-10-29
+798,146,202604,Scope,Change requests threaten baseline,3,4,12,High,Open,Planned,Project Manager,2026-04-25,2026-07-14
+799,146,202510,Schedule,Testing window compressed,3,4,12,High,Closed,Complete,Technical Lead,2025-10-08,2025-11-19
+800,146,202611,Compliance,Approval dependency outstanding,4,4,16,Critical,Mitigating,At Risk,Program Manager,2026-11-05,2027-02-02
+801,146,202501,Technical,Architecture risk unresolved,4,4,16,Critical,Closed,Complete,PMO,2025-01-11,2025-02-13
+802,146,202504,Financial,Forecast cost exceeds approved budget,3,4,12,High,Mitigating,At Risk,Program Manager,2025-04-16,2025-07-01
+803,146,202506,Resource,Key role vacancy,4,3,12,High,Open,Not Started,PMO,2025-06-20,2025-09-27
+804,147,202606,Scope,Scope growth not fully funded,2,2,4,Low,Mitigating,On Track,PMO,2026-06-13,2026-08-12
+805,147,202611,Schedule,Dependency delay threatens delivery,3,2,6,Moderate,Open,Not Started,Program Manager,2026-11-11,2027-01-03
+806,147,202512,Financial,Forecast cost exceeds approved budget,1,4,4,Low,Closed,Complete,PMO,2025-12-06,2026-01-09
+807,147,202501,Change Management,Training preparation delayed,3,3,9,Moderate,Closed,Complete,Program Manager,2025-01-14,2025-03-25
+808,147,202503,Compliance,Approval dependency outstanding,3,3,9,Moderate,Closed,Complete,Program Manager,2025-03-06,2025-04-24
+809,148,202510,Resource,Critical skill capacity constrained,4,4,16,Critical,Mitigating,At Risk,Program Manager,2025-10-26,2026-02-20
+810,148,202505,Technical,Technical debt threatens delivery,5,4,20,Critical,Closed,Complete,Project Manager,2025-05-19,2025-08-19
+811,148,202508,Resource,Critical skill capacity constrained,5,4,20,Critical,Mitigating,In Progress,PMO,2025-08-20,2025-10-17
+812,148,202501,Compliance,Regulatory requirement unresolved,5,5,25,Critical,Open,Planned,Technical Lead,2025-01-26,2025-03-26
+813,148,202608,Resource,Key role vacancy,3,4,12,High,Open,Planned,Project Manager,2026-08-26,2026-12-03
+814,148,202504,Schedule,Testing window compressed,5,5,25,Critical,Mitigating,At Risk,PMO,2025-04-24,2025-07-23
+815,148,202605,Vendor,Third-party dependency at risk,4,3,12,High,Mitigating,On Track,Program Manager,2026-05-19,2026-07-26
+816,148,202606,Schedule,Testing window compressed,4,4,16,Critical,Mitigating,On Track,PMO,2026-06-25,2026-09-26
+817,149,202605,Resource,Specialist allocation conflict,3,3,9,Moderate,Open,Planned,Program Manager,2026-05-16,2026-09-01
+818,149,202602,Vendor,Third-party dependency at risk,2,2,4,Low,Open,Not Started,Project Manager,2026-02-04,2026-03-25
+819,149,202501,Technical,Technical debt threatens delivery,2,4,8,Moderate,Mitigating,At Risk,Project Manager,2025-01-09,2025-02-08
+820,149,202511,Vendor,Third-party dependency at risk,2,3,6,Moderate,Closed,Complete,PMO,2025-11-22,2025-12-25
+821,149,202603,Financial,Forecast cost exceeds approved budget,2,2,4,Low,Open,Not Started,Technical Lead,2026-03-21,2026-07-13
+822,150,202512,Financial,Forecast cost exceeds approved budget,3,1,3,Low,Mitigating,On Track,Technical Lead,2025-12-06,2026-02-20
+823,150,202508,Resource,Critical skill capacity constrained,2,1,2,Low,Mitigating,On Track,PMO,2025-08-20,2025-10-13
+824,150,202604,Technical,Architecture risk unresolved,2,2,4,Low,Closed,Complete,Program Manager,2026-04-12,2026-06-15

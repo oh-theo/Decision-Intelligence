@@ -1,0 +1,11 @@
+# Operating system  
+.DS_Store  
+Thumbs.db  
+
+# Temporary files  
+~$*  
+*.tmp  
+
+# Tableau temporary/log files  
+*.log
+*.twbr

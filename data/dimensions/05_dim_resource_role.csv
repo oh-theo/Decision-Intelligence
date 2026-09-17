@@ -1,0 +1,13 @@
+role_id,role_name,role_family,critical_role_flag,standard_monthly_capacity_hours
+1,Project Manager,Project Delivery,True,160
+2,Business Analyst,Business Analysis,False,160
+3,Solution Architect,Architecture,True,160
+4,Data Engineer,Data & Analytics,True,160
+5,Software Developer,Engineering,False,160
+6,QA Analyst,Quality Assurance,False,160
+7,Functional Consultant,Enterprise Applications,True,160
+8,Integration Specialist,Integration,True,160
+9,Change Manager,Change & Adoption,False,160
+10,Security Specialist,Cybersecurity,True,160
+11,Finance SME,Finance,True,160
+12,Data Analyst,Data & Analytics,False,160

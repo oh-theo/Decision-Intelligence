@@ -1,0 +1,289 @@
+period_id,role_id,available_capacity_hours,planned_demand_hours,actual_allocated_hours,open_demand_hours,utilization_pct,demand_capacity_gap_hours,capacity_status,role_name,role_family,critical_role_flag,standard_monthly_capacity_hours,period_start_date,period_end_date,fiscal_year,fiscal_quarter,fiscal_month,period_name,capacity_pressure_flag
+202501,1,3360,3070,3070,0,91.3,290,Watch,Project Manager,Project Delivery,True,160,2025-01-01,2025-01-31,2025,Q1,1,Jan-2025,False
+202501,2,3680,3410,3410,0,92.7,270,Watch,Business Analyst,Business Analysis,False,160,2025-01-01,2025-01-31,2025,Q1,1,Jan-2025,False
+202501,3,2240,2430,2190,230,108.4,-190,Constrained,Solution Architect,Architecture,True,160,2025-01-01,2025-01-31,2025,Q1,1,Jan-2025,True
+202501,4,1280,1390,1320,70,108.6,-110,Constrained,Data Engineer,Data & Analytics,True,160,2025-01-01,2025-01-31,2025,Q1,1,Jan-2025,True
+202501,5,4800,4700,4700,0,97.9,100,Watch,Software Developer,Engineering,False,160,2025-01-01,2025-01-31,2025,Q1,1,Jan-2025,False
+202501,6,3360,3060,3060,0,91.0,300,Watch,QA Analyst,Quality Assurance,False,160,2025-01-01,2025-01-31,2025,Q1,1,Jan-2025,False
+202501,7,3200,3310,3230,90,103.6,-110,Constrained,Functional Consultant,Enterprise Applications,True,160,2025-01-01,2025-01-31,2025,Q1,1,Jan-2025,True
+202501,8,1120,1250,1100,150,111.6,-130,Critical,Integration Specialist,Integration,True,160,2025-01-01,2025-01-31,2025,Q1,1,Jan-2025,True
+202501,9,1760,1550,1550,0,88.3,210,Healthy,Change Manager,Change & Adoption,False,160,2025-01-01,2025-01-31,2025,Q1,1,Jan-2025,False
+202501,10,1920,2060,1880,180,107.3,-140,Constrained,Security Specialist,Cybersecurity,True,160,2025-01-01,2025-01-31,2025,Q1,1,Jan-2025,True
+202501,11,1600,1450,1450,0,90.8,150,Watch,Finance SME,Finance,True,160,2025-01-01,2025-01-31,2025,Q1,1,Jan-2025,False
+202501,12,2080,1970,1970,0,94.7,110,Watch,Data Analyst,Data & Analytics,False,160,2025-01-01,2025-01-31,2025,Q1,1,Jan-2025,False
+202502,1,4480,4380,4380,0,97.9,100,Watch,Project Manager,Project Delivery,True,160,2025-02-01,2025-02-28,2025,Q1,2,Feb-2025,False
+202502,2,4000,3910,3910,0,97.8,90,Watch,Business Analyst,Business Analysis,False,160,2025-02-01,2025-02-28,2025,Q1,2,Feb-2025,False
+202502,3,2240,2510,2250,260,112.1,-270,Critical,Solution Architect,Architecture,True,160,2025-02-01,2025-02-28,2025,Q1,2,Feb-2025,True
+202502,4,1760,1910,1810,100,108.3,-150,Constrained,Data Engineer,Data & Analytics,True,160,2025-02-01,2025-02-28,2025,Q1,2,Feb-2025,True
+202502,5,5120,4840,4840,0,94.6,280,Watch,Software Developer,Engineering,False,160,2025-02-01,2025-02-28,2025,Q1,2,Feb-2025,False
+202502,6,2080,1940,1940,0,93.2,140,Watch,QA Analyst,Quality Assurance,False,160,2025-02-01,2025-02-28,2025,Q1,2,Feb-2025,False
+202502,7,3200,3450,3280,170,107.7,-250,Constrained,Functional Consultant,Enterprise Applications,True,160,2025-02-01,2025-02-28,2025,Q1,2,Feb-2025,True
+202502,8,1600,1830,1600,240,114.6,-230,Critical,Integration Specialist,Integration,True,160,2025-02-01,2025-02-28,2025,Q1,2,Feb-2025,True
+202502,9,2240,2110,2110,0,94.4,130,Watch,Change Manager,Change & Adoption,False,160,2025-02-01,2025-02-28,2025,Q1,2,Feb-2025,False
+202502,10,2400,2620,2460,150,109.0,-220,Constrained,Security Specialist,Cybersecurity,True,160,2025-02-01,2025-02-28,2025,Q1,2,Feb-2025,True
+202502,11,1920,1840,1840,0,95.7,80,Watch,Finance SME,Finance,True,160,2025-02-01,2025-02-28,2025,Q1,2,Feb-2025,False
+202502,12,3360,3220,3220,0,95.9,140,Watch,Data Analyst,Data & Analytics,False,160,2025-02-01,2025-02-28,2025,Q1,2,Feb-2025,False
+202503,1,5280,5250,5250,0,99.4,30,Watch,Project Manager,Project Delivery,True,160,2025-03-01,2025-03-31,2025,Q1,3,Mar-2025,False
+202503,2,4000,3970,3970,0,99.3,30,Watch,Business Analyst,Business Analysis,False,160,2025-03-01,2025-03-31,2025,Q1,3,Mar-2025,False
+202503,3,1920,2150,1890,270,112.1,-230,Critical,Solution Architect,Architecture,True,160,2025-03-01,2025-03-31,2025,Q1,3,Mar-2025,True
+202503,4,2080,2300,2070,230,110.6,-220,Critical,Data Engineer,Data & Analytics,True,160,2025-03-01,2025-03-31,2025,Q1,3,Mar-2025,True
+202503,5,4320,4460,4180,280,103.2,-140,Constrained,Software Developer,Engineering,False,160,2025-03-01,2025-03-31,2025,Q1,3,Mar-2025,True
+202503,6,3360,3190,3190,0,94.9,170,Watch,QA Analyst,Quality Assurance,False,160,2025-03-01,2025-03-31,2025,Q1,3,Mar-2025,False
+202503,7,2240,2410,2270,140,107.5,-170,Constrained,Functional Consultant,Enterprise Applications,True,160,2025-03-01,2025-03-31,2025,Q1,3,Mar-2025,True
+202503,8,1600,1870,1550,320,116.9,-270,Critical,Integration Specialist,Integration,True,160,2025-03-01,2025-03-31,2025,Q1,3,Mar-2025,True
+202503,9,1120,1070,1070,0,95.7,50,Watch,Change Manager,Change & Adoption,False,160,2025-03-01,2025-03-31,2025,Q1,3,Mar-2025,False
+202503,10,1920,2110,1920,190,110.1,-190,Critical,Security Specialist,Cybersecurity,True,160,2025-03-01,2025-03-31,2025,Q1,3,Mar-2025,True
+202503,11,1760,1720,1720,0,97.9,40,Watch,Finance SME,Finance,True,160,2025-03-01,2025-03-31,2025,Q1,3,Mar-2025,False
+202503,12,3360,3230,3230,0,96.0,130,Watch,Data Analyst,Data & Analytics,False,160,2025-03-01,2025-03-31,2025,Q1,3,Mar-2025,False
+202504,1,3840,3780,3780,0,98.5,60,Watch,Project Manager,Project Delivery,True,160,2025-04-01,2025-04-30,2025,Q2,4,Apr-2025,False
+202504,2,4160,3930,3930,0,94.4,230,Watch,Business Analyst,Business Analysis,False,160,2025-04-01,2025-04-30,2025,Q2,4,Apr-2025,False
+202504,3,1280,1440,1250,190,112.8,-160,Critical,Solution Architect,Architecture,True,160,2025-04-01,2025-04-30,2025,Q2,4,Apr-2025,True
+202504,4,2080,2350,2110,240,113.0,-270,Critical,Data Engineer,Data & Analytics,True,160,2025-04-01,2025-04-30,2025,Q2,4,Apr-2025,True
+202504,5,3360,3430,3400,30,102.1,-70,Constrained,Software Developer,Engineering,False,160,2025-04-01,2025-04-30,2025,Q2,4,Apr-2025,True
+202504,6,3520,3350,3350,0,95.2,170,Watch,QA Analyst,Quality Assurance,False,160,2025-04-01,2025-04-30,2025,Q2,4,Apr-2025,False
+202504,7,3200,3720,3210,510,116.4,-520,Critical,Functional Consultant,Enterprise Applications,True,160,2025-04-01,2025-04-30,2025,Q2,4,Apr-2025,True
+202504,8,2400,2890,2410,490,120.5,-490,Critical,Integration Specialist,Integration,True,160,2025-04-01,2025-04-30,2025,Q2,4,Apr-2025,True
+202504,9,2080,1910,1910,0,92.0,170,Watch,Change Manager,Change & Adoption,False,160,2025-04-01,2025-04-30,2025,Q2,4,Apr-2025,False
+202504,10,2240,2480,2160,320,110.9,-240,Critical,Security Specialist,Cybersecurity,True,160,2025-04-01,2025-04-30,2025,Q2,4,Apr-2025,True
+202504,11,2400,2280,2280,0,94.9,120,Watch,Finance SME,Finance,True,160,2025-04-01,2025-04-30,2025,Q2,4,Apr-2025,False
+202504,12,3360,3200,3200,0,95.1,160,Watch,Data Analyst,Data & Analytics,False,160,2025-04-01,2025-04-30,2025,Q2,4,Apr-2025,False
+202505,1,4160,4130,4130,0,99.2,30,Watch,Project Manager,Project Delivery,True,160,2025-05-01,2025-05-31,2025,Q2,5,May-2025,False
+202505,2,5280,5430,5200,230,102.8,-150,Constrained,Business Analyst,Business Analysis,False,160,2025-05-01,2025-05-31,2025,Q2,5,May-2025,True
+202505,3,1920,2240,1920,320,116.6,-320,Critical,Solution Architect,Architecture,True,160,2025-05-01,2025-05-31,2025,Q2,5,May-2025,True
+202505,4,1280,1460,1290,180,114.3,-180,Critical,Data Engineer,Data & Analytics,True,160,2025-05-01,2025-05-31,2025,Q2,5,May-2025,True
+202505,5,3520,3690,3460,240,104.9,-170,Constrained,Software Developer,Engineering,False,160,2025-05-01,2025-05-31,2025,Q2,5,May-2025,True
+202505,6,3200,2920,2920,0,91.2,280,Watch,QA Analyst,Quality Assurance,False,160,2025-05-01,2025-05-31,2025,Q2,5,May-2025,False
+202505,7,2400,2700,2330,370,112.5,-300,Critical,Functional Consultant,Enterprise Applications,True,160,2025-05-01,2025-05-31,2025,Q2,5,May-2025,True
+202505,8,1600,1820,1620,200,113.9,-220,Critical,Integration Specialist,Integration,True,160,2025-05-01,2025-05-31,2025,Q2,5,May-2025,True
+202505,9,1120,1050,1050,0,93.9,70,Watch,Change Manager,Change & Adoption,False,160,2025-05-01,2025-05-31,2025,Q2,5,May-2025,False
+202505,10,1920,2200,1970,230,114.5,-280,Critical,Security Specialist,Cybersecurity,True,160,2025-05-01,2025-05-31,2025,Q2,5,May-2025,True
+202505,11,2080,1970,1970,0,94.9,110,Watch,Finance SME,Finance,True,160,2025-05-01,2025-05-31,2025,Q2,5,May-2025,False
+202505,12,2400,2400,2380,10,99.8,0,Watch,Data Analyst,Data & Analytics,False,160,2025-05-01,2025-05-31,2025,Q2,5,May-2025,False
+202506,1,3680,3540,3540,0,96.3,140,Watch,Project Manager,Project Delivery,True,160,2025-06-01,2025-06-30,2025,Q2,6,Jun-2025,False
+202506,2,4320,4020,4020,0,93.1,300,Watch,Business Analyst,Business Analysis,False,160,2025-06-01,2025-06-30,2025,Q2,6,Jun-2025,False
+202506,3,1280,1450,1300,150,113.3,-170,Critical,Solution Architect,Architecture,True,160,2025-06-01,2025-06-30,2025,Q2,6,Jun-2025,True
+202506,4,1760,1990,1720,270,113.1,-230,Critical,Data Engineer,Data & Analytics,True,160,2025-06-01,2025-06-30,2025,Q2,6,Jun-2025,True
+202506,5,3360,3460,3430,20,102.9,-100,Constrained,Software Developer,Engineering,False,160,2025-06-01,2025-06-30,2025,Q2,6,Jun-2025,True
+202506,6,2080,1930,1930,0,92.6,150,Watch,QA Analyst,Quality Assurance,False,160,2025-06-01,2025-06-30,2025,Q2,6,Jun-2025,False
+202506,7,3360,3870,3430,450,115.2,-510,Critical,Functional Consultant,Enterprise Applications,True,160,2025-06-01,2025-06-30,2025,Q2,6,Jun-2025,True
+202506,8,1440,1680,1460,220,116.7,-240,Critical,Integration Specialist,Integration,True,160,2025-06-01,2025-06-30,2025,Q2,6,Jun-2025,True
+202506,9,2080,1830,1830,0,88.2,250,Healthy,Change Manager,Change & Adoption,False,160,2025-06-01,2025-06-30,2025,Q2,6,Jun-2025,False
+202506,10,1760,1940,1800,140,110.2,-180,Critical,Security Specialist,Cybersecurity,True,160,2025-06-01,2025-06-30,2025,Q2,6,Jun-2025,True
+202506,11,2080,2060,2060,0,98.9,20,Watch,Finance SME,Finance,True,160,2025-06-01,2025-06-30,2025,Q2,6,Jun-2025,False
+202506,12,3200,3140,3140,0,98.1,60,Watch,Data Analyst,Data & Analytics,False,160,2025-06-01,2025-06-30,2025,Q2,6,Jun-2025,False
+202507,1,5440,5050,5050,0,92.8,390,Watch,Project Manager,Project Delivery,True,160,2025-07-01,2025-07-31,2025,Q3,7,Jul-2025,False
+202507,2,5280,5100,5100,0,96.6,180,Watch,Business Analyst,Business Analysis,False,160,2025-07-01,2025-07-31,2025,Q3,7,Jul-2025,False
+202507,3,1760,1960,1720,240,111.1,-200,Critical,Solution Architect,Architecture,True,160,2025-07-01,2025-07-31,2025,Q3,7,Jul-2025,True
+202507,4,1280,1500,1250,250,117.1,-220,Critical,Data Engineer,Data & Analytics,True,160,2025-07-01,2025-07-31,2025,Q3,7,Jul-2025,True
+202507,5,4960,5040,4900,140,101.5,-80,Constrained,Software Developer,Engineering,False,160,2025-07-01,2025-07-31,2025,Q3,7,Jul-2025,True
+202507,6,2240,2100,2100,0,93.7,140,Watch,QA Analyst,Quality Assurance,False,160,2025-07-01,2025-07-31,2025,Q3,7,Jul-2025,False
+202507,7,2080,2210,2000,210,106.2,-130,Constrained,Functional Consultant,Enterprise Applications,True,160,2025-07-01,2025-07-31,2025,Q3,7,Jul-2025,True
+202507,8,1280,1510,1260,250,117.9,-230,Critical,Integration Specialist,Integration,True,160,2025-07-01,2025-07-31,2025,Q3,7,Jul-2025,True
+202507,9,1920,1810,1810,0,94.2,110,Watch,Change Manager,Change & Adoption,False,160,2025-07-01,2025-07-31,2025,Q3,7,Jul-2025,False
+202507,10,2400,2750,2340,410,114.4,-350,Critical,Security Specialist,Cybersecurity,True,160,2025-07-01,2025-07-31,2025,Q3,7,Jul-2025,True
+202507,11,1600,1490,1490,0,93.2,110,Watch,Finance SME,Finance,True,160,2025-07-01,2025-07-31,2025,Q3,7,Jul-2025,False
+202507,12,1920,1910,1900,10,99.5,10,Watch,Data Analyst,Data & Analytics,False,160,2025-07-01,2025-07-31,2025,Q3,7,Jul-2025,False
+202508,1,5280,4860,4860,0,92.0,420,Watch,Project Manager,Project Delivery,True,160,2025-08-01,2025-08-31,2025,Q3,8,Aug-2025,False
+202508,2,3520,3230,3230,0,91.8,290,Watch,Business Analyst,Business Analysis,False,160,2025-08-01,2025-08-31,2025,Q3,8,Aug-2025,False
+202508,3,1600,1750,1620,130,109.5,-150,Constrained,Solution Architect,Architecture,True,160,2025-08-01,2025-08-31,2025,Q3,8,Aug-2025,True
+202508,4,2080,2320,2030,300,111.6,-240,Critical,Data Engineer,Data & Analytics,True,160,2025-08-01,2025-08-31,2025,Q3,8,Aug-2025,True
+202508,5,5440,5300,5300,0,97.5,140,Watch,Software Developer,Engineering,False,160,2025-08-01,2025-08-31,2025,Q3,8,Aug-2025,False
+202508,6,3200,3050,3050,0,95.2,150,Watch,QA Analyst,Quality Assurance,False,160,2025-08-01,2025-08-31,2025,Q3,8,Aug-2025,False
+202508,7,3040,3410,3080,330,112.2,-370,Critical,Functional Consultant,Enterprise Applications,True,160,2025-08-01,2025-08-31,2025,Q3,8,Aug-2025,True
+202508,8,1920,2220,1850,370,115.7,-300,Critical,Integration Specialist,Integration,True,160,2025-08-01,2025-08-31,2025,Q3,8,Aug-2025,True
+202508,9,1120,980,980,0,87.5,140,Healthy,Change Manager,Change & Adoption,False,160,2025-08-01,2025-08-31,2025,Q3,8,Aug-2025,False
+202508,10,1760,1960,1790,170,111.1,-200,Critical,Security Specialist,Cybersecurity,True,160,2025-08-01,2025-08-31,2025,Q3,8,Aug-2025,True
+202508,11,1920,1690,1690,0,88.1,230,Healthy,Finance SME,Finance,True,160,2025-08-01,2025-08-31,2025,Q3,8,Aug-2025,False
+202508,12,2880,2640,2640,0,91.5,240,Watch,Data Analyst,Data & Analytics,False,160,2025-08-01,2025-08-31,2025,Q3,8,Aug-2025,False
+202509,1,5440,5140,5140,0,94.6,300,Watch,Project Manager,Project Delivery,True,160,2025-09-01,2025-09-30,2025,Q3,9,Sep-2025,False
+202509,2,3520,3150,3150,0,89.6,370,Healthy,Business Analyst,Business Analysis,False,160,2025-09-01,2025-09-30,2025,Q3,9,Sep-2025,False
+202509,3,1920,2030,1960,60,105.5,-110,Constrained,Solution Architect,Architecture,True,160,2025-09-01,2025-09-30,2025,Q3,9,Sep-2025,True
+202509,4,1600,1700,1610,100,106.5,-100,Constrained,Data Engineer,Data & Analytics,True,160,2025-09-01,2025-09-30,2025,Q3,9,Sep-2025,True
+202509,5,4960,4870,4870,0,98.2,90,Watch,Software Developer,Engineering,False,160,2025-09-01,2025-09-30,2025,Q3,9,Sep-2025,False
+202509,6,2080,1890,1890,0,90.7,190,Watch,QA Analyst,Quality Assurance,False,160,2025-09-01,2025-09-30,2025,Q3,9,Sep-2025,False
+202509,7,3040,3280,3090,190,107.9,-240,Constrained,Functional Consultant,Enterprise Applications,True,160,2025-09-01,2025-09-30,2025,Q3,9,Sep-2025,True
+202509,8,2080,2270,2030,230,108.9,-190,Constrained,Integration Specialist,Integration,True,160,2025-09-01,2025-09-30,2025,Q3,9,Sep-2025,True
+202509,9,2080,1780,1780,0,85.7,300,Healthy,Change Manager,Change & Adoption,False,160,2025-09-01,2025-09-30,2025,Q3,9,Sep-2025,False
+202509,10,1280,1360,1270,90,106.6,-80,Constrained,Security Specialist,Cybersecurity,True,160,2025-09-01,2025-09-30,2025,Q3,9,Sep-2025,True
+202509,11,1280,1110,1110,0,86.7,170,Healthy,Finance SME,Finance,True,160,2025-09-01,2025-09-30,2025,Q3,9,Sep-2025,False
+202509,12,2400,2260,2260,0,94.1,140,Watch,Data Analyst,Data & Analytics,False,160,2025-09-01,2025-09-30,2025,Q3,9,Sep-2025,False
+202510,1,5120,4560,4560,0,89.1,560,Healthy,Project Manager,Project Delivery,True,160,2025-10-01,2025-10-31,2025,Q4,10,Oct-2025,False
+202510,2,3520,3290,3290,0,93.5,230,Watch,Business Analyst,Business Analysis,False,160,2025-10-01,2025-10-31,2025,Q4,10,Oct-2025,False
+202510,3,1600,1740,1610,140,108.9,-140,Constrained,Solution Architect,Architecture,True,160,2025-10-01,2025-10-31,2025,Q4,10,Oct-2025,True
+202510,4,1760,1880,1800,80,106.8,-120,Constrained,Data Engineer,Data & Analytics,True,160,2025-10-01,2025-10-31,2025,Q4,10,Oct-2025,True
+202510,5,4960,4680,4680,0,94.3,280,Watch,Software Developer,Engineering,False,160,2025-10-01,2025-10-31,2025,Q4,10,Oct-2025,False
+202510,6,3200,2760,2760,0,86.1,440,Healthy,QA Analyst,Quality Assurance,False,160,2025-10-01,2025-10-31,2025,Q4,10,Oct-2025,False
+202510,7,2720,2890,2780,110,106.3,-170,Constrained,Functional Consultant,Enterprise Applications,True,160,2025-10-01,2025-10-31,2025,Q4,10,Oct-2025,True
+202510,8,2240,2560,2240,330,114.4,-320,Critical,Integration Specialist,Integration,True,160,2025-10-01,2025-10-31,2025,Q4,10,Oct-2025,True
+202510,9,1280,1160,1160,0,90.9,120,Watch,Change Manager,Change & Adoption,False,160,2025-10-01,2025-10-31,2025,Q4,10,Oct-2025,False
+202510,10,1760,1910,1800,110,108.4,-150,Constrained,Security Specialist,Cybersecurity,True,160,2025-10-01,2025-10-31,2025,Q4,10,Oct-2025,True
+202510,11,2400,2120,2120,0,88.3,280,Healthy,Finance SME,Finance,True,160,2025-10-01,2025-10-31,2025,Q4,10,Oct-2025,False
+202510,12,2560,2510,2500,10,98.0,50,Watch,Data Analyst,Data & Analytics,False,160,2025-10-01,2025-10-31,2025,Q4,10,Oct-2025,False
+202511,1,3680,3440,3440,0,93.4,240,Watch,Project Manager,Project Delivery,True,160,2025-11-01,2025-11-30,2025,Q4,11,Nov-2025,False
+202511,2,4160,3790,3790,0,91.1,370,Watch,Business Analyst,Business Analysis,False,160,2025-11-01,2025-11-30,2025,Q4,11,Nov-2025,False
+202511,3,1280,1340,1300,40,104.5,-60,Constrained,Solution Architect,Architecture,True,160,2025-11-01,2025-11-30,2025,Q4,11,Nov-2025,True
+202511,4,1120,1230,1110,120,110.2,-110,Critical,Data Engineer,Data & Analytics,True,160,2025-11-01,2025-11-30,2025,Q4,11,Nov-2025,True
+202511,5,4160,3970,3970,0,95.3,190,Watch,Software Developer,Engineering,False,160,2025-11-01,2025-11-30,2025,Q4,11,Nov-2025,False
+202511,6,2400,2230,2230,0,92.8,170,Watch,QA Analyst,Quality Assurance,False,160,2025-11-01,2025-11-30,2025,Q4,11,Nov-2025,False
+202511,7,2880,3230,2930,300,112.2,-350,Critical,Functional Consultant,Enterprise Applications,True,160,2025-11-01,2025-11-30,2025,Q4,11,Nov-2025,True
+202511,8,1280,1420,1230,190,111.0,-140,Critical,Integration Specialist,Integration,True,160,2025-11-01,2025-11-30,2025,Q4,11,Nov-2025,True
+202511,9,2080,1920,1920,0,92.2,160,Watch,Change Manager,Change & Adoption,False,160,2025-11-01,2025-11-30,2025,Q4,11,Nov-2025,False
+202511,10,1600,1760,1640,120,110.2,-160,Critical,Security Specialist,Cybersecurity,True,160,2025-11-01,2025-11-30,2025,Q4,11,Nov-2025,True
+202511,11,2080,1980,1980,0,95.2,100,Watch,Finance SME,Finance,True,160,2025-11-01,2025-11-30,2025,Q4,11,Nov-2025,False
+202511,12,2560,2410,2410,0,94.3,150,Watch,Data Analyst,Data & Analytics,False,160,2025-11-01,2025-11-30,2025,Q4,11,Nov-2025,False
+202512,1,3680,3400,3400,0,92.5,280,Watch,Project Manager,Project Delivery,True,160,2025-12-01,2025-12-31,2025,Q4,12,Dec-2025,False
+202512,2,5120,5050,5050,0,98.6,70,Watch,Business Analyst,Business Analysis,False,160,2025-12-01,2025-12-31,2025,Q4,12,Dec-2025,False
+202512,3,1280,1460,1280,180,113.9,-180,Critical,Solution Architect,Architecture,True,160,2025-12-01,2025-12-31,2025,Q4,12,Dec-2025,True
+202512,4,1920,2180,1940,250,113.6,-260,Critical,Data Engineer,Data & Analytics,True,160,2025-12-01,2025-12-31,2025,Q4,12,Dec-2025,True
+202512,5,3200,3210,3120,90,100.4,-10,Constrained,Software Developer,Engineering,False,160,2025-12-01,2025-12-31,2025,Q4,12,Dec-2025,True
+202512,6,2240,1970,1970,0,88.1,270,Healthy,QA Analyst,Quality Assurance,False,160,2025-12-01,2025-12-31,2025,Q4,12,Dec-2025,False
+202512,7,2720,3090,2780,310,113.6,-370,Critical,Functional Consultant,Enterprise Applications,True,160,2025-12-01,2025-12-31,2025,Q4,12,Dec-2025,True
+202512,8,1120,1300,1100,210,116.4,-180,Critical,Integration Specialist,Integration,True,160,2025-12-01,2025-12-31,2025,Q4,12,Dec-2025,True
+202512,9,1600,1410,1410,0,88.4,190,Healthy,Change Manager,Change & Adoption,False,160,2025-12-01,2025-12-31,2025,Q4,12,Dec-2025,False
+202512,10,1440,1610,1480,130,111.7,-170,Critical,Security Specialist,Cybersecurity,True,160,2025-12-01,2025-12-31,2025,Q4,12,Dec-2025,True
+202512,11,1280,1190,1190,0,92.8,90,Watch,Finance SME,Finance,True,160,2025-12-01,2025-12-31,2025,Q4,12,Dec-2025,False
+202512,12,3200,3230,3090,140,101.0,-30,Constrained,Data Analyst,Data & Analytics,False,160,2025-12-01,2025-12-31,2025,Q4,12,Dec-2025,True
+202601,1,4160,3890,3890,0,93.6,270,Watch,Project Manager,Project Delivery,True,160,2026-01-01,2026-01-31,2026,Q1,1,Jan-2026,False
+202601,2,4800,4910,4800,110,102.3,-110,Constrained,Business Analyst,Business Analysis,False,160,2026-01-01,2026-01-31,2026,Q1,1,Jan-2026,True
+202601,3,1440,1660,1470,190,115.3,-220,Critical,Solution Architect,Architecture,True,160,2026-01-01,2026-01-31,2026,Q1,1,Jan-2026,True
+202601,4,1280,1520,1230,290,119.1,-240,Critical,Data Engineer,Data & Analytics,True,160,2026-01-01,2026-01-31,2026,Q1,1,Jan-2026,True
+202601,5,4320,4240,4220,20,98.1,80,Watch,Software Developer,Engineering,False,160,2026-01-01,2026-01-31,2026,Q1,1,Jan-2026,False
+202601,6,3520,3270,3270,0,93.0,250,Watch,QA Analyst,Quality Assurance,False,160,2026-01-01,2026-01-31,2026,Q1,1,Jan-2026,False
+202601,7,2400,2620,2400,220,109.1,-220,Constrained,Functional Consultant,Enterprise Applications,True,160,2026-01-01,2026-01-31,2026,Q1,1,Jan-2026,True
+202601,8,1600,1830,1590,240,114.3,-230,Critical,Integration Specialist,Integration,True,160,2026-01-01,2026-01-31,2026,Q1,1,Jan-2026,True
+202601,9,1280,1130,1130,0,88.6,150,Healthy,Change Manager,Change & Adoption,False,160,2026-01-01,2026-01-31,2026,Q1,1,Jan-2026,False
+202601,10,1120,1240,1140,100,110.5,-120,Critical,Security Specialist,Cybersecurity,True,160,2026-01-01,2026-01-31,2026,Q1,1,Jan-2026,True
+202601,11,2080,1930,1930,0,92.7,150,Watch,Finance SME,Finance,True,160,2026-01-01,2026-01-31,2026,Q1,1,Jan-2026,False
+202601,12,2240,2210,2210,0,98.7,30,Watch,Data Analyst,Data & Analytics,False,160,2026-01-01,2026-01-31,2026,Q1,1,Jan-2026,False
+202602,1,5280,5170,5170,0,97.9,110,Watch,Project Manager,Project Delivery,True,160,2026-02-01,2026-02-28,2026,Q1,2,Feb-2026,False
+202602,2,4480,4490,4490,0,100.2,-10,Constrained,Business Analyst,Business Analysis,False,160,2026-02-01,2026-02-28,2026,Q1,2,Feb-2026,True
+202602,3,1920,2290,1860,420,119.2,-370,Critical,Solution Architect,Architecture,True,160,2026-02-01,2026-02-28,2026,Q1,2,Feb-2026,True
+202602,4,2400,2730,2420,300,113.6,-330,Critical,Data Engineer,Data & Analytics,True,160,2026-02-01,2026-02-28,2026,Q1,2,Feb-2026,True
+202602,5,4000,4270,3990,280,106.7,-270,Constrained,Software Developer,Engineering,False,160,2026-02-01,2026-02-28,2026,Q1,2,Feb-2026,True
+202602,6,2400,2390,2390,0,99.6,10,Watch,QA Analyst,Quality Assurance,False,160,2026-02-01,2026-02-28,2026,Q1,2,Feb-2026,False
+202602,7,2560,2860,2630,230,111.6,-300,Critical,Functional Consultant,Enterprise Applications,True,160,2026-02-01,2026-02-28,2026,Q1,2,Feb-2026,True
+202602,8,1280,1540,1290,240,120.1,-260,Critical,Integration Specialist,Integration,True,160,2026-02-01,2026-02-28,2026,Q1,2,Feb-2026,True
+202602,9,1760,1620,1620,0,92.0,140,Watch,Change Manager,Change & Adoption,False,160,2026-02-01,2026-02-28,2026,Q1,2,Feb-2026,False
+202602,10,1600,1930,1580,350,120.4,-330,Critical,Security Specialist,Cybersecurity,True,160,2026-02-01,2026-02-28,2026,Q1,2,Feb-2026,True
+202602,11,2240,2150,2150,0,96.1,90,Watch,Finance SME,Finance,True,160,2026-02-01,2026-02-28,2026,Q1,2,Feb-2026,False
+202602,12,2880,2930,2810,120,101.7,-50,Constrained,Data Analyst,Data & Analytics,False,160,2026-02-01,2026-02-28,2026,Q1,2,Feb-2026,True
+202603,1,3520,3640,3530,110,103.5,-120,Constrained,Project Manager,Project Delivery,True,160,2026-03-01,2026-03-31,2026,Q1,3,Mar-2026,True
+202603,2,3840,3970,3940,40,103.5,-130,Constrained,Business Analyst,Business Analysis,False,160,2026-03-01,2026-03-31,2026,Q1,3,Mar-2026,True
+202603,3,2240,2620,2220,400,117.1,-380,Critical,Solution Architect,Architecture,True,160,2026-03-01,2026-03-31,2026,Q1,3,Mar-2026,True
+202603,4,2240,2650,2210,450,118.4,-410,Critical,Data Engineer,Data & Analytics,True,160,2026-03-01,2026-03-31,2026,Q1,3,Mar-2026,True
+202603,5,4320,4380,4220,160,101.4,-60,Constrained,Software Developer,Engineering,False,160,2026-03-01,2026-03-31,2026,Q1,3,Mar-2026,True
+202603,6,2880,2830,2830,0,98.4,50,Watch,QA Analyst,Quality Assurance,False,160,2026-03-01,2026-03-31,2026,Q1,3,Mar-2026,False
+202603,7,2560,2910,2580,330,113.6,-350,Critical,Functional Consultant,Enterprise Applications,True,160,2026-03-01,2026-03-31,2026,Q1,3,Mar-2026,True
+202603,8,1440,1690,1470,220,117.4,-250,Critical,Integration Specialist,Integration,True,160,2026-03-01,2026-03-31,2026,Q1,3,Mar-2026,True
+202603,9,1120,1040,1040,0,93.0,80,Watch,Change Manager,Change & Adoption,False,160,2026-03-01,2026-03-31,2026,Q1,3,Mar-2026,False
+202603,10,1120,1340,1130,210,119.2,-220,Critical,Security Specialist,Cybersecurity,True,160,2026-03-01,2026-03-31,2026,Q1,3,Mar-2026,True
+202603,11,2240,2190,2160,20,97.6,50,Watch,Finance SME,Finance,True,160,2026-03-01,2026-03-31,2026,Q1,3,Mar-2026,False
+202603,12,1920,1970,1970,0,102.6,-50,Constrained,Data Analyst,Data & Analytics,False,160,2026-03-01,2026-03-31,2026,Q1,3,Mar-2026,True
+202604,1,5440,5730,5230,500,105.3,-290,Constrained,Project Manager,Project Delivery,True,160,2026-04-01,2026-04-30,2026,Q2,4,Apr-2026,True
+202604,2,4640,4880,4720,160,105.2,-240,Constrained,Business Analyst,Business Analysis,False,160,2026-04-01,2026-04-30,2026,Q2,4,Apr-2026,True
+202604,3,1120,1300,1090,210,116.0,-180,Critical,Solution Architect,Architecture,True,160,2026-04-01,2026-04-30,2026,Q2,4,Apr-2026,True
+202604,4,1440,1740,1410,330,120.8,-300,Critical,Data Engineer,Data & Analytics,True,160,2026-04-01,2026-04-30,2026,Q2,4,Apr-2026,True
+202604,5,4640,4910,4580,340,105.9,-270,Constrained,Software Developer,Engineering,False,160,2026-04-01,2026-04-30,2026,Q2,4,Apr-2026,True
+202604,6,3360,3270,3270,0,97.3,90,Watch,QA Analyst,Quality Assurance,False,160,2026-04-01,2026-04-30,2026,Q2,4,Apr-2026,False
+202604,7,2880,3510,2880,630,121.7,-630,Critical,Functional Consultant,Enterprise Applications,True,160,2026-04-01,2026-04-30,2026,Q2,4,Apr-2026,True
+202604,8,2400,2880,2410,470,119.9,-480,Critical,Integration Specialist,Integration,True,160,2026-04-01,2026-04-30,2026,Q2,4,Apr-2026,True
+202604,9,2240,2210,2210,0,98.5,30,Watch,Change Manager,Change & Adoption,False,160,2026-04-01,2026-04-30,2026,Q2,4,Apr-2026,False
+202604,10,2400,2940,2390,560,122.7,-540,Critical,Security Specialist,Cybersecurity,True,160,2026-04-01,2026-04-30,2026,Q2,4,Apr-2026,True
+202604,11,1920,1960,1900,60,101.9,-40,Constrained,Finance SME,Finance,True,160,2026-04-01,2026-04-30,2026,Q2,4,Apr-2026,True
+202604,12,2400,2550,2410,140,106.3,-150,Constrained,Data Analyst,Data & Analytics,False,160,2026-04-01,2026-04-30,2026,Q2,4,Apr-2026,True
+202605,1,4480,4450,4360,90,99.3,30,Watch,Project Manager,Project Delivery,True,160,2026-05-01,2026-05-31,2026,Q2,5,May-2026,False
+202605,2,3200,3390,3200,190,105.9,-190,Constrained,Business Analyst,Business Analysis,False,160,2026-05-01,2026-05-31,2026,Q2,5,May-2026,True
+202605,3,1280,1530,1310,220,119.5,-250,Critical,Solution Architect,Architecture,True,160,2026-05-01,2026-05-31,2026,Q2,5,May-2026,True
+202605,4,1600,1890,1600,290,117.9,-290,Critical,Data Engineer,Data & Analytics,True,160,2026-05-01,2026-05-31,2026,Q2,5,May-2026,True
+202605,5,4320,4570,4350,220,105.7,-250,Constrained,Software Developer,Engineering,False,160,2026-05-01,2026-05-31,2026,Q2,5,May-2026,True
+202605,6,2080,2070,2040,30,99.5,10,Watch,QA Analyst,Quality Assurance,False,160,2026-05-01,2026-05-31,2026,Q2,5,May-2026,False
+202605,7,2240,2670,2280,390,119.3,-430,Critical,Functional Consultant,Enterprise Applications,True,160,2026-05-01,2026-05-31,2026,Q2,5,May-2026,True
+202605,8,1920,2440,1900,540,127.2,-520,Critical,Integration Specialist,Integration,True,160,2026-05-01,2026-05-31,2026,Q2,5,May-2026,True
+202605,9,1120,1120,1120,0,99.7,0,Watch,Change Manager,Change & Adoption,False,160,2026-05-01,2026-05-31,2026,Q2,5,May-2026,False
+202605,10,2240,2660,2240,420,118.6,-420,Critical,Security Specialist,Cybersecurity,True,160,2026-05-01,2026-05-31,2026,Q2,5,May-2026,True
+202605,11,2240,2160,2160,0,96.2,80,Watch,Finance SME,Finance,True,160,2026-05-01,2026-05-31,2026,Q2,5,May-2026,False
+202605,12,2880,3090,2960,130,107.2,-210,Constrained,Data Analyst,Data & Analytics,False,160,2026-05-01,2026-05-31,2026,Q2,5,May-2026,True
+202606,1,4320,4480,4200,280,103.7,-160,Constrained,Project Manager,Project Delivery,True,160,2026-06-01,2026-06-30,2026,Q2,6,Jun-2026,True
+202606,2,4480,4720,4580,140,105.3,-240,Constrained,Business Analyst,Business Analysis,False,160,2026-06-01,2026-06-30,2026,Q2,6,Jun-2026,True
+202606,3,1760,1990,1760,230,113.0,-230,Critical,Solution Architect,Architecture,True,160,2026-06-01,2026-06-30,2026,Q2,6,Jun-2026,True
+202606,4,1920,2230,1940,280,115.9,-310,Critical,Data Engineer,Data & Analytics,True,160,2026-06-01,2026-06-30,2026,Q2,6,Jun-2026,True
+202606,5,5440,5650,5590,60,103.9,-210,Constrained,Software Developer,Engineering,False,160,2026-06-01,2026-06-30,2026,Q2,6,Jun-2026,True
+202606,6,2880,2900,2850,50,100.5,-20,Constrained,QA Analyst,Quality Assurance,False,160,2026-06-01,2026-06-30,2026,Q2,6,Jun-2026,True
+202606,7,2720,3070,2770,300,112.9,-350,Critical,Functional Consultant,Enterprise Applications,True,160,2026-06-01,2026-06-30,2026,Q2,6,Jun-2026,True
+202606,8,2240,2820,2290,530,125.7,-580,Critical,Integration Specialist,Integration,True,160,2026-06-01,2026-06-30,2026,Q2,6,Jun-2026,True
+202606,9,1120,1100,1100,0,98.4,20,Watch,Change Manager,Change & Adoption,False,160,2026-06-01,2026-06-30,2026,Q2,6,Jun-2026,False
+202606,10,2400,2910,2410,500,121.1,-510,Critical,Security Specialist,Cybersecurity,True,160,2026-06-01,2026-06-30,2026,Q2,6,Jun-2026,True
+202606,11,1440,1460,1420,40,101.5,-20,Constrained,Finance SME,Finance,True,160,2026-06-01,2026-06-30,2026,Q2,6,Jun-2026,True
+202606,12,2720,2780,2680,100,102.1,-60,Constrained,Data Analyst,Data & Analytics,False,160,2026-06-01,2026-06-30,2026,Q2,6,Jun-2026,True
+202607,1,4160,4100,4100,0,98.5,60,Watch,Project Manager,Project Delivery,True,160,2026-07-01,2026-07-31,2026,Q3,7,Jul-2026,False
+202607,2,4640,4770,4500,270,102.9,-130,Constrained,Business Analyst,Business Analysis,False,160,2026-07-01,2026-07-31,2026,Q3,7,Jul-2026,True
+202607,3,1920,2160,1850,310,112.7,-240,Critical,Solution Architect,Architecture,True,160,2026-07-01,2026-07-31,2026,Q3,7,Jul-2026,True
+202607,4,1760,2090,1800,300,118.8,-330,Critical,Data Engineer,Data & Analytics,True,160,2026-07-01,2026-07-31,2026,Q3,7,Jul-2026,True
+202607,5,3840,4040,3810,220,105.1,-200,Constrained,Software Developer,Engineering,False,160,2026-07-01,2026-07-31,2026,Q3,7,Jul-2026,True
+202607,6,1920,1930,1930,0,100.4,-10,Constrained,QA Analyst,Quality Assurance,False,160,2026-07-01,2026-07-31,2026,Q3,7,Jul-2026,True
+202607,7,3200,3600,3140,450,112.4,-400,Critical,Functional Consultant,Enterprise Applications,True,160,2026-07-01,2026-07-31,2026,Q3,7,Jul-2026,True
+202607,8,1600,1980,1560,410,123.5,-380,Critical,Integration Specialist,Integration,True,160,2026-07-01,2026-07-31,2026,Q3,7,Jul-2026,True
+202607,9,1440,1420,1420,0,98.4,20,Watch,Change Manager,Change & Adoption,False,160,2026-07-01,2026-07-31,2026,Q3,7,Jul-2026,False
+202607,10,1600,1930,1570,360,120.4,-330,Critical,Security Specialist,Cybersecurity,True,160,2026-07-01,2026-07-31,2026,Q3,7,Jul-2026,True
+202607,11,1440,1430,1400,30,99.5,10,Watch,Finance SME,Finance,True,160,2026-07-01,2026-07-31,2026,Q3,7,Jul-2026,False
+202607,12,2080,2190,2070,120,105.3,-110,Constrained,Data Analyst,Data & Analytics,False,160,2026-07-01,2026-07-31,2026,Q3,7,Jul-2026,True
+202608,1,4000,3720,3720,0,93.0,280,Watch,Project Manager,Project Delivery,True,160,2026-08-01,2026-08-31,2026,Q3,8,Aug-2026,False
+202608,2,3680,3760,3670,90,102.1,-80,Constrained,Business Analyst,Business Analysis,False,160,2026-08-01,2026-08-31,2026,Q3,8,Aug-2026,True
+202608,3,1280,1470,1310,160,114.5,-190,Critical,Solution Architect,Architecture,True,160,2026-08-01,2026-08-31,2026,Q3,8,Aug-2026,True
+202608,4,2400,2830,2410,420,118.0,-430,Critical,Data Engineer,Data & Analytics,True,160,2026-08-01,2026-08-31,2026,Q3,8,Aug-2026,True
+202608,5,3840,3810,3810,0,99.2,30,Watch,Software Developer,Engineering,False,160,2026-08-01,2026-08-31,2026,Q3,8,Aug-2026,False
+202608,6,2880,2760,2760,0,95.9,120,Watch,QA Analyst,Quality Assurance,False,160,2026-08-01,2026-08-31,2026,Q3,8,Aug-2026,False
+202608,7,2560,2790,2520,270,109.0,-230,Constrained,Functional Consultant,Enterprise Applications,True,160,2026-08-01,2026-08-31,2026,Q3,8,Aug-2026,True
+202608,8,2240,2750,2260,500,122.8,-510,Critical,Integration Specialist,Integration,True,160,2026-08-01,2026-08-31,2026,Q3,8,Aug-2026,True
+202608,9,1760,1660,1660,0,94.3,100,Watch,Change Manager,Change & Adoption,False,160,2026-08-01,2026-08-31,2026,Q3,8,Aug-2026,False
+202608,10,2240,2540,2230,310,113.5,-300,Critical,Security Specialist,Cybersecurity,True,160,2026-08-01,2026-08-31,2026,Q3,8,Aug-2026,True
+202608,11,2240,2110,2110,0,94.3,130,Watch,Finance SME,Finance,True,160,2026-08-01,2026-08-31,2026,Q3,8,Aug-2026,False
+202608,12,1920,2010,1890,120,104.8,-90,Constrained,Data Analyst,Data & Analytics,False,160,2026-08-01,2026-08-31,2026,Q3,8,Aug-2026,True
+202609,1,3680,3560,3560,0,96.7,120,Watch,Project Manager,Project Delivery,True,160,2026-09-01,2026-09-30,2026,Q3,9,Sep-2026,False
+202609,2,3840,3950,3800,150,102.9,-110,Constrained,Business Analyst,Business Analysis,False,160,2026-09-01,2026-09-30,2026,Q3,9,Sep-2026,True
+202609,3,2240,2530,2210,320,112.8,-290,Critical,Solution Architect,Architecture,True,160,2026-09-01,2026-09-30,2026,Q3,9,Sep-2026,True
+202609,4,1920,2150,1930,220,112.0,-230,Critical,Data Engineer,Data & Analytics,True,160,2026-09-01,2026-09-30,2026,Q3,9,Sep-2026,True
+202609,5,4160,4270,4260,10,102.5,-110,Constrained,Software Developer,Engineering,False,160,2026-09-01,2026-09-30,2026,Q3,9,Sep-2026,True
+202609,6,2400,2170,2170,0,90.5,230,Watch,QA Analyst,Quality Assurance,False,160,2026-09-01,2026-09-30,2026,Q3,9,Sep-2026,False
+202609,7,2720,3080,2740,340,113.3,-360,Critical,Functional Consultant,Enterprise Applications,True,160,2026-09-01,2026-09-30,2026,Q3,9,Sep-2026,True
+202609,8,1920,2180,1920,260,113.8,-260,Critical,Integration Specialist,Integration,True,160,2026-09-01,2026-09-30,2026,Q3,9,Sep-2026,True
+202609,9,1920,1760,1760,0,91.5,160,Watch,Change Manager,Change & Adoption,False,160,2026-09-01,2026-09-30,2026,Q3,9,Sep-2026,False
+202609,10,2080,2350,2110,240,112.9,-270,Critical,Security Specialist,Cybersecurity,True,160,2026-09-01,2026-09-30,2026,Q3,9,Sep-2026,True
+202609,11,1440,1390,1390,0,96.5,50,Watch,Finance SME,Finance,True,160,2026-09-01,2026-09-30,2026,Q3,9,Sep-2026,False
+202609,12,2240,2200,2200,0,98.4,40,Watch,Data Analyst,Data & Analytics,False,160,2026-09-01,2026-09-30,2026,Q3,9,Sep-2026,False
+202610,1,4160,4160,4020,140,100.0,0,Constrained,Project Manager,Project Delivery,True,160,2026-10-01,2026-10-31,2026,Q4,10,Oct-2026,False
+202610,2,4800,4630,4630,0,96.5,170,Watch,Business Analyst,Business Analysis,False,160,2026-10-01,2026-10-31,2026,Q4,10,Oct-2026,False
+202610,3,1760,2060,1770,290,116.9,-300,Critical,Solution Architect,Architecture,True,160,2026-10-01,2026-10-31,2026,Q4,10,Oct-2026,True
+202610,4,1600,1870,1560,310,116.7,-270,Critical,Data Engineer,Data & Analytics,True,160,2026-10-01,2026-10-31,2026,Q4,10,Oct-2026,True
+202610,5,4320,4220,4220,0,97.8,100,Watch,Software Developer,Engineering,False,160,2026-10-01,2026-10-31,2026,Q4,10,Oct-2026,False
+202610,6,3040,2860,2860,0,94.1,180,Watch,QA Analyst,Quality Assurance,False,160,2026-10-01,2026-10-31,2026,Q4,10,Oct-2026,False
+202610,7,2400,2640,2470,170,109.9,-240,Constrained,Functional Consultant,Enterprise Applications,True,160,2026-10-01,2026-10-31,2026,Q4,10,Oct-2026,True
+202610,8,1760,1990,1700,300,113.3,-230,Critical,Integration Specialist,Integration,True,160,2026-10-01,2026-10-31,2026,Q4,10,Oct-2026,True
+202610,9,2080,1830,1830,0,87.8,250,Healthy,Change Manager,Change & Adoption,False,160,2026-10-01,2026-10-31,2026,Q4,10,Oct-2026,False
+202610,10,2080,2460,2010,450,118.1,-380,Critical,Security Specialist,Cybersecurity,True,160,2026-10-01,2026-10-31,2026,Q4,10,Oct-2026,True
+202610,11,1280,1240,1240,0,97.0,40,Watch,Finance SME,Finance,True,160,2026-10-01,2026-10-31,2026,Q4,10,Oct-2026,False
+202610,12,2560,2630,2550,80,102.8,-70,Constrained,Data Analyst,Data & Analytics,False,160,2026-10-01,2026-10-31,2026,Q4,10,Oct-2026,True
+202611,1,4160,3940,3940,0,94.6,220,Watch,Project Manager,Project Delivery,True,160,2026-11-01,2026-11-30,2026,Q4,11,Nov-2026,False
+202611,2,4800,4830,4830,0,100.7,-30,Constrained,Business Analyst,Business Analysis,False,160,2026-11-01,2026-11-30,2026,Q4,11,Nov-2026,True
+202611,3,2080,2280,2060,230,109.8,-200,Constrained,Solution Architect,Architecture,True,160,2026-11-01,2026-11-30,2026,Q4,11,Nov-2026,True
+202611,4,2080,2370,2040,330,114.0,-290,Critical,Data Engineer,Data & Analytics,True,160,2026-11-01,2026-11-30,2026,Q4,11,Nov-2026,True
+202611,5,4480,4580,4320,260,102.2,-100,Constrained,Software Developer,Engineering,False,160,2026-11-01,2026-11-30,2026,Q4,11,Nov-2026,True
+202611,6,2080,2060,2060,0,99.2,20,Watch,QA Analyst,Quality Assurance,False,160,2026-11-01,2026-11-30,2026,Q4,11,Nov-2026,False
+202611,7,2400,2790,2410,380,116.3,-390,Critical,Functional Consultant,Enterprise Applications,True,160,2026-11-01,2026-11-30,2026,Q4,11,Nov-2026,True
+202611,8,2240,2570,2300,270,114.8,-330,Critical,Integration Specialist,Integration,True,160,2026-11-01,2026-11-30,2026,Q4,11,Nov-2026,True
+202611,9,1760,1620,1620,0,91.8,140,Watch,Change Manager,Change & Adoption,False,160,2026-11-01,2026-11-30,2026,Q4,11,Nov-2026,False
+202611,10,1760,2070,1770,300,117.7,-310,Critical,Security Specialist,Cybersecurity,True,160,2026-11-01,2026-11-30,2026,Q4,11,Nov-2026,True
+202611,11,1440,1370,1370,0,95.5,70,Watch,Finance SME,Finance,True,160,2026-11-01,2026-11-30,2026,Q4,11,Nov-2026,False
+202611,12,1920,2000,1950,40,104.1,-80,Constrained,Data Analyst,Data & Analytics,False,160,2026-11-01,2026-11-30,2026,Q4,11,Nov-2026,True
+202612,1,4000,3880,3880,0,97.0,120,Watch,Project Manager,Project Delivery,True,160,2026-12-01,2026-12-31,2026,Q4,12,Dec-2026,False
+202612,2,4640,4820,4530,290,104.0,-180,Constrained,Business Analyst,Business Analysis,False,160,2026-12-01,2026-12-31,2026,Q4,12,Dec-2026,True
+202612,3,1120,1310,1120,190,116.8,-190,Critical,Solution Architect,Architecture,True,160,2026-12-01,2026-12-31,2026,Q4,12,Dec-2026,True
+202612,4,1120,1330,1130,200,118.7,-210,Critical,Data Engineer,Data & Analytics,True,160,2026-12-01,2026-12-31,2026,Q4,12,Dec-2026,True
+202612,5,5280,5520,5350,170,104.5,-240,Constrained,Software Developer,Engineering,False,160,2026-12-01,2026-12-31,2026,Q4,12,Dec-2026,True
+202612,6,3040,3050,3050,0,100.3,-10,Constrained,QA Analyst,Quality Assurance,False,160,2026-12-01,2026-12-31,2026,Q4,12,Dec-2026,True
+202612,7,3520,4090,3540,560,116.3,-570,Critical,Functional Consultant,Enterprise Applications,True,160,2026-12-01,2026-12-31,2026,Q4,12,Dec-2026,True
+202612,8,1920,2230,1870,360,116.3,-310,Critical,Integration Specialist,Integration,True,160,2026-12-01,2026-12-31,2026,Q4,12,Dec-2026,True
+202612,9,2240,2020,2020,0,90.3,220,Watch,Change Manager,Change & Adoption,False,160,2026-12-01,2026-12-31,2026,Q4,12,Dec-2026,False
+202612,10,1920,2210,1920,290,115.3,-290,Critical,Security Specialist,Cybersecurity,True,160,2026-12-01,2026-12-31,2026,Q4,12,Dec-2026,True
+202612,11,1440,1440,1440,0,100.2,0,Constrained,Finance SME,Finance,True,160,2026-12-01,2026-12-31,2026,Q4,12,Dec-2026,True
+202612,12,2240,2280,2270,10,101.7,-40,Constrained,Data Analyst,Data & Analytics,False,160,2026-12-01,2026-12-31,2026,Q4,12,Dec-2026,True

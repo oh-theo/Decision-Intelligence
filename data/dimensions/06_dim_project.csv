@@ -1,0 +1,151 @@
+project_id,project_number,project_name,business_unit_id,project_manager_id,strategy_id,project_type,project_status,priority,start_date,planned_finish_date,currency_code,approved_budget,business_value_score,strategic_alignment_score,complexity_rating,criticality
+1,PPM-0001,Unity Process Automation,4,11,5,Infrastructure,Completed,High,2024-03-13,2025-12-07,USD,1688000,93,92,2,Business Critical
+2,PPM-0002,Summit Analytics Hub,4,5,5,Infrastructure,Active,High,2024-12-18,2027-06-18,USD,2720000,87,59,2,Standard
+3,PPM-0003,Wave Process Automation,3,13,1,ERP Transformation,Active,High,2025-12-30,2028-02-28,USD,2775000,68,66,5,Important
+4,PPM-0004,Elevate Supply Chain Optimization,3,2,3,Customer Experience,Active,High,2025-06-27,2027-01-18,USD,1905000,76,84,5,Business Critical
+5,PPM-0005,Catalyst Revenue Enablement,3,5,5,Customer Experience,Active,Medium,2025-08-30,2028-01-09,USD,4930000,92,69,5,Business Critical
+6,PPM-0006,Lighthouse Analytics Hub,2,6,5,Cloud Migration,Active,High,2025-09-28,2026-04-02,USD,5189000,88,83,3,Business Critical
+7,PPM-0007,Orion Data Platform,5,7,5,ERP Transformation,Completed,Medium,2024-01-30,2024-11-19,USD,15360000,69,84,4,Important
+8,PPM-0008,Rise Regulatory Readiness,3,22,4,Data & Analytics,Active,Medium,2025-03-23,2026-12-16,USD,7587000,89,65,4,Important
+9,PPM-0009,Genesis Customer 360,1,9,3,Customer Experience,On Hold,High,2026-02-24,2028-07-22,USD,1442000,91,52,5,Important
+10,PPM-0010,Horizon Regulatory Readiness,2,23,2,ERP Transformation,Completed,Medium,2025-02-03,2027-05-06,USD,7024000,67,70,3,Important
+11,PPM-0011,Delta Revenue Enablement,5,9,2,Cloud Migration,Active,Critical,2025-09-02,2027-10-14,USD,6200000,85,58,5,Mission Critical
+12,PPM-0012,Unity Infrastructure Refresh,4,24,1,Regulatory,Active,Medium,2024-05-11,2025-09-15,USD,2733000,83,82,4,Important
+13,PPM-0013,Lighthouse Supply Chain Optimization,3,24,1,Product Development,Active,Critical,2024-10-16,2027-04-29,USD,1771000,70,63,4,Standard
+14,PPM-0014,Vertex Customer 360,6,7,5,Regulatory,Completed,Medium,2025-08-05,2026-09-12,USD,1701000,70,96,1,Important
+15,PPM-0015,Xenon Digital Commerce,3,18,2,Product Development,On Hold,High,2025-03-08,2026-01-26,USD,1089000,46,88,3,Important
+16,PPM-0016,Momentum Analytics Hub,5,17,3,Product Development,Active,Medium,2024-03-15,2026-02-25,USD,1592000,87,71,4,Important
+17,PPM-0017,Keystone Cloud Core,1,5,3,Infrastructure,Completed,High,2025-06-20,2026-03-11,USD,1372000,89,58,2,Business Critical
+18,PPM-0018,Keystone Revenue Enablement,6,25,4,Infrastructure,Active,High,2024-08-21,2025-03-07,USD,1065000,68,74,3,Important
+19,PPM-0019,Genesis Service Transformation,5,2,1,Regulatory,Active,Medium,2024-12-14,2027-07-21,USD,1642000,75,74,5,Important
+20,PPM-0020,Pioneer Revenue Enablement,2,24,2,Infrastructure,Completed,Medium,2024-08-13,2025-02-26,USD,10440000,45,95,3,Important
+21,PPM-0021,Insight ERP Renewal,1,8,4,Cybersecurity,Active,Critical,2024-04-04,2025-05-19,USD,5150000,85,87,5,Important
+22,PPM-0022,Rise Analytics Hub,5,9,1,Infrastructure,Completed,Low,2024-07-06,2025-02-01,USD,2083000,75,68,2,Business Critical
+23,PPM-0023,Momentum Infrastructure Refresh,5,12,5,Data & Analytics,On Hold,High,2025-05-17,2026-07-09,USD,3474000,95,63,5,Standard
+24,PPM-0024,Quantum AI Foundations,6,5,1,Infrastructure,Active,Critical,2026-02-05,2028-10-25,USD,4672000,50,88,5,Important
+25,PPM-0025,Delta ERP Renewal,6,6,6,Cloud Migration,Active,Medium,2024-01-18,2026-04-10,USD,2763000,67,69,5,Business Critical
+26,PPM-0026,Nexus Customer 360,1,19,5,Product Development,Completed,High,2026-01-19,2027-01-31,USD,17675000,48,92,5,Standard
+27,PPM-0027,Titan Risk Platform,1,19,2,Data & Analytics,Active,Medium,2024-02-05,2025-01-11,USD,1788000,100,89,2,Standard
+28,PPM-0028,Aurora Data Platform,6,13,4,Regulatory,On Hold,High,2024-05-17,2025-05-20,USD,4340000,46,84,5,Mission Critical
+29,PPM-0029,Keystone Data Platform,1,8,4,Regulatory,Completed,Medium,2024-11-25,2025-11-03,USD,2961000,46,86,1,Important
+30,PPM-0030,Fusion Risk Platform,5,21,1,Regulatory,Active,High,2024-03-04,2025-07-23,USD,2978000,52,74,3,Standard
+31,PPM-0031,Xenon Analytics Hub,4,8,6,ERP Transformation,Completed,High,2025-01-29,2025-08-17,USD,4976000,53,82,5,Standard
+32,PPM-0032,Delta Regulatory Readiness,1,19,1,Product Development,On Hold,High,2024-05-11,2026-03-10,USD,1856000,86,91,3,Standard
+33,PPM-0033,Lighthouse Cyber Resilience,3,16,5,Infrastructure,Active,Critical,2024-08-15,2026-12-23,USD,2220000,70,61,2,Mission Critical
+34,PPM-0034,Keystone AI Foundations,4,20,4,ERP Transformation,On Hold,Low,2024-08-17,2026-01-17,USD,1817000,51,83,5,Important
+35,PPM-0035,Lighthouse Regulatory Readiness,6,7,3,ERP Transformation,Active,High,2026-02-25,2028-04-26,USD,20895000,98,55,5,Business Critical
+36,PPM-0036,Horizon Customer 360,1,12,4,Infrastructure,Active,High,2024-09-09,2025-11-17,USD,3208000,96,96,3,Standard
+37,PPM-0037,Pioneer Customer 360,1,4,2,Cloud Migration,Completed,High,2025-03-03,2025-09-16,USD,3147000,55,58,5,Mission Critical
+38,PPM-0038,Vertex AI Foundations,1,11,4,Product Development,Active,Medium,2025-10-17,2026-12-31,USD,4196000,86,94,4,Business Critical
+39,PPM-0039,Quantum Process Automation,6,14,1,Product Development,Active,High,2024-06-29,2025-07-18,USD,16483000,98,71,2,Business Critical
+40,PPM-0040,Xenon Supply Chain Optimization,1,1,3,Infrastructure,On Hold,Medium,2024-03-14,2026-07-25,USD,5067000,67,97,4,Mission Critical
+41,PPM-0041,Vertex Infrastructure Refresh,1,21,6,Regulatory,Active,Low,2024-09-10,2026-12-26,USD,5072000,80,82,4,Standard
+42,PPM-0042,Orion Data Platform 2,5,19,1,Cybersecurity,On Hold,Medium,2026-02-03,2028-07-05,USD,500000,88,69,4,Important
+43,PPM-0043,Catalyst Service Transformation,4,7,2,Infrastructure,Active,High,2024-05-10,2025-10-13,USD,18933000,63,68,3,Important
+44,PPM-0044,Rise Digital Commerce,3,19,2,ERP Transformation,On Hold,High,2024-07-05,2025-09-01,USD,12888000,82,96,5,Important
+45,PPM-0045,Catalyst Cloud Core,3,20,2,Infrastructure,Active,Medium,2025-01-21,2027-01-06,USD,8427000,75,77,4,Standard
+46,PPM-0046,Beacon Service Transformation,4,2,2,Infrastructure,Active,Medium,2025-04-17,2027-05-06,USD,3369000,98,81,4,Business Critical
+47,PPM-0047,Horizon Analytics Hub,1,16,5,Cloud Migration,On Hold,Critical,2025-07-26,2026-05-14,USD,1393000,54,90,3,Standard
+48,PPM-0048,Rise ERP Renewal,4,12,5,Cybersecurity,Active,Medium,2024-03-12,2025-04-03,USD,1338000,47,54,3,Standard
+49,PPM-0049,Pioneer Process Automation,4,5,2,Cybersecurity,Active,Medium,2025-01-11,2026-07-27,USD,5260000,85,88,5,Important
+50,PPM-0050,Delta Process Automation,5,13,3,Infrastructure,Active,Medium,2025-10-30,2026-08-04,USD,964000,85,54,3,Standard
+51,PPM-0051,Nexus Risk Platform,4,19,3,Customer Experience,Active,Medium,2025-07-31,2026-10-27,USD,4933000,90,88,4,Important
+52,PPM-0052,Unity Data Platform,2,20,3,ERP Transformation,Completed,High,2026-01-30,2026-11-27,USD,9837000,76,72,4,Business Critical
+53,PPM-0053,Xenon Service Transformation,3,4,5,ERP Transformation,Active,Medium,2024-10-12,2027-01-09,USD,8553000,52,69,4,Standard
+54,PPM-0054,Genesis Supply Chain Optimization,6,1,5,Cloud Migration,Active,Low,2024-08-02,2026-12-27,USD,3326000,51,56,3,Mission Critical
+55,PPM-0055,Nexus Cyber Resilience,4,1,5,Cybersecurity,Active,Critical,2025-07-25,2027-11-28,USD,1297000,99,73,2,Important
+56,PPM-0056,Horizon Customer 360 2,3,1,2,Regulatory,Active,Low,2025-03-07,2025-12-02,USD,500000,47,94,4,Standard
+57,PPM-0057,Delta Cloud Core,2,20,6,Cybersecurity,On Hold,Critical,2024-01-19,2026-01-13,USD,4530000,79,54,4,Standard
+58,PPM-0058,Horizon Cyber Resilience,6,22,1,ERP Transformation,Active,High,2025-11-06,2028-01-31,USD,8371000,45,96,2,Business Critical
+59,PPM-0059,Pioneer Supply Chain Optimization,4,23,1,Data & Analytics,Active,Critical,2025-10-10,2027-08-17,USD,1245000,98,62,2,Mission Critical
+60,PPM-0060,Fusion Revenue Enablement,6,7,1,Data & Analytics,Active,Medium,2024-04-05,2026-06-27,USD,10661000,90,92,3,Standard
+61,PPM-0061,Insight Risk Platform,1,12,2,ERP Transformation,Active,High,2025-03-03,2027-05-03,USD,4346000,49,93,3,Important
+62,PPM-0062,Wave AI Foundations,1,21,5,Regulatory,Active,High,2024-03-20,2026-04-21,USD,18821000,86,81,3,Business Critical
+63,PPM-0063,Jupiter Supply Chain Optimization,1,2,4,Product Development,Active,Critical,2024-12-29,2027-01-29,USD,9224000,65,54,4,Standard
+64,PPM-0064,Xenon Cloud Core,2,10,6,ERP Transformation,On Hold,Medium,2024-07-20,2026-06-21,USD,5377000,70,57,2,Standard
+65,PPM-0065,Beacon AI Foundations,6,14,2,Customer Experience,Active,Medium,2024-07-22,2026-07-04,USD,10907000,53,57,3,Important
+66,PPM-0066,Quantum Customer 360,4,18,3,Product Development,Active,Medium,2026-02-08,2026-11-24,USD,4620000,50,65,4,Mission Critical
+67,PPM-0067,Titan Customer 360,3,20,4,Product Development,Active,Medium,2024-05-01,2025-09-28,USD,957000,98,80,4,Important
+68,PPM-0068,Delta Digital Commerce,2,24,1,Infrastructure,Active,High,2024-04-27,2025-04-26,USD,1683000,64,78,3,Important
+69,PPM-0069,Catalyst Process Automation,5,14,4,ERP Transformation,On Hold,Medium,2024-07-13,2026-10-16,USD,10420000,56,72,3,Business Critical
+70,PPM-0070,Genesis Service Transformation 2,4,14,3,Customer Experience,Active,Medium,2025-03-17,2027-09-09,USD,6746000,92,75,4,Important
+71,PPM-0071,Momentum ERP Renewal,4,7,5,Infrastructure,Active,High,2024-10-30,2026-06-07,USD,6942000,48,53,5,Standard
+72,PPM-0072,Keystone Customer 360,6,21,1,Regulatory,Active,High,2025-01-20,2025-12-07,USD,9284000,48,87,5,Business Critical
+73,PPM-0073,Titan Data Platform,1,11,5,ERP Transformation,Active,Low,2025-07-14,2026-05-15,USD,2093000,82,56,3,Business Critical
+74,PPM-0074,Genesis Analytics Hub,3,13,6,Cloud Migration,On Hold,Low,2024-12-01,2026-02-08,USD,6079000,53,85,4,Important
+75,PPM-0075,Catalyst Digital Commerce,3,24,4,Product Development,Active,Critical,2025-08-21,2027-04-23,USD,7299000,84,58,3,Business Critical
+76,PPM-0076,Fusion Risk Platform 2,6,24,6,Customer Experience,Active,Medium,2025-09-26,2028-06-14,USD,3367000,73,72,5,Standard
+77,PPM-0077,Unity Finance Modernization,3,9,1,Regulatory,On Hold,Medium,2025-01-14,2026-08-01,USD,2888000,62,59,2,Important
+78,PPM-0078,Delta ERP Renewal 2,6,24,1,Regulatory,Completed,High,2024-06-02,2026-01-04,USD,11238000,85,75,1,Business Critical
+79,PPM-0079,Delta ERP Renewal 3,1,7,2,Regulatory,Active,Medium,2025-03-15,2027-02-25,USD,3184000,89,88,4,Important
+80,PPM-0080,Titan Supply Chain Optimization,1,19,3,Regulatory,Active,Medium,2026-01-06,2028-05-27,USD,6601000,74,89,4,Business Critical
+81,PPM-0081,Vertex Analytics Hub,6,10,4,Customer Experience,Active,Low,2024-04-05,2026-08-30,USD,1305000,77,75,5,Important
+82,PPM-0082,Beacon Customer 360,4,13,1,Cybersecurity,Active,High,2025-05-12,2027-04-09,USD,2008000,45,67,2,Standard
+83,PPM-0083,Beacon Finance Modernization,2,7,1,Data & Analytics,Active,Low,2024-11-28,2026-02-03,USD,1087000,76,50,3,Important
+84,PPM-0084,Unity Analytics Hub,2,5,5,Customer Experience,Active,Medium,2025-09-26,2027-08-15,USD,12298000,100,88,4,Standard
+85,PPM-0085,Orion Process Automation,6,13,5,Product Development,Completed,Low,2024-12-30,2027-06-08,USD,7608000,73,87,5,Standard
+86,PPM-0086,Catalyst ERP Renewal,3,17,4,ERP Transformation,Active,Medium,2024-03-25,2026-12-07,USD,5005000,91,87,5,Standard
+87,PPM-0087,Summit ERP Renewal,5,16,3,ERP Transformation,Active,High,2025-02-05,2027-05-03,USD,2504000,94,100,5,Mission Critical
+88,PPM-0088,Beacon Regulatory Readiness,3,9,6,Data & Analytics,Active,High,2025-05-29,2026-02-02,USD,2274000,75,90,2,Standard
+89,PPM-0089,Lighthouse Supply Chain Optimization 2,6,12,5,Customer Experience,Active,Critical,2026-01-23,2026-08-30,USD,1577000,97,84,4,Business Critical
+90,PPM-0090,Delta Infrastructure Refresh,5,17,5,Infrastructure,Completed,Low,2024-11-07,2027-02-21,USD,4972000,95,61,1,Important
+91,PPM-0091,Xenon ERP Renewal,4,6,6,Data & Analytics,On Hold,Critical,2024-07-27,2026-08-01,USD,6112000,87,70,4,Important
+92,PPM-0092,Fusion Process Automation,6,16,5,Infrastructure,Active,High,2025-02-18,2026-05-29,USD,39674000,95,65,4,Standard
+93,PPM-0093,Xenon Service Transformation 2,4,12,3,ERP Transformation,Active,High,2025-11-16,2026-10-15,USD,6739000,82,67,3,Standard
+94,PPM-0094,Xenon Digital Commerce 2,5,11,5,Data & Analytics,Completed,Low,2025-09-05,2027-02-01,USD,3520000,51,79,1,Business Critical
+95,PPM-0095,Wave Data Platform,6,22,5,Regulatory,Active,Medium,2025-01-27,2027-08-15,USD,21101000,64,56,1,Business Critical
+96,PPM-0096,Pioneer Digital Commerce,3,3,1,Data & Analytics,Active,High,2024-08-26,2026-02-28,USD,4692000,94,67,3,Mission Critical
+97,PPM-0097,Lighthouse Regulatory Readiness 2,3,23,6,Infrastructure,Active,Medium,2026-02-14,2027-04-03,USD,3717000,66,61,3,Important
+98,PPM-0098,Aurora Supply Chain Optimization,2,23,6,Infrastructure,Active,Medium,2024-06-19,2026-04-14,USD,5111000,46,65,5,Important
+99,PPM-0099,Insight Customer 360,2,8,2,Data & Analytics,Active,High,2024-01-02,2025-02-17,USD,5838000,59,90,3,Standard
+100,PPM-0100,Unity Revenue Enablement,5,16,3,Regulatory,Active,Medium,2025-04-10,2027-04-13,USD,2703000,71,59,1,Standard
+101,PPM-0101,Delta Analytics Hub,4,8,1,Customer Experience,Active,Medium,2025-09-08,2027-05-01,USD,3206000,52,51,5,Standard
+102,PPM-0102,Insight Cloud Core,6,19,1,Product Development,On Hold,Critical,2025-03-28,2025-11-16,USD,1755000,59,76,4,Business Critical
+103,PPM-0103,Nexus Infrastructure Refresh,2,2,1,Cloud Migration,On Hold,Critical,2025-09-07,2026-04-24,USD,1662000,70,60,5,Business Critical
+104,PPM-0104,Titan Data Platform 2,2,13,3,Customer Experience,Active,High,2024-08-17,2025-05-15,USD,1576000,54,50,1,Mission Critical
+105,PPM-0105,Genesis Analytics Hub 2,4,7,3,Data & Analytics,On Hold,High,2025-03-11,2027-06-09,USD,1594000,74,63,2,Important
+106,PPM-0106,Nexus Finance Modernization,2,15,2,ERP Transformation,Completed,Medium,2024-09-20,2025-09-22,USD,5158000,58,97,3,Important
+107,PPM-0107,Nexus Customer 360 2,1,13,3,Infrastructure,Active,Medium,2025-04-22,2025-11-26,USD,3378000,46,96,1,Business Critical
+108,PPM-0108,Keystone Data Platform 2,1,24,2,Customer Experience,On Hold,Critical,2025-07-12,2027-05-31,USD,9854000,49,79,2,Mission Critical
+109,PPM-0109,Jupiter Process Automation,4,18,6,Regulatory,On Hold,Critical,2025-02-25,2027-01-13,USD,6366000,95,89,5,Standard
+110,PPM-0110,Wave Regulatory Readiness,6,8,2,Customer Experience,Active,Low,2026-02-04,2027-12-10,USD,19944000,49,68,4,Important
+111,PPM-0111,Nexus Revenue Enablement,5,4,2,Product Development,Active,Medium,2024-08-22,2025-08-14,USD,7086000,80,66,5,Important
+112,PPM-0112,Summit Regulatory Readiness,1,22,1,Product Development,On Hold,High,2025-07-09,2026-05-20,USD,1264000,92,86,2,Mission Critical
+113,PPM-0113,Aurora Regulatory Readiness,5,21,2,Data & Analytics,On Hold,Low,2024-07-05,2025-04-14,USD,4801000,82,85,1,Important
+114,PPM-0114,Nexus Service Transformation,2,20,4,Regulatory,Active,Low,2026-01-01,2026-07-13,USD,20168000,77,79,2,Mission Critical
+115,PPM-0115,Orion Supply Chain Optimization,1,15,6,Cybersecurity,Active,Low,2024-05-10,2026-03-30,USD,3492000,85,52,3,Important
+116,PPM-0116,Fusion Customer 360,4,4,2,Cybersecurity,Completed,Medium,2024-05-30,2024-12-10,USD,9800000,53,61,5,Standard
+117,PPM-0117,Vertex Service Transformation,6,21,2,Regulatory,On Hold,Medium,2025-02-19,2026-07-08,USD,5627000,74,87,4,Important
+118,PPM-0118,Vertex Regulatory Readiness,4,7,5,Cloud Migration,Active,Low,2026-01-01,2027-08-25,USD,3335000,46,90,2,Important
+119,PPM-0119,Elevate Finance Modernization,4,11,3,Infrastructure,Active,Critical,2025-06-04,2026-10-20,USD,4983000,71,57,2,Standard
+120,PPM-0120,Pioneer Customer 360 2,6,7,2,ERP Transformation,Active,High,2026-02-16,2028-09-01,USD,1406000,64,73,5,Standard
+121,PPM-0121,Unity Supply Chain Optimization,5,17,6,Cybersecurity,Active,High,2024-03-11,2026-05-08,USD,500000,74,89,5,Important
+122,PPM-0122,Momentum Digital Commerce,4,12,1,Data & Analytics,Active,Low,2025-11-12,2028-02-24,USD,2982000,45,60,3,Standard
+123,PPM-0123,Wave Finance Modernization,5,12,1,Product Development,Completed,Low,2025-09-28,2027-11-06,USD,3678000,80,70,4,Business Critical
+124,PPM-0124,Horizon Cyber Resilience 2,2,9,4,Cloud Migration,Active,Medium,2024-01-09,2025-11-12,USD,2888000,73,73,1,Important
+125,PPM-0125,Rise Digital Commerce 2,2,9,3,Cybersecurity,Active,High,2024-09-19,2025-07-29,USD,5864000,47,67,1,Business Critical
+126,PPM-0126,Elevate Risk Platform,6,19,2,Cloud Migration,Active,Critical,2025-04-07,2027-09-26,USD,2143000,71,60,5,Important
+127,PPM-0127,Titan Process Automation,2,12,4,Customer Experience,Active,Medium,2024-04-11,2024-11-14,USD,1615000,50,98,2,Business Critical
+128,PPM-0128,Xenon AI Foundations,4,17,3,Cybersecurity,Active,Critical,2024-04-17,2025-06-12,USD,3644000,61,94,4,Business Critical
+129,PPM-0129,Horizon Analytics Hub 2,6,3,6,Cybersecurity,Active,Low,2025-04-10,2025-12-04,USD,5188000,97,65,2,Standard
+130,PPM-0130,Horizon Analytics Hub 3,4,11,1,Cybersecurity,Completed,Medium,2024-11-14,2026-07-31,USD,2770000,49,62,3,Important
+131,PPM-0131,Wave Regulatory Readiness 2,1,3,6,Cybersecurity,Active,Medium,2025-08-08,2026-10-04,USD,1004000,91,70,1,Important
+132,PPM-0132,Keystone Service Transformation,5,1,5,Infrastructure,Active,High,2024-11-19,2025-08-24,USD,3265000,85,55,2,Standard
+133,PPM-0133,Elevate Digital Commerce,2,5,6,Cloud Migration,Active,High,2024-02-18,2025-08-19,USD,2285000,94,86,1,Important
+134,PPM-0134,Elevate Supply Chain Optimization 2,6,15,6,Data & Analytics,Completed,High,2025-07-23,2026-08-10,USD,736000,61,58,1,Important
+135,PPM-0135,Nexus Service Transformation 2,6,2,6,Cloud Migration,Active,Medium,2024-08-11,2026-03-16,USD,3433000,67,77,5,Important
+136,PPM-0136,Beacon Supply Chain Optimization,3,10,1,Cybersecurity,Active,High,2024-03-11,2025-10-07,USD,17618000,53,58,2,Standard
+137,PPM-0137,Summit Finance Modernization,4,24,2,Data & Analytics,Active,High,2024-10-27,2025-07-31,USD,4839000,45,66,5,Mission Critical
+138,PPM-0138,Aurora Infrastructure Refresh,4,2,3,Data & Analytics,Active,High,2025-06-06,2026-05-05,USD,500000,52,91,5,Important
+139,PPM-0139,Nexus Digital Commerce,5,10,3,Regulatory,Active,High,2025-06-23,2026-09-25,USD,2107000,97,67,1,Standard
+140,PPM-0140,Insight Process Automation,5,17,4,Cybersecurity,Active,Medium,2025-10-16,2026-10-04,USD,4501000,74,72,2,Standard
+141,PPM-0141,Momentum Service Transformation,4,19,1,Cybersecurity,Active,Low,2025-11-25,2026-07-13,USD,9191000,89,56,3,Business Critical
+142,PPM-0142,Fusion Risk Platform 3,1,20,4,Data & Analytics,Completed,High,2025-05-27,2026-08-11,USD,1567000,85,73,2,Standard
+143,PPM-0143,Rise Finance Modernization,4,17,4,Product Development,On Hold,Medium,2025-02-19,2026-05-26,USD,4918000,50,84,5,Standard
+144,PPM-0144,Summit Finance Modernization 2,6,15,1,Data & Analytics,On Hold,High,2025-08-13,2027-10-16,USD,6891000,70,77,4,Standard
+145,PPM-0145,Nexus ERP Renewal,4,5,2,Cloud Migration,Completed,Low,2025-08-04,2027-09-28,USD,3624000,95,78,1,Business Critical
+146,PPM-0146,Beacon Analytics Hub,5,15,4,Cybersecurity,Active,Low,2024-05-29,2026-05-09,USD,2075000,84,70,3,Important
+147,PPM-0147,Genesis Risk Platform,3,7,1,Data & Analytics,Active,Critical,2024-04-13,2026-03-31,USD,7900000,62,51,5,Important
+148,PPM-0148,Momentum Analytics Hub 2,2,21,2,Customer Experience,Active,Medium,2025-08-17,2026-09-03,USD,1596000,54,56,5,Standard
+149,PPM-0149,Catalyst AI Foundations,2,20,1,Data & Analytics,Active,High,2025-12-24,2028-07-07,USD,5784000,98,77,3,Important
+150,PPM-0150,Rise Cloud Core,5,20,6,ERP Transformation,Completed,Medium,2024-08-31,2026-07-24,USD,10250000,85,99,3,Business Critical
