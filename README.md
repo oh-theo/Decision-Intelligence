@@ -73,8 +73,8 @@ This case study addresses five executive questions:
 
   Capacity Coverage                                             **95.0%**
 
-  Projects Under Combined                            **71 / 150 (47.3%)**
-  Financial & Schedule Pressure  
+  Projects Under Combined Financial & Schedule Pressure         **71 / 150 (47.3%)**
+  
   -----------------------------------------------------------------------
 
 These measures establish the portfolio condition. The dashboards below
